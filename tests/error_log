@@ -1,0 +1,36 @@
+[27-Feb-2021 21:20:06 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Testing\TestCase' not found in /home/edinplaceauction/public_html/tests/TestCase.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/tests/TestCase.php on line 7
+[14-Mar-2021 22:57:52 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Testing\TestCase' not found in /home/edinplaceauction/public_html/tests/TestCase.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/tests/TestCase.php on line 7
+[28-Mar-2021 18:19:58 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Testing\TestCase' not found in /home/edinplaceauction/public_html/tests/TestCase.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/tests/TestCase.php on line 7
+[11-Apr-2021 13:58:25 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Testing\TestCase' not found in /home/edinplaceauction/public_html/tests/TestCase.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/tests/TestCase.php on line 7
+[25-Apr-2021 10:03:51 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Testing\TestCase' not found in /home/edinplaceauction/public_html/tests/TestCase.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/tests/TestCase.php on line 7
+[09-May-2021 06:16:11 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Testing\TestCase' not found in /home/edinplaceauction/public_html/tests/TestCase.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/tests/TestCase.php on line 7
+[22-May-2021 11:31:03 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Testing\TestCase' not found in /home/edinplaceauction/public_html/tests/TestCase.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/tests/TestCase.php on line 7
+[05-Jun-2021 22:31:44 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Testing\TestCase' not found in /home/edinplaceauction/public_html/tests/TestCase.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/tests/TestCase.php on line 7
+[19-Jun-2021 18:19:32 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Testing\TestCase' not found in /home/edinplaceauction/public_html/tests/TestCase.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/tests/TestCase.php on line 7

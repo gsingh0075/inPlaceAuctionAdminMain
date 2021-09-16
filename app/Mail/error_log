@@ -1,0 +1,144 @@
+[27-Feb-2021 21:17:40 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Mail\Mailable' not found in /home/edinplaceauction/public_html/app/Mail/SendClientInvoice.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Mail/SendClientInvoice.php on line 13
+[27-Feb-2021 21:17:41 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Mail\Mailable' not found in /home/edinplaceauction/public_html/app/Mail/SendContractorAuthorization.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Mail/SendContractorAuthorization.php on line 13
+[27-Feb-2021 21:17:42 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Mail\Mailable' not found in /home/edinplaceauction/public_html/app/Mail/SendCustomerInvoice.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Mail/SendCustomerInvoice.php on line 12
+[27-Feb-2021 21:17:42 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Mail\Mailable' not found in /home/edinplaceauction/public_html/app/Mail/SendFmv.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Mail/SendFmv.php on line 16
+[14-Mar-2021 22:55:34 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Mail\Mailable' not found in /home/edinplaceauction/public_html/app/Mail/SendClientInvoice.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Mail/SendClientInvoice.php on line 13
+[14-Mar-2021 22:55:35 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Mail\Mailable' not found in /home/edinplaceauction/public_html/app/Mail/SendContractorAuthorization.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Mail/SendContractorAuthorization.php on line 13
+[14-Mar-2021 22:55:35 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Mail\Mailable' not found in /home/edinplaceauction/public_html/app/Mail/SendCustomerInvoice.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Mail/SendCustomerInvoice.php on line 12
+[14-Mar-2021 22:55:36 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Mail\Mailable' not found in /home/edinplaceauction/public_html/app/Mail/SendFmv.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Mail/SendFmv.php on line 16
+[28-Mar-2021 18:17:22 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Mail\Mailable' not found in /home/edinplaceauction/public_html/app/Mail/SendClientInvoice.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Mail/SendClientInvoice.php on line 13
+[28-Mar-2021 18:17:23 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Mail\Mailable' not found in /home/edinplaceauction/public_html/app/Mail/SendContractorAuthorization.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Mail/SendContractorAuthorization.php on line 13
+[28-Mar-2021 18:17:23 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Mail\Mailable' not found in /home/edinplaceauction/public_html/app/Mail/SendCustomerInvoice.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Mail/SendCustomerInvoice.php on line 12
+[28-Mar-2021 18:17:24 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Mail\Mailable' not found in /home/edinplaceauction/public_html/app/Mail/SendFmv.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Mail/SendFmv.php on line 16
+[11-Apr-2021 13:55:36 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Mail\Mailable' not found in /home/edinplaceauction/public_html/app/Mail/SendClientInvoice.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Mail/SendClientInvoice.php on line 13
+[11-Apr-2021 13:55:37 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Mail\Mailable' not found in /home/edinplaceauction/public_html/app/Mail/SendContractorAuthorization.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Mail/SendContractorAuthorization.php on line 13
+[11-Apr-2021 13:55:37 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Mail\Mailable' not found in /home/edinplaceauction/public_html/app/Mail/SendCustomerInvoice.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Mail/SendCustomerInvoice.php on line 12
+[11-Apr-2021 13:55:38 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Mail\Mailable' not found in /home/edinplaceauction/public_html/app/Mail/SendFmv.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Mail/SendFmv.php on line 16
+[25-Apr-2021 10:00:29 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Mail\Mailable' not found in /home/edinplaceauction/public_html/app/Mail/SendClientInvoice.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Mail/SendClientInvoice.php on line 13
+[25-Apr-2021 10:00:30 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Mail\Mailable' not found in /home/edinplaceauction/public_html/app/Mail/SendContractorAuthorization.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Mail/SendContractorAuthorization.php on line 13
+[25-Apr-2021 10:00:31 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Mail\Mailable' not found in /home/edinplaceauction/public_html/app/Mail/SendCustomerInvoice.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Mail/SendCustomerInvoice.php on line 12
+[25-Apr-2021 10:00:31 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Mail\Mailable' not found in /home/edinplaceauction/public_html/app/Mail/SendFmv.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Mail/SendFmv.php on line 16
+[09-May-2021 06:12:59 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Mail\Mailable' not found in /home/edinplaceauction/public_html/app/Mail/SendClientInvoice.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Mail/SendClientInvoice.php on line 13
+[09-May-2021 06:13:00 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Mail\Mailable' not found in /home/edinplaceauction/public_html/app/Mail/SendContractorAuthorization.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Mail/SendContractorAuthorization.php on line 13
+[09-May-2021 06:13:00 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Mail\Mailable' not found in /home/edinplaceauction/public_html/app/Mail/SendCustomerInvoice.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Mail/SendCustomerInvoice.php on line 12
+[09-May-2021 06:13:01 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Mail\Mailable' not found in /home/edinplaceauction/public_html/app/Mail/SendFmv.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Mail/SendFmv.php on line 16
+[22-May-2021 11:28:12 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Mail\Mailable' not found in /home/edinplaceauction/public_html/app/Mail/SendClientInvoice.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Mail/SendClientInvoice.php on line 13
+[22-May-2021 11:28:13 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Mail\Mailable' not found in /home/edinplaceauction/public_html/app/Mail/SendContractorAuthorization.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Mail/SendContractorAuthorization.php on line 13
+[22-May-2021 11:28:13 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Mail\Mailable' not found in /home/edinplaceauction/public_html/app/Mail/SendCustomerInvoice.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Mail/SendCustomerInvoice.php on line 12
+[22-May-2021 11:28:14 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Mail\Mailable' not found in /home/edinplaceauction/public_html/app/Mail/SendFmv.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Mail/SendFmv.php on line 16
+[05-Jun-2021 22:28:52 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Mail\Mailable' not found in /home/edinplaceauction/public_html/app/Mail/SendClientInvoice.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Mail/SendClientInvoice.php on line 13
+[05-Jun-2021 22:28:52 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Mail\Mailable' not found in /home/edinplaceauction/public_html/app/Mail/SendContractorAuthorization.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Mail/SendContractorAuthorization.php on line 13
+[05-Jun-2021 22:28:53 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Mail\Mailable' not found in /home/edinplaceauction/public_html/app/Mail/SendCustomerInvoice.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Mail/SendCustomerInvoice.php on line 12
+[05-Jun-2021 22:28:53 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Mail\Mailable' not found in /home/edinplaceauction/public_html/app/Mail/SendFmv.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Mail/SendFmv.php on line 16
+[19-Jun-2021 18:16:29 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Mail\Mailable' not found in /home/edinplaceauction/public_html/app/Mail/SendClientInvoice.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Mail/SendClientInvoice.php on line 13
+[19-Jun-2021 18:16:29 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Mail\Mailable' not found in /home/edinplaceauction/public_html/app/Mail/SendContractorAuthorization.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Mail/SendContractorAuthorization.php on line 13
+[19-Jun-2021 18:16:30 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Mail\Mailable' not found in /home/edinplaceauction/public_html/app/Mail/SendCustomerInvoice.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Mail/SendCustomerInvoice.php on line 12
+[19-Jun-2021 18:16:30 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Mail\Mailable' not found in /home/edinplaceauction/public_html/app/Mail/SendFmv.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Mail/SendFmv.php on line 16

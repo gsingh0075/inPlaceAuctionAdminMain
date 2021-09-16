@@ -1,0 +1,116 @@
+[27-Feb-2021 21:19:33 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Route' not found in /home/edinplaceauction/public_html/routes/web/client/assignmentClientRoutes.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/routes/web/client/assignmentClientRoutes.php on line 4
+[27-Feb-2021 21:19:34 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Route' not found in /home/edinplaceauction/public_html/routes/web/client/fmvClientRoutes.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/routes/web/client/fmvClientRoutes.php on line 4
+[27-Feb-2021 21:19:34 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Route' not found in /home/edinplaceauction/public_html/routes/web/client/homeClientRoutes.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/routes/web/client/homeClientRoutes.php on line 4
+[14-Mar-2021 22:57:13 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Route' not found in /home/edinplaceauction/public_html/routes/web/client/assignmentClientRoutes.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/routes/web/client/assignmentClientRoutes.php on line 4
+[14-Mar-2021 22:57:13 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Route' not found in /home/edinplaceauction/public_html/routes/web/client/fmvClientRoutes.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/routes/web/client/fmvClientRoutes.php on line 4
+[14-Mar-2021 22:57:14 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Route' not found in /home/edinplaceauction/public_html/routes/web/client/homeClientRoutes.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/routes/web/client/homeClientRoutes.php on line 4
+[28-Mar-2021 18:19:11 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Route' not found in /home/edinplaceauction/public_html/routes/web/client/assignmentClientRoutes.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/routes/web/client/assignmentClientRoutes.php on line 4
+[28-Mar-2021 18:19:11 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Route' not found in /home/edinplaceauction/public_html/routes/web/client/fmvClientRoutes.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/routes/web/client/fmvClientRoutes.php on line 4
+[28-Mar-2021 18:19:12 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Route' not found in /home/edinplaceauction/public_html/routes/web/client/homeClientRoutes.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/routes/web/client/homeClientRoutes.php on line 4
+[11-Apr-2021 13:57:27 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Route' not found in /home/edinplaceauction/public_html/routes/web/client/assignmentClientRoutes.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/routes/web/client/assignmentClientRoutes.php on line 4
+[11-Apr-2021 13:57:27 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Route' not found in /home/edinplaceauction/public_html/routes/web/client/fmvClientRoutes.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/routes/web/client/fmvClientRoutes.php on line 4
+[11-Apr-2021 13:57:28 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Route' not found in /home/edinplaceauction/public_html/routes/web/client/homeClientRoutes.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/routes/web/client/homeClientRoutes.php on line 4
+[25-Apr-2021 10:02:31 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Route' not found in /home/edinplaceauction/public_html/routes/web/client/assignmentClientRoutes.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/routes/web/client/assignmentClientRoutes.php on line 4
+[25-Apr-2021 10:02:31 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Route' not found in /home/edinplaceauction/public_html/routes/web/client/fmvClientRoutes.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/routes/web/client/fmvClientRoutes.php on line 4
+[25-Apr-2021 10:02:32 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Route' not found in /home/edinplaceauction/public_html/routes/web/client/homeClientRoutes.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/routes/web/client/homeClientRoutes.php on line 4
+[09-May-2021 06:14:45 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Route' not found in /home/edinplaceauction/public_html/routes/web/client/assignmentClientRoutes.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/routes/web/client/assignmentClientRoutes.php on line 4
+[09-May-2021 06:14:46 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Route' not found in /home/edinplaceauction/public_html/routes/web/client/fmvClientRoutes.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/routes/web/client/fmvClientRoutes.php on line 4
+[09-May-2021 06:14:46 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Route' not found in /home/edinplaceauction/public_html/routes/web/client/homeClientRoutes.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/routes/web/client/homeClientRoutes.php on line 4
+[22-May-2021 11:29:58 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Route' not found in /home/edinplaceauction/public_html/routes/web/client/assignmentClientRoutes.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/routes/web/client/assignmentClientRoutes.php on line 4
+[22-May-2021 11:29:59 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Route' not found in /home/edinplaceauction/public_html/routes/web/client/fmvClientRoutes.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/routes/web/client/fmvClientRoutes.php on line 4
+[22-May-2021 11:29:59 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Route' not found in /home/edinplaceauction/public_html/routes/web/client/homeClientRoutes.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/routes/web/client/homeClientRoutes.php on line 4
+[05-Jun-2021 22:30:39 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Route' not found in /home/edinplaceauction/public_html/routes/web/client/assignmentClientRoutes.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/routes/web/client/assignmentClientRoutes.php on line 4
+[05-Jun-2021 22:30:39 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Route' not found in /home/edinplaceauction/public_html/routes/web/client/fmvClientRoutes.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/routes/web/client/fmvClientRoutes.php on line 4
+[05-Jun-2021 22:30:40 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Route' not found in /home/edinplaceauction/public_html/routes/web/client/homeClientRoutes.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/routes/web/client/homeClientRoutes.php on line 4
+[05-Jun-2021 22:30:40 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Route' not found in /home/edinplaceauction/public_html/routes/web/client/itemRoutes.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/routes/web/client/itemRoutes.php on line 4
+[19-Jun-2021 18:18:19 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Route' not found in /home/edinplaceauction/public_html/routes/web/client/assignmentClientRoutes.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/routes/web/client/assignmentClientRoutes.php on line 4
+[19-Jun-2021 18:18:20 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Route' not found in /home/edinplaceauction/public_html/routes/web/client/fmvClientRoutes.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/routes/web/client/fmvClientRoutes.php on line 4
+[19-Jun-2021 18:18:20 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Route' not found in /home/edinplaceauction/public_html/routes/web/client/homeClientRoutes.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/routes/web/client/homeClientRoutes.php on line 4
+[19-Jun-2021 18:18:21 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Route' not found in /home/edinplaceauction/public_html/routes/web/client/itemRoutes.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/routes/web/client/itemRoutes.php on line 4

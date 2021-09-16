@@ -1,0 +1,144 @@
+[27-Feb-2021 21:17:29 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/edinplaceauction/public_html/app/Http/Controllers/Api/v1/AssignmentController.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Controllers/Api/v1/AssignmentController.php on line 9
+[27-Feb-2021 21:17:29 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/edinplaceauction/public_html/app/Http/Controllers/Api/v1/ContractorController.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Controllers/Api/v1/ContractorController.php on line 9
+[27-Feb-2021 21:17:30 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/edinplaceauction/public_html/app/Http/Controllers/Api/v1/FmvController.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Controllers/Api/v1/FmvController.php on line 9
+[27-Feb-2021 21:17:31 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/edinplaceauction/public_html/app/Http/Controllers/Api/v1/ItemController.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Controllers/Api/v1/ItemController.php on line 9
+[14-Mar-2021 22:55:24 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/edinplaceauction/public_html/app/Http/Controllers/Api/v1/AssignmentController.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Controllers/Api/v1/AssignmentController.php on line 9
+[14-Mar-2021 22:55:24 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/edinplaceauction/public_html/app/Http/Controllers/Api/v1/ContractorController.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Controllers/Api/v1/ContractorController.php on line 9
+[14-Mar-2021 22:55:24 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/edinplaceauction/public_html/app/Http/Controllers/Api/v1/FmvController.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Controllers/Api/v1/FmvController.php on line 9
+[14-Mar-2021 22:55:25 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/edinplaceauction/public_html/app/Http/Controllers/Api/v1/ItemController.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Controllers/Api/v1/ItemController.php on line 9
+[28-Mar-2021 18:17:10 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/edinplaceauction/public_html/app/Http/Controllers/Api/v1/AssignmentController.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Controllers/Api/v1/AssignmentController.php on line 9
+[28-Mar-2021 18:17:11 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/edinplaceauction/public_html/app/Http/Controllers/Api/v1/ContractorController.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Controllers/Api/v1/ContractorController.php on line 9
+[28-Mar-2021 18:17:11 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/edinplaceauction/public_html/app/Http/Controllers/Api/v1/FmvController.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Controllers/Api/v1/FmvController.php on line 9
+[28-Mar-2021 18:17:12 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/edinplaceauction/public_html/app/Http/Controllers/Api/v1/ItemController.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Controllers/Api/v1/ItemController.php on line 9
+[11-Apr-2021 13:55:24 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/edinplaceauction/public_html/app/Http/Controllers/Api/v1/AssignmentController.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Controllers/Api/v1/AssignmentController.php on line 9
+[11-Apr-2021 13:55:25 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/edinplaceauction/public_html/app/Http/Controllers/Api/v1/ContractorController.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Controllers/Api/v1/ContractorController.php on line 9
+[11-Apr-2021 13:55:26 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/edinplaceauction/public_html/app/Http/Controllers/Api/v1/FmvController.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Controllers/Api/v1/FmvController.php on line 9
+[11-Apr-2021 13:55:26 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/edinplaceauction/public_html/app/Http/Controllers/Api/v1/ItemController.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Controllers/Api/v1/ItemController.php on line 9
+[25-Apr-2021 10:00:17 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/edinplaceauction/public_html/app/Http/Controllers/Api/v1/AssignmentController.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Controllers/Api/v1/AssignmentController.php on line 9
+[25-Apr-2021 10:00:18 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/edinplaceauction/public_html/app/Http/Controllers/Api/v1/ContractorController.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Controllers/Api/v1/ContractorController.php on line 9
+[25-Apr-2021 10:00:18 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/edinplaceauction/public_html/app/Http/Controllers/Api/v1/FmvController.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Controllers/Api/v1/FmvController.php on line 9
+[25-Apr-2021 10:00:19 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/edinplaceauction/public_html/app/Http/Controllers/Api/v1/ItemController.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Controllers/Api/v1/ItemController.php on line 9
+[09-May-2021 06:12:48 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/edinplaceauction/public_html/app/Http/Controllers/Api/v1/AssignmentController.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Controllers/Api/v1/AssignmentController.php on line 9
+[09-May-2021 06:12:49 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/edinplaceauction/public_html/app/Http/Controllers/Api/v1/ContractorController.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Controllers/Api/v1/ContractorController.php on line 9
+[09-May-2021 06:12:49 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/edinplaceauction/public_html/app/Http/Controllers/Api/v1/FmvController.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Controllers/Api/v1/FmvController.php on line 9
+[09-May-2021 06:12:50 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/edinplaceauction/public_html/app/Http/Controllers/Api/v1/ItemController.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Controllers/Api/v1/ItemController.php on line 9
+[22-May-2021 11:28:02 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/edinplaceauction/public_html/app/Http/Controllers/Api/v1/AssignmentController.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Controllers/Api/v1/AssignmentController.php on line 9
+[22-May-2021 11:28:02 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/edinplaceauction/public_html/app/Http/Controllers/Api/v1/ContractorController.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Controllers/Api/v1/ContractorController.php on line 9
+[22-May-2021 11:28:03 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/edinplaceauction/public_html/app/Http/Controllers/Api/v1/FmvController.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Controllers/Api/v1/FmvController.php on line 9
+[22-May-2021 11:28:03 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/edinplaceauction/public_html/app/Http/Controllers/Api/v1/ItemController.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Controllers/Api/v1/ItemController.php on line 9
+[05-Jun-2021 22:28:41 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/edinplaceauction/public_html/app/Http/Controllers/Api/v1/AssignmentController.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Controllers/Api/v1/AssignmentController.php on line 9
+[05-Jun-2021 22:28:42 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/edinplaceauction/public_html/app/Http/Controllers/Api/v1/ContractorController.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Controllers/Api/v1/ContractorController.php on line 9
+[05-Jun-2021 22:28:42 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/edinplaceauction/public_html/app/Http/Controllers/Api/v1/FmvController.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Controllers/Api/v1/FmvController.php on line 9
+[05-Jun-2021 22:28:43 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/edinplaceauction/public_html/app/Http/Controllers/Api/v1/ItemController.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Controllers/Api/v1/ItemController.php on line 9
+[19-Jun-2021 18:16:18 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/edinplaceauction/public_html/app/Http/Controllers/Api/v1/AssignmentController.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Controllers/Api/v1/AssignmentController.php on line 9
+[19-Jun-2021 18:16:19 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/edinplaceauction/public_html/app/Http/Controllers/Api/v1/ContractorController.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Controllers/Api/v1/ContractorController.php on line 9
+[19-Jun-2021 18:16:19 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/edinplaceauction/public_html/app/Http/Controllers/Api/v1/FmvController.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Controllers/Api/v1/FmvController.php on line 9
+[19-Jun-2021 18:16:20 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/edinplaceauction/public_html/app/Http/Controllers/Api/v1/ItemController.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Controllers/Api/v1/ItemController.php on line 9

@@ -1,0 +1,432 @@
+[27-Feb-2021 21:18:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/edinplaceauction/public_html/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/config/app.php on line 16
+[27-Feb-2021 21:18:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/edinplaceauction/public_html/config/broadcasting.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/config/broadcasting.php on line 18
+[27-Feb-2021 21:18:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/edinplaceauction/public_html/config/cache.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/config/cache.php on line 21
+[27-Feb-2021 21:18:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/edinplaceauction/public_html/config/database.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/config/database.php on line 18
+[27-Feb-2021 21:18:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/edinplaceauction/public_html/config/filesystems.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/config/filesystems.php on line 16
+[27-Feb-2021 21:18:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/edinplaceauction/public_html/config/hashing.php:32
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/config/hashing.php on line 32
+[27-Feb-2021 21:18:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/edinplaceauction/public_html/config/logging.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/config/logging.php on line 20
+[27-Feb-2021 21:18:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/edinplaceauction/public_html/config/mail.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/config/mail.php on line 16
+[27-Feb-2021 21:18:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/edinplaceauction/public_html/config/queue.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/config/queue.php on line 16
+[27-Feb-2021 21:18:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/edinplaceauction/public_html/config/services.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/config/services.php on line 18
+[27-Feb-2021 21:18:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/edinplaceauction/public_html/config/session.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/config/session.php on line 21
+[27-Feb-2021 21:18:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function resource_path() in /home/edinplaceauction/public_html/config/view.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/config/view.php on line 17
+[14-Mar-2021 22:55:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/edinplaceauction/public_html/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/config/app.php on line 16
+[14-Mar-2021 22:55:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/edinplaceauction/public_html/config/broadcasting.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/config/broadcasting.php on line 18
+[14-Mar-2021 22:55:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/edinplaceauction/public_html/config/cache.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/config/cache.php on line 21
+[14-Mar-2021 22:55:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/edinplaceauction/public_html/config/database.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/config/database.php on line 18
+[14-Mar-2021 22:56:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/edinplaceauction/public_html/config/filesystems.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/config/filesystems.php on line 16
+[14-Mar-2021 22:56:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/edinplaceauction/public_html/config/hashing.php:32
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/config/hashing.php on line 32
+[14-Mar-2021 22:56:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/edinplaceauction/public_html/config/logging.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/config/logging.php on line 20
+[14-Mar-2021 22:56:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/edinplaceauction/public_html/config/mail.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/config/mail.php on line 16
+[14-Mar-2021 22:56:02 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/edinplaceauction/public_html/config/queue.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/config/queue.php on line 16
+[14-Mar-2021 22:56:02 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/edinplaceauction/public_html/config/services.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/config/services.php on line 18
+[14-Mar-2021 22:56:03 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/edinplaceauction/public_html/config/session.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/config/session.php on line 21
+[14-Mar-2021 22:56:03 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function resource_path() in /home/edinplaceauction/public_html/config/view.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/config/view.php on line 17
+[28-Mar-2021 18:17:46 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/edinplaceauction/public_html/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/config/app.php on line 16
+[28-Mar-2021 18:17:47 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/edinplaceauction/public_html/config/broadcasting.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/config/broadcasting.php on line 18
+[28-Mar-2021 18:17:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/edinplaceauction/public_html/config/cache.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/config/cache.php on line 21
+[28-Mar-2021 18:17:49 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/edinplaceauction/public_html/config/database.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/config/database.php on line 18
+[28-Mar-2021 18:17:49 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/edinplaceauction/public_html/config/filesystems.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/config/filesystems.php on line 16
+[28-Mar-2021 18:17:50 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/edinplaceauction/public_html/config/hashing.php:32
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/config/hashing.php on line 32
+[28-Mar-2021 18:17:50 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/edinplaceauction/public_html/config/logging.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/config/logging.php on line 20
+[28-Mar-2021 18:17:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/edinplaceauction/public_html/config/mail.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/config/mail.php on line 16
+[28-Mar-2021 18:17:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/edinplaceauction/public_html/config/queue.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/config/queue.php on line 16
+[28-Mar-2021 18:17:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/edinplaceauction/public_html/config/services.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/config/services.php on line 18
+[28-Mar-2021 18:17:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/edinplaceauction/public_html/config/session.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/config/session.php on line 21
+[28-Mar-2021 18:17:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function resource_path() in /home/edinplaceauction/public_html/config/view.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/config/view.php on line 17
+[11-Apr-2021 13:56:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/edinplaceauction/public_html/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/config/app.php on line 16
+[11-Apr-2021 13:56:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/edinplaceauction/public_html/config/broadcasting.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/config/broadcasting.php on line 18
+[11-Apr-2021 13:56:02 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/edinplaceauction/public_html/config/cache.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/config/cache.php on line 21
+[11-Apr-2021 13:56:03 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/edinplaceauction/public_html/config/database.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/config/database.php on line 18
+[11-Apr-2021 13:56:04 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/edinplaceauction/public_html/config/filesystems.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/config/filesystems.php on line 16
+[11-Apr-2021 13:56:04 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/edinplaceauction/public_html/config/hashing.php:32
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/config/hashing.php on line 32
+[11-Apr-2021 13:56:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/edinplaceauction/public_html/config/logging.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/config/logging.php on line 20
+[11-Apr-2021 13:56:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/edinplaceauction/public_html/config/mail.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/config/mail.php on line 16
+[11-Apr-2021 13:56:06 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/edinplaceauction/public_html/config/queue.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/config/queue.php on line 16
+[11-Apr-2021 13:56:06 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/edinplaceauction/public_html/config/services.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/config/services.php on line 18
+[11-Apr-2021 13:56:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/edinplaceauction/public_html/config/session.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/config/session.php on line 21
+[11-Apr-2021 13:56:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function resource_path() in /home/edinplaceauction/public_html/config/view.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/config/view.php on line 17
+[25-Apr-2021 10:00:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/edinplaceauction/public_html/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/config/app.php on line 16
+[25-Apr-2021 10:00:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/edinplaceauction/public_html/config/broadcasting.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/config/broadcasting.php on line 18
+[25-Apr-2021 10:00:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/edinplaceauction/public_html/config/cache.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/config/cache.php on line 21
+[25-Apr-2021 10:00:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/edinplaceauction/public_html/config/database.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/config/database.php on line 18
+[25-Apr-2021 10:00:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/edinplaceauction/public_html/config/filesystems.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/config/filesystems.php on line 16
+[25-Apr-2021 10:00:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/edinplaceauction/public_html/config/hashing.php:32
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/config/hashing.php on line 32
+[25-Apr-2021 10:01:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/edinplaceauction/public_html/config/logging.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/config/logging.php on line 20
+[25-Apr-2021 10:01:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/edinplaceauction/public_html/config/mail.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/config/mail.php on line 16
+[25-Apr-2021 10:01:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/edinplaceauction/public_html/config/queue.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/config/queue.php on line 16
+[25-Apr-2021 10:01:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/edinplaceauction/public_html/config/services.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/config/services.php on line 18
+[25-Apr-2021 10:01:02 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/edinplaceauction/public_html/config/session.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/config/session.php on line 21
+[25-Apr-2021 10:01:02 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function resource_path() in /home/edinplaceauction/public_html/config/view.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/config/view.php on line 17
+[09-May-2021 06:13:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/edinplaceauction/public_html/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/config/app.php on line 16
+[09-May-2021 06:13:23 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/edinplaceauction/public_html/config/broadcasting.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/config/broadcasting.php on line 18
+[09-May-2021 06:13:23 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/edinplaceauction/public_html/config/cache.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/config/cache.php on line 21
+[09-May-2021 06:13:24 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/edinplaceauction/public_html/config/database.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/config/database.php on line 18
+[09-May-2021 06:13:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/edinplaceauction/public_html/config/filesystems.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/config/filesystems.php on line 16
+[09-May-2021 06:13:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/edinplaceauction/public_html/config/hashing.php:32
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/config/hashing.php on line 32
+[09-May-2021 06:13:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/edinplaceauction/public_html/config/logging.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/config/logging.php on line 20
+[09-May-2021 06:13:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/edinplaceauction/public_html/config/mail.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/config/mail.php on line 16
+[09-May-2021 06:13:27 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/edinplaceauction/public_html/config/queue.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/config/queue.php on line 16
+[09-May-2021 06:13:27 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/edinplaceauction/public_html/config/services.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/config/services.php on line 18
+[09-May-2021 06:13:28 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/edinplaceauction/public_html/config/session.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/config/session.php on line 21
+[09-May-2021 06:13:28 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function resource_path() in /home/edinplaceauction/public_html/config/view.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/config/view.php on line 17
+[22-May-2021 11:28:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/edinplaceauction/public_html/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/config/app.php on line 16
+[22-May-2021 11:28:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/edinplaceauction/public_html/config/broadcasting.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/config/broadcasting.php on line 18
+[22-May-2021 11:28:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/edinplaceauction/public_html/config/cache.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/config/cache.php on line 21
+[22-May-2021 11:28:38 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/edinplaceauction/public_html/config/database.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/config/database.php on line 18
+[22-May-2021 11:28:38 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/edinplaceauction/public_html/config/filesystems.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/config/filesystems.php on line 16
+[22-May-2021 11:28:38 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/edinplaceauction/public_html/config/hashing.php:32
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/config/hashing.php on line 32
+[22-May-2021 11:28:39 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/edinplaceauction/public_html/config/logging.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/config/logging.php on line 20
+[22-May-2021 11:28:39 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/edinplaceauction/public_html/config/mail.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/config/mail.php on line 16
+[22-May-2021 11:28:40 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/edinplaceauction/public_html/config/queue.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/config/queue.php on line 16
+[22-May-2021 11:28:40 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/edinplaceauction/public_html/config/services.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/config/services.php on line 18
+[22-May-2021 11:28:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/edinplaceauction/public_html/config/session.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/config/session.php on line 21
+[22-May-2021 11:28:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function resource_path() in /home/edinplaceauction/public_html/config/view.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/config/view.php on line 17
+[05-Jun-2021 22:29:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/edinplaceauction/public_html/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/config/app.php on line 16
+[05-Jun-2021 22:29:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/edinplaceauction/public_html/config/broadcasting.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/config/broadcasting.php on line 18
+[05-Jun-2021 22:29:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/edinplaceauction/public_html/config/cache.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/config/cache.php on line 21
+[05-Jun-2021 22:29:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/edinplaceauction/public_html/config/database.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/config/database.php on line 18
+[05-Jun-2021 22:29:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/edinplaceauction/public_html/config/filesystems.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/config/filesystems.php on line 16
+[05-Jun-2021 22:29:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/edinplaceauction/public_html/config/hashing.php:32
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/config/hashing.php on line 32
+[05-Jun-2021 22:29:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/edinplaceauction/public_html/config/logging.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/config/logging.php on line 20
+[05-Jun-2021 22:29:19 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/edinplaceauction/public_html/config/mail.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/config/mail.php on line 16
+[05-Jun-2021 22:29:19 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/edinplaceauction/public_html/config/queue.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/config/queue.php on line 16
+[05-Jun-2021 22:29:20 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/edinplaceauction/public_html/config/services.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/config/services.php on line 18
+[05-Jun-2021 22:29:20 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/edinplaceauction/public_html/config/session.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/config/session.php on line 21
+[05-Jun-2021 22:29:21 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function resource_path() in /home/edinplaceauction/public_html/config/view.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/config/view.php on line 17
+[19-Jun-2021 18:16:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/edinplaceauction/public_html/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/config/app.php on line 16
+[19-Jun-2021 18:16:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/edinplaceauction/public_html/config/broadcasting.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/config/broadcasting.php on line 18
+[19-Jun-2021 18:16:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/edinplaceauction/public_html/config/cache.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/config/cache.php on line 21
+[19-Jun-2021 18:16:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/edinplaceauction/public_html/config/database.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/config/database.php on line 18
+[19-Jun-2021 18:16:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/edinplaceauction/public_html/config/filesystems.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/config/filesystems.php on line 16
+[19-Jun-2021 18:16:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/edinplaceauction/public_html/config/hashing.php:32
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/config/hashing.php on line 32
+[19-Jun-2021 18:16:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/edinplaceauction/public_html/config/logging.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/config/logging.php on line 20
+[19-Jun-2021 18:16:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/edinplaceauction/public_html/config/mail.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/config/mail.php on line 16
+[19-Jun-2021 18:16:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/edinplaceauction/public_html/config/queue.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/config/queue.php on line 16
+[19-Jun-2021 18:16:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/edinplaceauction/public_html/config/services.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/config/services.php on line 18
+[19-Jun-2021 18:16:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/edinplaceauction/public_html/config/session.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/config/session.php on line 21
+[19-Jun-2021 18:16:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function resource_path() in /home/edinplaceauction/public_html/config/view.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/config/view.php on line 17

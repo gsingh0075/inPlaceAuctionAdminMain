@@ -1,0 +1,36 @@
+[27-Feb-2021 21:17:18 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Console\Kernel' not found in /home/edinplaceauction/public_html/app/Console/Kernel.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Console/Kernel.php on line 8
+[14-Mar-2021 22:55:13 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Console\Kernel' not found in /home/edinplaceauction/public_html/app/Console/Kernel.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Console/Kernel.php on line 8
+[28-Mar-2021 18:16:59 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Console\Kernel' not found in /home/edinplaceauction/public_html/app/Console/Kernel.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Console/Kernel.php on line 8
+[11-Apr-2021 13:55:13 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Console\Kernel' not found in /home/edinplaceauction/public_html/app/Console/Kernel.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Console/Kernel.php on line 8
+[25-Apr-2021 10:00:05 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Console\Kernel' not found in /home/edinplaceauction/public_html/app/Console/Kernel.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Console/Kernel.php on line 8
+[09-May-2021 06:12:37 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Console\Kernel' not found in /home/edinplaceauction/public_html/app/Console/Kernel.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Console/Kernel.php on line 8
+[22-May-2021 11:27:51 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Console\Kernel' not found in /home/edinplaceauction/public_html/app/Console/Kernel.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Console/Kernel.php on line 8
+[05-Jun-2021 22:28:30 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Console\Kernel' not found in /home/edinplaceauction/public_html/app/Console/Kernel.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Console/Kernel.php on line 8
+[19-Jun-2021 18:16:06 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Console\Kernel' not found in /home/edinplaceauction/public_html/app/Console/Kernel.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Console/Kernel.php on line 8

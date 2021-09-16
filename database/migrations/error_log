@@ -1,0 +1,516 @@
+[27-Feb-2021 21:18:15 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/edinplaceauction/public_html/database/migrations/2014_10_12_000000_create_users_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/database/migrations/2014_10_12_000000_create_users_table.php on line 7
+[27-Feb-2021 21:18:16 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/edinplaceauction/public_html/database/migrations/2014_10_12_100000_create_password_resets_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/database/migrations/2014_10_12_100000_create_password_resets_table.php on line 7
+[27-Feb-2021 21:18:17 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/edinplaceauction/public_html/database/migrations/2019_08_19_000000_create_failed_jobs_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/database/migrations/2019_08_19_000000_create_failed_jobs_table.php on line 7
+[27-Feb-2021 21:18:17 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/edinplaceauction/public_html/database/migrations/2020_11_02_145621_create_fmv_has_files_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/database/migrations/2020_11_02_145621_create_fmv_has_files_table.php on line 7
+[27-Feb-2021 21:18:18 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/edinplaceauction/public_html/database/migrations/2020_11_10_021557_create_notifications_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/database/migrations/2020_11_10_021557_create_notifications_table.php on line 7
+[27-Feb-2021 21:18:18 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/edinplaceauction/public_html/database/migrations/2020_11_18_201430_create_assignment_has_files.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/database/migrations/2020_11_18_201430_create_assignment_has_files.php on line 7
+[27-Feb-2021 21:18:19 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/edinplaceauction/public_html/database/migrations/2020_12_02_204041_create_item_has_condition_reports.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/database/migrations/2020_12_02_204041_create_item_has_condition_reports.php on line 7
+[27-Feb-2021 21:18:19 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/edinplaceauction/public_html/database/migrations/2020_12_08_200124_add_plain_password.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/database/migrations/2020_12_08_200124_add_plain_password.php on line 7
+[27-Feb-2021 21:18:20 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/edinplaceauction/public_html/database/migrations/2020_12_15_195555_add_lat_lng_to_contractors.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/database/migrations/2020_12_15_195555_add_lat_lng_to_contractors.php on line 7
+[27-Feb-2021 21:18:20 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/edinplaceauction/public_html/database/migrations/2020_12_15_201033_create_jobs_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/database/migrations/2020_12_15_201033_create_jobs_table.php on line 7
+[27-Feb-2021 21:18:21 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/edinplaceauction/public_html/database/migrations/2020_12_16_185430_add_lat_lng_to_items.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/database/migrations/2020_12_16_185430_add_lat_lng_to_items.php on line 7
+[14-Mar-2021 22:56:05 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/edinplaceauction/public_html/database/migrations/2014_10_12_000000_create_users_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/database/migrations/2014_10_12_000000_create_users_table.php on line 7
+[14-Mar-2021 22:56:05 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/edinplaceauction/public_html/database/migrations/2014_10_12_100000_create_password_resets_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/database/migrations/2014_10_12_100000_create_password_resets_table.php on line 7
+[14-Mar-2021 22:56:06 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/edinplaceauction/public_html/database/migrations/2019_08_19_000000_create_failed_jobs_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/database/migrations/2019_08_19_000000_create_failed_jobs_table.php on line 7
+[14-Mar-2021 22:56:06 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/edinplaceauction/public_html/database/migrations/2020_11_02_145621_create_fmv_has_files_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/database/migrations/2020_11_02_145621_create_fmv_has_files_table.php on line 7
+[14-Mar-2021 22:56:07 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/edinplaceauction/public_html/database/migrations/2020_11_10_021557_create_notifications_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/database/migrations/2020_11_10_021557_create_notifications_table.php on line 7
+[14-Mar-2021 22:56:07 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/edinplaceauction/public_html/database/migrations/2020_11_18_201430_create_assignment_has_files.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/database/migrations/2020_11_18_201430_create_assignment_has_files.php on line 7
+[14-Mar-2021 22:56:08 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/edinplaceauction/public_html/database/migrations/2020_12_02_204041_create_item_has_condition_reports.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/database/migrations/2020_12_02_204041_create_item_has_condition_reports.php on line 7
+[14-Mar-2021 22:56:08 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/edinplaceauction/public_html/database/migrations/2020_12_08_200124_add_plain_password.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/database/migrations/2020_12_08_200124_add_plain_password.php on line 7
+[14-Mar-2021 22:56:09 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/edinplaceauction/public_html/database/migrations/2020_12_15_195555_add_lat_lng_to_contractors.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/database/migrations/2020_12_15_195555_add_lat_lng_to_contractors.php on line 7
+[14-Mar-2021 22:56:09 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/edinplaceauction/public_html/database/migrations/2020_12_15_201033_create_jobs_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/database/migrations/2020_12_15_201033_create_jobs_table.php on line 7
+[14-Mar-2021 22:56:10 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/edinplaceauction/public_html/database/migrations/2020_12_16_185430_add_lat_lng_to_items.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/database/migrations/2020_12_16_185430_add_lat_lng_to_items.php on line 7
+[28-Mar-2021 18:17:55 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/edinplaceauction/public_html/database/migrations/2014_10_12_000000_create_users_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/database/migrations/2014_10_12_000000_create_users_table.php on line 7
+[28-Mar-2021 18:17:55 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/edinplaceauction/public_html/database/migrations/2014_10_12_100000_create_password_resets_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/database/migrations/2014_10_12_100000_create_password_resets_table.php on line 7
+[28-Mar-2021 18:17:56 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/edinplaceauction/public_html/database/migrations/2019_08_19_000000_create_failed_jobs_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/database/migrations/2019_08_19_000000_create_failed_jobs_table.php on line 7
+[28-Mar-2021 18:17:56 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/edinplaceauction/public_html/database/migrations/2020_11_02_145621_create_fmv_has_files_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/database/migrations/2020_11_02_145621_create_fmv_has_files_table.php on line 7
+[28-Mar-2021 18:17:57 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/edinplaceauction/public_html/database/migrations/2020_11_10_021557_create_notifications_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/database/migrations/2020_11_10_021557_create_notifications_table.php on line 7
+[28-Mar-2021 18:17:57 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/edinplaceauction/public_html/database/migrations/2020_11_18_201430_create_assignment_has_files.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/database/migrations/2020_11_18_201430_create_assignment_has_files.php on line 7
+[28-Mar-2021 18:17:58 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/edinplaceauction/public_html/database/migrations/2020_12_02_204041_create_item_has_condition_reports.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/database/migrations/2020_12_02_204041_create_item_has_condition_reports.php on line 7
+[28-Mar-2021 18:17:58 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/edinplaceauction/public_html/database/migrations/2020_12_08_200124_add_plain_password.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/database/migrations/2020_12_08_200124_add_plain_password.php on line 7
+[28-Mar-2021 18:17:59 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/edinplaceauction/public_html/database/migrations/2020_12_15_195555_add_lat_lng_to_contractors.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/database/migrations/2020_12_15_195555_add_lat_lng_to_contractors.php on line 7
+[28-Mar-2021 18:17:59 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/edinplaceauction/public_html/database/migrations/2020_12_15_201033_create_jobs_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/database/migrations/2020_12_15_201033_create_jobs_table.php on line 7
+[28-Mar-2021 18:18:00 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/edinplaceauction/public_html/database/migrations/2020_12_16_185430_add_lat_lng_to_items.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/database/migrations/2020_12_16_185430_add_lat_lng_to_items.php on line 7
+[28-Mar-2021 18:18:00 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/edinplaceauction/public_html/database/migrations/2021_03_09_193133_create_cache_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/database/migrations/2021_03_09_193133_create_cache_table.php on line 7
+[11-Apr-2021 13:56:09 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/edinplaceauction/public_html/database/migrations/2014_10_12_000000_create_users_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/database/migrations/2014_10_12_000000_create_users_table.php on line 7
+[11-Apr-2021 13:56:09 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/edinplaceauction/public_html/database/migrations/2014_10_12_100000_create_password_resets_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/database/migrations/2014_10_12_100000_create_password_resets_table.php on line 7
+[11-Apr-2021 13:56:10 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/edinplaceauction/public_html/database/migrations/2019_08_19_000000_create_failed_jobs_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/database/migrations/2019_08_19_000000_create_failed_jobs_table.php on line 7
+[11-Apr-2021 13:56:11 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/edinplaceauction/public_html/database/migrations/2020_11_02_145621_create_fmv_has_files_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/database/migrations/2020_11_02_145621_create_fmv_has_files_table.php on line 7
+[11-Apr-2021 13:56:11 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/edinplaceauction/public_html/database/migrations/2020_11_10_021557_create_notifications_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/database/migrations/2020_11_10_021557_create_notifications_table.php on line 7
+[11-Apr-2021 13:56:12 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/edinplaceauction/public_html/database/migrations/2020_11_18_201430_create_assignment_has_files.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/database/migrations/2020_11_18_201430_create_assignment_has_files.php on line 7
+[11-Apr-2021 13:56:12 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/edinplaceauction/public_html/database/migrations/2020_12_02_204041_create_item_has_condition_reports.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/database/migrations/2020_12_02_204041_create_item_has_condition_reports.php on line 7
+[11-Apr-2021 13:56:13 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/edinplaceauction/public_html/database/migrations/2020_12_08_200124_add_plain_password.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/database/migrations/2020_12_08_200124_add_plain_password.php on line 7
+[11-Apr-2021 13:56:13 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/edinplaceauction/public_html/database/migrations/2020_12_15_195555_add_lat_lng_to_contractors.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/database/migrations/2020_12_15_195555_add_lat_lng_to_contractors.php on line 7
+[11-Apr-2021 13:56:14 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/edinplaceauction/public_html/database/migrations/2020_12_15_201033_create_jobs_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/database/migrations/2020_12_15_201033_create_jobs_table.php on line 7
+[11-Apr-2021 13:56:14 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/edinplaceauction/public_html/database/migrations/2020_12_16_185430_add_lat_lng_to_items.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/database/migrations/2020_12_16_185430_add_lat_lng_to_items.php on line 7
+[11-Apr-2021 13:56:15 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/edinplaceauction/public_html/database/migrations/2021_03_09_193133_create_cache_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/database/migrations/2021_03_09_193133_create_cache_table.php on line 7
+[11-Apr-2021 13:56:15 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/edinplaceauction/public_html/database/migrations/2021_03_26_183127_add_invocie_email_clients.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/database/migrations/2021_03_26_183127_add_invocie_email_clients.php on line 7
+[11-Apr-2021 13:56:16 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/edinplaceauction/public_html/database/migrations/2021_03_29_125001_add_invoice_email_contractors.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/database/migrations/2021_03_29_125001_add_invoice_email_contractors.php on line 7
+[11-Apr-2021 13:56:16 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/edinplaceauction/public_html/database/migrations/2021_03_29_125039_add_invoice_email_customers.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/database/migrations/2021_03_29_125039_add_invoice_email_customers.php on line 7
+[25-Apr-2021 10:01:04 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/edinplaceauction/public_html/database/migrations/2014_10_12_000000_create_users_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/database/migrations/2014_10_12_000000_create_users_table.php on line 7
+[25-Apr-2021 10:01:04 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/edinplaceauction/public_html/database/migrations/2014_10_12_100000_create_password_resets_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/database/migrations/2014_10_12_100000_create_password_resets_table.php on line 7
+[25-Apr-2021 10:01:05 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/edinplaceauction/public_html/database/migrations/2019_08_19_000000_create_failed_jobs_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/database/migrations/2019_08_19_000000_create_failed_jobs_table.php on line 7
+[25-Apr-2021 10:01:06 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/edinplaceauction/public_html/database/migrations/2020_11_02_145621_create_fmv_has_files_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/database/migrations/2020_11_02_145621_create_fmv_has_files_table.php on line 7
+[25-Apr-2021 10:01:06 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/edinplaceauction/public_html/database/migrations/2020_11_10_021557_create_notifications_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/database/migrations/2020_11_10_021557_create_notifications_table.php on line 7
+[25-Apr-2021 10:01:07 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/edinplaceauction/public_html/database/migrations/2020_11_18_201430_create_assignment_has_files.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/database/migrations/2020_11_18_201430_create_assignment_has_files.php on line 7
+[25-Apr-2021 10:01:07 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/edinplaceauction/public_html/database/migrations/2020_12_02_204041_create_item_has_condition_reports.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/database/migrations/2020_12_02_204041_create_item_has_condition_reports.php on line 7
+[25-Apr-2021 10:01:08 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/edinplaceauction/public_html/database/migrations/2020_12_08_200124_add_plain_password.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/database/migrations/2020_12_08_200124_add_plain_password.php on line 7
+[25-Apr-2021 10:01:09 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/edinplaceauction/public_html/database/migrations/2020_12_15_195555_add_lat_lng_to_contractors.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/database/migrations/2020_12_15_195555_add_lat_lng_to_contractors.php on line 7
+[25-Apr-2021 10:01:09 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/edinplaceauction/public_html/database/migrations/2020_12_15_201033_create_jobs_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/database/migrations/2020_12_15_201033_create_jobs_table.php on line 7
+[25-Apr-2021 10:01:10 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/edinplaceauction/public_html/database/migrations/2020_12_16_185430_add_lat_lng_to_items.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/database/migrations/2020_12_16_185430_add_lat_lng_to_items.php on line 7
+[25-Apr-2021 10:01:10 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/edinplaceauction/public_html/database/migrations/2021_03_09_193133_create_cache_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/database/migrations/2021_03_09_193133_create_cache_table.php on line 7
+[25-Apr-2021 10:01:11 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/edinplaceauction/public_html/database/migrations/2021_03_26_183127_add_invocie_email_clients.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/database/migrations/2021_03_26_183127_add_invocie_email_clients.php on line 7
+[25-Apr-2021 10:01:11 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/edinplaceauction/public_html/database/migrations/2021_03_29_125001_add_invoice_email_contractors.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/database/migrations/2021_03_29_125001_add_invoice_email_contractors.php on line 7
+[25-Apr-2021 10:01:12 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/edinplaceauction/public_html/database/migrations/2021_03_29_125039_add_invoice_email_customers.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/database/migrations/2021_03_29_125039_add_invoice_email_customers.php on line 7
+[25-Apr-2021 10:01:12 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/edinplaceauction/public_html/database/migrations/2021_04_05_204351_client_remittance_has_expense.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/database/migrations/2021_04_05_204351_client_remittance_has_expense.php on line 7
+[09-May-2021 06:13:30 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/edinplaceauction/public_html/database/migrations/2014_10_12_000000_create_users_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/database/migrations/2014_10_12_000000_create_users_table.php on line 7
+[09-May-2021 06:13:30 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/edinplaceauction/public_html/database/migrations/2014_10_12_100000_create_password_resets_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/database/migrations/2014_10_12_100000_create_password_resets_table.php on line 7
+[09-May-2021 06:13:31 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/edinplaceauction/public_html/database/migrations/2019_08_19_000000_create_failed_jobs_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/database/migrations/2019_08_19_000000_create_failed_jobs_table.php on line 7
+[09-May-2021 06:13:31 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/edinplaceauction/public_html/database/migrations/2020_11_02_145621_create_fmv_has_files_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/database/migrations/2020_11_02_145621_create_fmv_has_files_table.php on line 7
+[09-May-2021 06:13:32 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/edinplaceauction/public_html/database/migrations/2020_11_10_021557_create_notifications_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/database/migrations/2020_11_10_021557_create_notifications_table.php on line 7
+[09-May-2021 06:13:32 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/edinplaceauction/public_html/database/migrations/2020_11_18_201430_create_assignment_has_files.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/database/migrations/2020_11_18_201430_create_assignment_has_files.php on line 7
+[09-May-2021 06:13:33 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/edinplaceauction/public_html/database/migrations/2020_12_02_204041_create_item_has_condition_reports.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/database/migrations/2020_12_02_204041_create_item_has_condition_reports.php on line 7
+[09-May-2021 06:13:33 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/edinplaceauction/public_html/database/migrations/2020_12_08_200124_add_plain_password.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/database/migrations/2020_12_08_200124_add_plain_password.php on line 7
+[09-May-2021 06:13:34 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/edinplaceauction/public_html/database/migrations/2020_12_15_195555_add_lat_lng_to_contractors.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/database/migrations/2020_12_15_195555_add_lat_lng_to_contractors.php on line 7
+[09-May-2021 06:13:34 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/edinplaceauction/public_html/database/migrations/2020_12_15_201033_create_jobs_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/database/migrations/2020_12_15_201033_create_jobs_table.php on line 7
+[09-May-2021 06:13:34 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/edinplaceauction/public_html/database/migrations/2020_12_16_185430_add_lat_lng_to_items.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/database/migrations/2020_12_16_185430_add_lat_lng_to_items.php on line 7
+[09-May-2021 06:13:35 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/edinplaceauction/public_html/database/migrations/2021_03_09_193133_create_cache_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/database/migrations/2021_03_09_193133_create_cache_table.php on line 7
+[09-May-2021 06:13:35 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/edinplaceauction/public_html/database/migrations/2021_03_26_183127_add_invocie_email_clients.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/database/migrations/2021_03_26_183127_add_invocie_email_clients.php on line 7
+[09-May-2021 06:13:36 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/edinplaceauction/public_html/database/migrations/2021_03_29_125001_add_invoice_email_contractors.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/database/migrations/2021_03_29_125001_add_invoice_email_contractors.php on line 7
+[09-May-2021 06:13:36 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/edinplaceauction/public_html/database/migrations/2021_03_29_125039_add_invoice_email_customers.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/database/migrations/2021_03_29_125039_add_invoice_email_customers.php on line 7
+[09-May-2021 06:13:37 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/edinplaceauction/public_html/database/migrations/2021_04_05_204351_client_remittance_has_expense.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/database/migrations/2021_04_05_204351_client_remittance_has_expense.php on line 7
+[22-May-2021 11:28:43 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/edinplaceauction/public_html/database/migrations/2014_10_12_000000_create_users_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/database/migrations/2014_10_12_000000_create_users_table.php on line 7
+[22-May-2021 11:28:43 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/edinplaceauction/public_html/database/migrations/2014_10_12_100000_create_password_resets_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/database/migrations/2014_10_12_100000_create_password_resets_table.php on line 7
+[22-May-2021 11:28:44 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/edinplaceauction/public_html/database/migrations/2019_08_19_000000_create_failed_jobs_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/database/migrations/2019_08_19_000000_create_failed_jobs_table.php on line 7
+[22-May-2021 11:28:44 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/edinplaceauction/public_html/database/migrations/2020_11_02_145621_create_fmv_has_files_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/database/migrations/2020_11_02_145621_create_fmv_has_files_table.php on line 7
+[22-May-2021 11:28:45 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/edinplaceauction/public_html/database/migrations/2020_11_10_021557_create_notifications_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/database/migrations/2020_11_10_021557_create_notifications_table.php on line 7
+[22-May-2021 11:28:45 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/edinplaceauction/public_html/database/migrations/2020_11_18_201430_create_assignment_has_files.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/database/migrations/2020_11_18_201430_create_assignment_has_files.php on line 7
+[22-May-2021 11:28:46 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/edinplaceauction/public_html/database/migrations/2020_12_02_204041_create_item_has_condition_reports.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/database/migrations/2020_12_02_204041_create_item_has_condition_reports.php on line 7
+[22-May-2021 11:28:46 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/edinplaceauction/public_html/database/migrations/2020_12_08_200124_add_plain_password.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/database/migrations/2020_12_08_200124_add_plain_password.php on line 7
+[22-May-2021 11:28:47 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/edinplaceauction/public_html/database/migrations/2020_12_15_195555_add_lat_lng_to_contractors.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/database/migrations/2020_12_15_195555_add_lat_lng_to_contractors.php on line 7
+[22-May-2021 11:28:47 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/edinplaceauction/public_html/database/migrations/2020_12_15_201033_create_jobs_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/database/migrations/2020_12_15_201033_create_jobs_table.php on line 7
+[22-May-2021 11:28:48 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/edinplaceauction/public_html/database/migrations/2020_12_16_185430_add_lat_lng_to_items.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/database/migrations/2020_12_16_185430_add_lat_lng_to_items.php on line 7
+[22-May-2021 11:28:48 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/edinplaceauction/public_html/database/migrations/2021_03_09_193133_create_cache_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/database/migrations/2021_03_09_193133_create_cache_table.php on line 7
+[22-May-2021 11:28:49 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/edinplaceauction/public_html/database/migrations/2021_03_26_183127_add_invocie_email_clients.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/database/migrations/2021_03_26_183127_add_invocie_email_clients.php on line 7
+[22-May-2021 11:28:49 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/edinplaceauction/public_html/database/migrations/2021_03_29_125001_add_invoice_email_contractors.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/database/migrations/2021_03_29_125001_add_invoice_email_contractors.php on line 7
+[22-May-2021 11:28:49 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/edinplaceauction/public_html/database/migrations/2021_03_29_125039_add_invoice_email_customers.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/database/migrations/2021_03_29_125039_add_invoice_email_customers.php on line 7
+[22-May-2021 11:28:50 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/edinplaceauction/public_html/database/migrations/2021_04_05_204351_client_remittance_has_expense.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/database/migrations/2021_04_05_204351_client_remittance_has_expense.php on line 7
+[05-Jun-2021 22:29:22 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/edinplaceauction/public_html/database/migrations/2014_10_12_000000_create_users_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/database/migrations/2014_10_12_000000_create_users_table.php on line 7
+[05-Jun-2021 22:29:23 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/edinplaceauction/public_html/database/migrations/2014_10_12_100000_create_password_resets_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/database/migrations/2014_10_12_100000_create_password_resets_table.php on line 7
+[05-Jun-2021 22:29:23 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/edinplaceauction/public_html/database/migrations/2019_08_19_000000_create_failed_jobs_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/database/migrations/2019_08_19_000000_create_failed_jobs_table.php on line 7
+[05-Jun-2021 22:29:23 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/edinplaceauction/public_html/database/migrations/2020_11_02_145621_create_fmv_has_files_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/database/migrations/2020_11_02_145621_create_fmv_has_files_table.php on line 7
+[05-Jun-2021 22:29:24 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/edinplaceauction/public_html/database/migrations/2020_11_10_021557_create_notifications_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/database/migrations/2020_11_10_021557_create_notifications_table.php on line 7
+[05-Jun-2021 22:29:24 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/edinplaceauction/public_html/database/migrations/2020_11_18_201430_create_assignment_has_files.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/database/migrations/2020_11_18_201430_create_assignment_has_files.php on line 7
+[05-Jun-2021 22:29:25 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/edinplaceauction/public_html/database/migrations/2020_12_02_204041_create_item_has_condition_reports.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/database/migrations/2020_12_02_204041_create_item_has_condition_reports.php on line 7
+[05-Jun-2021 22:29:25 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/edinplaceauction/public_html/database/migrations/2020_12_08_200124_add_plain_password.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/database/migrations/2020_12_08_200124_add_plain_password.php on line 7
+[05-Jun-2021 22:29:26 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/edinplaceauction/public_html/database/migrations/2020_12_15_195555_add_lat_lng_to_contractors.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/database/migrations/2020_12_15_195555_add_lat_lng_to_contractors.php on line 7
+[05-Jun-2021 22:29:26 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/edinplaceauction/public_html/database/migrations/2020_12_15_201033_create_jobs_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/database/migrations/2020_12_15_201033_create_jobs_table.php on line 7
+[05-Jun-2021 22:29:27 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/edinplaceauction/public_html/database/migrations/2020_12_16_185430_add_lat_lng_to_items.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/database/migrations/2020_12_16_185430_add_lat_lng_to_items.php on line 7
+[05-Jun-2021 22:29:27 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/edinplaceauction/public_html/database/migrations/2021_03_09_193133_create_cache_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/database/migrations/2021_03_09_193133_create_cache_table.php on line 7
+[05-Jun-2021 22:29:28 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/edinplaceauction/public_html/database/migrations/2021_03_26_183127_add_invocie_email_clients.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/database/migrations/2021_03_26_183127_add_invocie_email_clients.php on line 7
+[05-Jun-2021 22:29:28 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/edinplaceauction/public_html/database/migrations/2021_03_29_125001_add_invoice_email_contractors.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/database/migrations/2021_03_29_125001_add_invoice_email_contractors.php on line 7
+[05-Jun-2021 22:29:28 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/edinplaceauction/public_html/database/migrations/2021_03_29_125039_add_invoice_email_customers.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/database/migrations/2021_03_29_125039_add_invoice_email_customers.php on line 7
+[05-Jun-2021 22:29:29 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/edinplaceauction/public_html/database/migrations/2021_04_05_204351_client_remittance_has_expense.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/database/migrations/2021_04_05_204351_client_remittance_has_expense.php on line 7
+[19-Jun-2021 18:17:00 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/edinplaceauction/public_html/database/migrations/2014_10_12_000000_create_users_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/database/migrations/2014_10_12_000000_create_users_table.php on line 7
+[19-Jun-2021 18:17:00 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/edinplaceauction/public_html/database/migrations/2014_10_12_100000_create_password_resets_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/database/migrations/2014_10_12_100000_create_password_resets_table.php on line 7
+[19-Jun-2021 18:17:01 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/edinplaceauction/public_html/database/migrations/2019_08_19_000000_create_failed_jobs_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/database/migrations/2019_08_19_000000_create_failed_jobs_table.php on line 7
+[19-Jun-2021 18:17:01 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/edinplaceauction/public_html/database/migrations/2020_11_02_145621_create_fmv_has_files_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/database/migrations/2020_11_02_145621_create_fmv_has_files_table.php on line 7
+[19-Jun-2021 18:17:02 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/edinplaceauction/public_html/database/migrations/2020_11_10_021557_create_notifications_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/database/migrations/2020_11_10_021557_create_notifications_table.php on line 7
+[19-Jun-2021 18:17:02 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/edinplaceauction/public_html/database/migrations/2020_11_18_201430_create_assignment_has_files.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/database/migrations/2020_11_18_201430_create_assignment_has_files.php on line 7
+[19-Jun-2021 18:17:03 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/edinplaceauction/public_html/database/migrations/2020_12_02_204041_create_item_has_condition_reports.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/database/migrations/2020_12_02_204041_create_item_has_condition_reports.php on line 7
+[19-Jun-2021 18:17:03 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/edinplaceauction/public_html/database/migrations/2020_12_08_200124_add_plain_password.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/database/migrations/2020_12_08_200124_add_plain_password.php on line 7
+[19-Jun-2021 18:17:04 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/edinplaceauction/public_html/database/migrations/2020_12_15_195555_add_lat_lng_to_contractors.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/database/migrations/2020_12_15_195555_add_lat_lng_to_contractors.php on line 7
+[19-Jun-2021 18:17:04 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/edinplaceauction/public_html/database/migrations/2020_12_15_201033_create_jobs_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/database/migrations/2020_12_15_201033_create_jobs_table.php on line 7
+[19-Jun-2021 18:17:05 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/edinplaceauction/public_html/database/migrations/2020_12_16_185430_add_lat_lng_to_items.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/database/migrations/2020_12_16_185430_add_lat_lng_to_items.php on line 7
+[19-Jun-2021 18:17:05 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/edinplaceauction/public_html/database/migrations/2021_03_09_193133_create_cache_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/database/migrations/2021_03_09_193133_create_cache_table.php on line 7
+[19-Jun-2021 18:17:06 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/edinplaceauction/public_html/database/migrations/2021_03_26_183127_add_invocie_email_clients.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/database/migrations/2021_03_26_183127_add_invocie_email_clients.php on line 7
+[19-Jun-2021 18:17:06 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/edinplaceauction/public_html/database/migrations/2021_03_29_125001_add_invoice_email_contractors.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/database/migrations/2021_03_29_125001_add_invoice_email_contractors.php on line 7
+[19-Jun-2021 18:17:07 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/edinplaceauction/public_html/database/migrations/2021_03_29_125039_add_invoice_email_customers.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/database/migrations/2021_03_29_125039_add_invoice_email_customers.php on line 7
+[19-Jun-2021 18:17:07 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/edinplaceauction/public_html/database/migrations/2021_04_05_204351_client_remittance_has_expense.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/database/migrations/2021_04_05_204351_client_remittance_has_expense.php on line 7

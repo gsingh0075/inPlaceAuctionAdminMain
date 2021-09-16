@@ -1,0 +1,36 @@
+[27-Feb-2021 21:20:07 UTC] PHP Fatal error:  Uncaught Error: Class 'Tests\TestCase' not found in /home/edinplaceauction/public_html/tests/Feature/ExampleTest.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/tests/Feature/ExampleTest.php on line 8
+[14-Mar-2021 22:57:53 UTC] PHP Fatal error:  Uncaught Error: Class 'Tests\TestCase' not found in /home/edinplaceauction/public_html/tests/Feature/ExampleTest.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/tests/Feature/ExampleTest.php on line 8
+[28-Mar-2021 18:19:59 UTC] PHP Fatal error:  Uncaught Error: Class 'Tests\TestCase' not found in /home/edinplaceauction/public_html/tests/Feature/ExampleTest.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/tests/Feature/ExampleTest.php on line 8
+[11-Apr-2021 13:58:25 UTC] PHP Fatal error:  Uncaught Error: Class 'Tests\TestCase' not found in /home/edinplaceauction/public_html/tests/Feature/ExampleTest.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/tests/Feature/ExampleTest.php on line 8
+[25-Apr-2021 10:03:51 UTC] PHP Fatal error:  Uncaught Error: Class 'Tests\TestCase' not found in /home/edinplaceauction/public_html/tests/Feature/ExampleTest.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/tests/Feature/ExampleTest.php on line 8
+[09-May-2021 06:16:12 UTC] PHP Fatal error:  Uncaught Error: Class 'Tests\TestCase' not found in /home/edinplaceauction/public_html/tests/Feature/ExampleTest.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/tests/Feature/ExampleTest.php on line 8
+[22-May-2021 11:31:03 UTC] PHP Fatal error:  Uncaught Error: Class 'Tests\TestCase' not found in /home/edinplaceauction/public_html/tests/Feature/ExampleTest.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/tests/Feature/ExampleTest.php on line 8
+[05-Jun-2021 22:31:45 UTC] PHP Fatal error:  Uncaught Error: Class 'Tests\TestCase' not found in /home/edinplaceauction/public_html/tests/Feature/ExampleTest.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/tests/Feature/ExampleTest.php on line 8
+[19-Jun-2021 18:19:32 UTC] PHP Fatal error:  Uncaught Error: Class 'Tests\TestCase' not found in /home/edinplaceauction/public_html/tests/Feature/ExampleTest.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/tests/Feature/ExampleTest.php on line 8

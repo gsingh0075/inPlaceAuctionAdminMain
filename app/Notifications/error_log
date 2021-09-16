@@ -1,0 +1,108 @@
+[27-Feb-2021 21:18:00 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Notifications\Notification' not found in /home/edinplaceauction/public_html/app/Notifications/NewAssignmentNotification.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Notifications/NewAssignmentNotification.php on line 10
+[27-Feb-2021 21:18:00 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Notifications\Notification' not found in /home/edinplaceauction/public_html/app/Notifications/NewCommunicationNotification.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Notifications/NewCommunicationNotification.php on line 10
+[27-Feb-2021 21:18:01 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Notifications\Notification' not found in /home/edinplaceauction/public_html/app/Notifications/NewFmvNotification.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Notifications/NewFmvNotification.php on line 10
+[14-Mar-2021 22:55:51 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Notifications\Notification' not found in /home/edinplaceauction/public_html/app/Notifications/NewAssignmentNotification.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Notifications/NewAssignmentNotification.php on line 10
+[14-Mar-2021 22:55:52 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Notifications\Notification' not found in /home/edinplaceauction/public_html/app/Notifications/NewCommunicationNotification.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Notifications/NewCommunicationNotification.php on line 10
+[14-Mar-2021 22:55:52 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Notifications\Notification' not found in /home/edinplaceauction/public_html/app/Notifications/NewFmvNotification.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Notifications/NewFmvNotification.php on line 10
+[28-Mar-2021 18:17:40 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Notifications\Notification' not found in /home/edinplaceauction/public_html/app/Notifications/NewAssignmentNotification.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Notifications/NewAssignmentNotification.php on line 10
+[28-Mar-2021 18:17:40 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Notifications\Notification' not found in /home/edinplaceauction/public_html/app/Notifications/NewCommunicationNotification.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Notifications/NewCommunicationNotification.php on line 10
+[28-Mar-2021 18:17:41 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Notifications\Notification' not found in /home/edinplaceauction/public_html/app/Notifications/NewFmvNotification.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Notifications/NewFmvNotification.php on line 10
+[11-Apr-2021 13:55:54 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Notifications\Notification' not found in /home/edinplaceauction/public_html/app/Notifications/NewAssignmentNotification.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Notifications/NewAssignmentNotification.php on line 10
+[11-Apr-2021 13:55:55 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Notifications\Notification' not found in /home/edinplaceauction/public_html/app/Notifications/NewCommunicationNotification.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Notifications/NewCommunicationNotification.php on line 10
+[11-Apr-2021 13:55:55 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Notifications\Notification' not found in /home/edinplaceauction/public_html/app/Notifications/NewFmvNotification.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Notifications/NewFmvNotification.php on line 10
+[25-Apr-2021 10:00:49 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Notifications\Notification' not found in /home/edinplaceauction/public_html/app/Notifications/NewAssignmentNotification.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Notifications/NewAssignmentNotification.php on line 10
+[25-Apr-2021 10:00:49 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Notifications\Notification' not found in /home/edinplaceauction/public_html/app/Notifications/NewCommunicationNotification.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Notifications/NewCommunicationNotification.php on line 10
+[25-Apr-2021 10:00:50 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Notifications\Notification' not found in /home/edinplaceauction/public_html/app/Notifications/NewFmvNotification.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Notifications/NewFmvNotification.php on line 10
+[09-May-2021 06:13:16 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Notifications\Notification' not found in /home/edinplaceauction/public_html/app/Notifications/NewAssignmentNotification.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Notifications/NewAssignmentNotification.php on line 10
+[09-May-2021 06:13:17 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Notifications\Notification' not found in /home/edinplaceauction/public_html/app/Notifications/NewCommunicationNotification.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Notifications/NewCommunicationNotification.php on line 10
+[09-May-2021 06:13:17 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Notifications\Notification' not found in /home/edinplaceauction/public_html/app/Notifications/NewFmvNotification.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Notifications/NewFmvNotification.php on line 10
+[22-May-2021 11:28:29 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Notifications\Notification' not found in /home/edinplaceauction/public_html/app/Notifications/NewAssignmentNotification.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Notifications/NewAssignmentNotification.php on line 10
+[22-May-2021 11:28:30 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Notifications\Notification' not found in /home/edinplaceauction/public_html/app/Notifications/NewCommunicationNotification.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Notifications/NewCommunicationNotification.php on line 10
+[22-May-2021 11:28:30 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Notifications\Notification' not found in /home/edinplaceauction/public_html/app/Notifications/NewFmvNotification.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Notifications/NewFmvNotification.php on line 10
+[05-Jun-2021 22:29:09 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Notifications\Notification' not found in /home/edinplaceauction/public_html/app/Notifications/NewAssignmentNotification.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Notifications/NewAssignmentNotification.php on line 10
+[05-Jun-2021 22:29:09 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Notifications\Notification' not found in /home/edinplaceauction/public_html/app/Notifications/NewCommunicationNotification.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Notifications/NewCommunicationNotification.php on line 10
+[05-Jun-2021 22:29:10 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Notifications\Notification' not found in /home/edinplaceauction/public_html/app/Notifications/NewFmvNotification.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Notifications/NewFmvNotification.php on line 10
+[19-Jun-2021 18:16:46 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Notifications\Notification' not found in /home/edinplaceauction/public_html/app/Notifications/NewAssignmentNotification.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Notifications/NewAssignmentNotification.php on line 10
+[19-Jun-2021 18:16:46 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Notifications\Notification' not found in /home/edinplaceauction/public_html/app/Notifications/NewCommunicationNotification.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Notifications/NewCommunicationNotification.php on line 10
+[19-Jun-2021 18:16:47 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Notifications\Notification' not found in /home/edinplaceauction/public_html/app/Notifications/NewFmvNotification.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Notifications/NewFmvNotification.php on line 10

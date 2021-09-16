@@ -1,0 +1,1116 @@
+[27-Feb-2021 21:17:43 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/Assignment.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/Assignment.php on line 9
+[27-Feb-2021 21:17:43 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/AssignmentHasClients.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/AssignmentHasClients.php on line 8
+[27-Feb-2021 21:17:44 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/AssignmentHasFiles.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/AssignmentHasFiles.php on line 12
+[27-Feb-2021 21:17:44 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/Bid.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/Bid.php on line 9
+[27-Feb-2021 21:17:45 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/Category.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/Category.php on line 8
+[27-Feb-2021 21:17:45 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/ClientInvoiceLines.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/ClientInvoiceLines.php on line 8
+[27-Feb-2021 21:17:46 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/ClientInvoices.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/ClientInvoices.php on line 10
+[27-Feb-2021 21:17:47 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/ClientRemittance.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/ClientRemittance.php on line 9
+[27-Feb-2021 21:17:47 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Auth\User' not found in /home/edinplaceauction/public_html/app/Models/Clients.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/Clients.php on line 13
+[27-Feb-2021 21:17:48 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/ClientsHasContacts.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/ClientsHasContacts.php on line 8
+[27-Feb-2021 21:17:48 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/Communications.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/Communications.php on line 9
+[27-Feb-2021 21:17:49 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/ContractorAuth.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/ContractorAuth.php on line 9
+[27-Feb-2021 21:17:49 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/ContractorAuthItem.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/ContractorAuthItem.php on line 8
+[27-Feb-2021 21:17:50 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/ContractorCategories.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/ContractorCategories.php on line 8
+[27-Feb-2021 21:17:50 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/Contractors.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/Contractors.php on line 8
+[27-Feb-2021 21:17:51 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/Customer.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/Customer.php on line 8
+[27-Feb-2021 21:17:51 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/CustomerInvoice.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/CustomerInvoice.php on line 8
+[27-Feb-2021 21:17:52 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/CustomerInvoiceItems.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/CustomerInvoiceItems.php on line 8
+[27-Feb-2021 21:17:53 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/Fmv.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/Fmv.php on line 9
+[27-Feb-2021 21:17:53 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/FmvHasFiles.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/FmvHasFiles.php on line 12
+[27-Feb-2021 21:17:54 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/FmvHasItems.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/FmvHasItems.php on line 8
+[27-Feb-2021 21:17:54 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/Invoice.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/Invoice.php on line 9
+[27-Feb-2021 21:17:55 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/InvoiceHasItems.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/InvoiceHasItems.php on line 8
+[27-Feb-2021 21:17:55 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/ItemHasCategories.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/ItemHasCategories.php on line 8
+[27-Feb-2021 21:17:56 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/ItemHasConditionReports.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/ItemHasConditionReports.php on line 11
+[27-Feb-2021 21:17:56 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/ItemHasExpense.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/ItemHasExpense.php on line 9
+[27-Feb-2021 21:17:57 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/ItemImages.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/ItemImages.php on line 12
+[27-Feb-2021 21:17:57 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/Items.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/Items.php on line 10
+[27-Feb-2021 21:17:58 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/State.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/State.php on line 8
+[27-Feb-2021 21:17:59 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Auth\User' not found in /home/edinplaceauction/public_html/app/Models/User.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/User.php on line 10
+[14-Mar-2021 22:55:36 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/Assignment.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/Assignment.php on line 9
+[14-Mar-2021 22:55:37 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/AssignmentHasClients.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/AssignmentHasClients.php on line 8
+[14-Mar-2021 22:55:37 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/AssignmentHasFiles.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/AssignmentHasFiles.php on line 12
+[14-Mar-2021 22:55:38 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/Bid.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/Bid.php on line 9
+[14-Mar-2021 22:55:38 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/Category.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/Category.php on line 8
+[14-Mar-2021 22:55:39 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/ClientInvoiceLines.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/ClientInvoiceLines.php on line 8
+[14-Mar-2021 22:55:39 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/ClientInvoices.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/ClientInvoices.php on line 10
+[14-Mar-2021 22:55:40 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/ClientRemittance.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/ClientRemittance.php on line 9
+[14-Mar-2021 22:55:40 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Auth\User' not found in /home/edinplaceauction/public_html/app/Models/Clients.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/Clients.php on line 13
+[14-Mar-2021 22:55:41 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/ClientsHasContacts.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/ClientsHasContacts.php on line 8
+[14-Mar-2021 22:55:41 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/Communications.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/Communications.php on line 9
+[14-Mar-2021 22:55:42 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/ContractorAuth.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/ContractorAuth.php on line 9
+[14-Mar-2021 22:55:42 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/ContractorAuthItem.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/ContractorAuthItem.php on line 8
+[14-Mar-2021 22:55:43 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/ContractorCategories.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/ContractorCategories.php on line 8
+[14-Mar-2021 22:55:43 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/Contractors.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/Contractors.php on line 8
+[14-Mar-2021 22:55:44 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/Customer.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/Customer.php on line 8
+[14-Mar-2021 22:55:44 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/CustomerInvoice.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/CustomerInvoice.php on line 8
+[14-Mar-2021 22:55:45 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/CustomerInvoiceItems.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/CustomerInvoiceItems.php on line 8
+[14-Mar-2021 22:55:45 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/Fmv.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/Fmv.php on line 9
+[14-Mar-2021 22:55:46 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/FmvHasFiles.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/FmvHasFiles.php on line 12
+[14-Mar-2021 22:55:46 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/FmvHasItems.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/FmvHasItems.php on line 8
+[14-Mar-2021 22:55:47 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/Invoice.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/Invoice.php on line 9
+[14-Mar-2021 22:55:47 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/InvoiceHasItems.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/InvoiceHasItems.php on line 8
+[14-Mar-2021 22:55:48 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/ItemHasCategories.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/ItemHasCategories.php on line 8
+[14-Mar-2021 22:55:48 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/ItemHasConditionReports.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/ItemHasConditionReports.php on line 11
+[14-Mar-2021 22:55:49 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/ItemHasExpense.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/ItemHasExpense.php on line 9
+[14-Mar-2021 22:55:49 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/ItemImages.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/ItemImages.php on line 12
+[14-Mar-2021 22:55:50 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/Items.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/Items.php on line 10
+[14-Mar-2021 22:55:50 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/State.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/State.php on line 8
+[14-Mar-2021 22:55:50 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Auth\User' not found in /home/edinplaceauction/public_html/app/Models/User.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/User.php on line 10
+[28-Mar-2021 18:17:24 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/Assignment.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/Assignment.php on line 9
+[28-Mar-2021 18:17:25 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/AssignmentHasClients.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/AssignmentHasClients.php on line 8
+[28-Mar-2021 18:17:25 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/AssignmentHasFiles.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/AssignmentHasFiles.php on line 12
+[28-Mar-2021 18:17:26 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/Bid.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/Bid.php on line 9
+[28-Mar-2021 18:17:26 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/Category.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/Category.php on line 8
+[28-Mar-2021 18:17:27 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/ClientInvoiceLines.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/ClientInvoiceLines.php on line 8
+[28-Mar-2021 18:17:27 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/ClientInvoices.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/ClientInvoices.php on line 10
+[28-Mar-2021 18:17:28 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/ClientRemittance.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/ClientRemittance.php on line 9
+[28-Mar-2021 18:17:28 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Auth\User' not found in /home/edinplaceauction/public_html/app/Models/Clients.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/Clients.php on line 13
+[28-Mar-2021 18:17:29 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/ClientsHasContacts.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/ClientsHasContacts.php on line 8
+[28-Mar-2021 18:17:29 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/Communications.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/Communications.php on line 9
+[28-Mar-2021 18:17:30 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/ContractorAuth.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/ContractorAuth.php on line 9
+[28-Mar-2021 18:17:31 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/ContractorAuthItem.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/ContractorAuthItem.php on line 8
+[28-Mar-2021 18:17:31 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/ContractorCategories.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/ContractorCategories.php on line 8
+[28-Mar-2021 18:17:32 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/Contractors.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/Contractors.php on line 8
+[28-Mar-2021 18:17:32 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/Customer.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/Customer.php on line 8
+[28-Mar-2021 18:17:33 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/CustomerInvoice.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/CustomerInvoice.php on line 8
+[28-Mar-2021 18:17:33 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/CustomerInvoiceItems.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/CustomerInvoiceItems.php on line 8
+[28-Mar-2021 18:17:34 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/Fmv.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/Fmv.php on line 9
+[28-Mar-2021 18:17:34 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/FmvHasFiles.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/FmvHasFiles.php on line 12
+[28-Mar-2021 18:17:35 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/FmvHasItems.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/FmvHasItems.php on line 8
+[28-Mar-2021 18:17:35 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/Invoice.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/Invoice.php on line 9
+[28-Mar-2021 18:17:36 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/InvoiceHasItems.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/InvoiceHasItems.php on line 8
+[28-Mar-2021 18:17:36 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/ItemHasCategories.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/ItemHasCategories.php on line 8
+[28-Mar-2021 18:17:37 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/ItemHasConditionReports.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/ItemHasConditionReports.php on line 11
+[28-Mar-2021 18:17:37 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/ItemHasExpense.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/ItemHasExpense.php on line 9
+[28-Mar-2021 18:17:38 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/ItemImages.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/ItemImages.php on line 13
+[28-Mar-2021 18:17:38 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/Items.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/Items.php on line 10
+[28-Mar-2021 18:17:39 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/State.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/State.php on line 8
+[28-Mar-2021 18:17:39 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Auth\User' not found in /home/edinplaceauction/public_html/app/Models/User.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/User.php on line 10
+[11-Apr-2021 13:55:38 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/Assignment.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/Assignment.php on line 9
+[11-Apr-2021 13:55:39 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/AssignmentHasClients.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/AssignmentHasClients.php on line 8
+[11-Apr-2021 13:55:39 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/AssignmentHasFiles.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/AssignmentHasFiles.php on line 12
+[11-Apr-2021 13:55:40 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/Bid.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/Bid.php on line 9
+[11-Apr-2021 13:55:40 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/Category.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/Category.php on line 8
+[11-Apr-2021 13:55:41 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/ClientInvoiceLines.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/ClientInvoiceLines.php on line 8
+[11-Apr-2021 13:55:42 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/ClientInvoices.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/ClientInvoices.php on line 10
+[11-Apr-2021 13:55:42 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/ClientRemittance.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/ClientRemittance.php on line 9
+[11-Apr-2021 13:55:43 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Auth\User' not found in /home/edinplaceauction/public_html/app/Models/Clients.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/Clients.php on line 13
+[11-Apr-2021 13:55:43 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/ClientsHasContacts.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/ClientsHasContacts.php on line 8
+[11-Apr-2021 13:55:44 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/Communications.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/Communications.php on line 9
+[11-Apr-2021 13:55:44 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/ContractorAuth.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/ContractorAuth.php on line 9
+[11-Apr-2021 13:55:45 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/ContractorAuthItem.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/ContractorAuthItem.php on line 8
+[11-Apr-2021 13:55:45 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/ContractorCategories.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/ContractorCategories.php on line 8
+[11-Apr-2021 13:55:46 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/Contractors.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/Contractors.php on line 8
+[11-Apr-2021 13:55:46 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/Customer.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/Customer.php on line 8
+[11-Apr-2021 13:55:47 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/CustomerInvoice.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/CustomerInvoice.php on line 8
+[11-Apr-2021 13:55:47 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/CustomerInvoiceItems.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/CustomerInvoiceItems.php on line 8
+[11-Apr-2021 13:55:48 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/Fmv.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/Fmv.php on line 9
+[11-Apr-2021 13:55:48 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/FmvHasFiles.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/FmvHasFiles.php on line 12
+[11-Apr-2021 13:55:49 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/FmvHasItems.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/FmvHasItems.php on line 8
+[11-Apr-2021 13:55:49 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/Invoice.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/Invoice.php on line 9
+[11-Apr-2021 13:55:50 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/InvoiceHasItems.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/InvoiceHasItems.php on line 8
+[11-Apr-2021 13:55:50 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/ItemHasCategories.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/ItemHasCategories.php on line 8
+[11-Apr-2021 13:55:51 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/ItemHasConditionReports.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/ItemHasConditionReports.php on line 11
+[11-Apr-2021 13:55:51 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/ItemHasExpense.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/ItemHasExpense.php on line 9
+[11-Apr-2021 13:55:52 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/ItemImages.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/ItemImages.php on line 13
+[11-Apr-2021 13:55:52 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/Items.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/Items.php on line 10
+[11-Apr-2021 13:55:53 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/State.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/State.php on line 8
+[11-Apr-2021 13:55:53 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Auth\User' not found in /home/edinplaceauction/public_html/app/Models/User.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/User.php on line 10
+[25-Apr-2021 10:00:32 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/Assignment.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/Assignment.php on line 9
+[25-Apr-2021 10:00:32 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/AssignmentHasClients.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/AssignmentHasClients.php on line 8
+[25-Apr-2021 10:00:33 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/AssignmentHasFiles.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/AssignmentHasFiles.php on line 12
+[25-Apr-2021 10:00:33 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/Bid.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/Bid.php on line 9
+[25-Apr-2021 10:00:34 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/Category.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/Category.php on line 8
+[25-Apr-2021 10:00:34 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/ClientInvoiceLines.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/ClientInvoiceLines.php on line 8
+[25-Apr-2021 10:00:35 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/ClientInvoices.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/ClientInvoices.php on line 10
+[25-Apr-2021 10:00:36 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/ClientRemittance.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/ClientRemittance.php on line 9
+[25-Apr-2021 10:00:36 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/ClientRemittanceHasExpense.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/ClientRemittanceHasExpense.php on line 8
+[25-Apr-2021 10:00:37 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Auth\User' not found in /home/edinplaceauction/public_html/app/Models/Clients.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/Clients.php on line 13
+[25-Apr-2021 10:00:37 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/ClientsHasContacts.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/ClientsHasContacts.php on line 8
+[25-Apr-2021 10:00:38 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/Communications.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/Communications.php on line 9
+[25-Apr-2021 10:00:38 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/ContractorAuth.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/ContractorAuth.php on line 9
+[25-Apr-2021 10:00:39 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/ContractorAuthItem.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/ContractorAuthItem.php on line 8
+[25-Apr-2021 10:00:39 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/ContractorCategories.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/ContractorCategories.php on line 8
+[25-Apr-2021 10:00:40 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/Contractors.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/Contractors.php on line 8
+[25-Apr-2021 10:00:40 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/Customer.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/Customer.php on line 8
+[25-Apr-2021 10:00:41 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/CustomerInvoice.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/CustomerInvoice.php on line 8
+[25-Apr-2021 10:00:42 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/CustomerInvoiceItems.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/CustomerInvoiceItems.php on line 8
+[25-Apr-2021 10:00:42 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/Fmv.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/Fmv.php on line 9
+[25-Apr-2021 10:00:43 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/FmvHasFiles.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/FmvHasFiles.php on line 12
+[25-Apr-2021 10:00:43 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/FmvHasItems.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/FmvHasItems.php on line 8
+[25-Apr-2021 10:00:44 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/Invoice.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/Invoice.php on line 9
+[25-Apr-2021 10:00:44 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/InvoiceHasItems.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/InvoiceHasItems.php on line 8
+[25-Apr-2021 10:00:45 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/ItemHasCategories.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/ItemHasCategories.php on line 8
+[25-Apr-2021 10:00:45 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/ItemHasConditionReports.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/ItemHasConditionReports.php on line 11
+[25-Apr-2021 10:00:46 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/ItemHasExpense.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/ItemHasExpense.php on line 9
+[25-Apr-2021 10:00:46 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/ItemImages.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/ItemImages.php on line 13
+[25-Apr-2021 10:00:47 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/Items.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/Items.php on line 10
+[25-Apr-2021 10:00:47 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/State.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/State.php on line 8
+[25-Apr-2021 10:00:48 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Auth\User' not found in /home/edinplaceauction/public_html/app/Models/User.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/User.php on line 10
+[09-May-2021 06:13:01 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/Assignment.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/Assignment.php on line 9
+[09-May-2021 06:13:02 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/AssignmentHasClients.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/AssignmentHasClients.php on line 8
+[09-May-2021 06:13:02 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/AssignmentHasFiles.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/AssignmentHasFiles.php on line 12
+[09-May-2021 06:13:03 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/Bid.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/Bid.php on line 9
+[09-May-2021 06:13:03 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/Category.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/Category.php on line 8
+[09-May-2021 06:13:04 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/ClientInvoiceLines.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/ClientInvoiceLines.php on line 8
+[09-May-2021 06:13:04 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/ClientInvoices.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/ClientInvoices.php on line 10
+[09-May-2021 06:13:04 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/ClientRemittance.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/ClientRemittance.php on line 9
+[09-May-2021 06:13:05 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/ClientRemittanceHasExpense.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/ClientRemittanceHasExpense.php on line 8
+[09-May-2021 06:13:05 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Auth\User' not found in /home/edinplaceauction/public_html/app/Models/Clients.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/Clients.php on line 13
+[09-May-2021 06:13:06 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/ClientsHasContacts.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/ClientsHasContacts.php on line 8
+[09-May-2021 06:13:06 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/Communications.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/Communications.php on line 9
+[09-May-2021 06:13:07 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/ContractorAuth.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/ContractorAuth.php on line 9
+[09-May-2021 06:13:07 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/ContractorAuthItem.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/ContractorAuthItem.php on line 8
+[09-May-2021 06:13:08 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/ContractorCategories.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/ContractorCategories.php on line 8
+[09-May-2021 06:13:08 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/Contractors.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/Contractors.php on line 8
+[09-May-2021 06:13:09 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/Customer.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/Customer.php on line 8
+[09-May-2021 06:13:09 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/CustomerInvoice.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/CustomerInvoice.php on line 8
+[09-May-2021 06:13:10 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/CustomerInvoiceItems.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/CustomerInvoiceItems.php on line 8
+[09-May-2021 06:13:10 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/Fmv.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/Fmv.php on line 9
+[09-May-2021 06:13:11 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/FmvHasFiles.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/FmvHasFiles.php on line 12
+[09-May-2021 06:13:11 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/FmvHasItems.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/FmvHasItems.php on line 8
+[09-May-2021 06:13:12 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/Invoice.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/Invoice.php on line 9
+[09-May-2021 06:13:12 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/InvoiceHasItems.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/InvoiceHasItems.php on line 8
+[09-May-2021 06:13:12 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/ItemHasCategories.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/ItemHasCategories.php on line 8
+[09-May-2021 06:13:13 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/ItemHasConditionReports.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/ItemHasConditionReports.php on line 11
+[09-May-2021 06:13:13 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/ItemHasExpense.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/ItemHasExpense.php on line 9
+[09-May-2021 06:13:14 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/ItemImages.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/ItemImages.php on line 13
+[09-May-2021 06:13:14 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/ItemImages_backup.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/ItemImages_backup.php on line 13
+[09-May-2021 06:13:15 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/Items.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/Items.php on line 10
+[09-May-2021 06:13:15 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/State.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/State.php on line 8
+[09-May-2021 06:13:16 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Auth\User' not found in /home/edinplaceauction/public_html/app/Models/User.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/User.php on line 10
+[22-May-2021 11:28:14 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/Assignment.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/Assignment.php on line 9
+[22-May-2021 11:28:15 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/AssignmentHasClients.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/AssignmentHasClients.php on line 8
+[22-May-2021 11:28:15 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/AssignmentHasFiles.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/AssignmentHasFiles.php on line 12
+[22-May-2021 11:28:16 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/Bid.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/Bid.php on line 9
+[22-May-2021 11:28:16 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/Category.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/Category.php on line 8
+[22-May-2021 11:28:17 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/ClientInvoiceLines.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/ClientInvoiceLines.php on line 8
+[22-May-2021 11:28:17 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/ClientInvoices.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/ClientInvoices.php on line 10
+[22-May-2021 11:28:18 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/ClientRemittance.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/ClientRemittance.php on line 9
+[22-May-2021 11:28:18 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/ClientRemittanceHasExpense.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/ClientRemittanceHasExpense.php on line 8
+[22-May-2021 11:28:19 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Auth\User' not found in /home/edinplaceauction/public_html/app/Models/Clients.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/Clients.php on line 13
+[22-May-2021 11:28:19 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/ClientsHasContacts.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/ClientsHasContacts.php on line 8
+[22-May-2021 11:28:20 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/Communications.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/Communications.php on line 9
+[22-May-2021 11:28:20 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/ContractorAuth.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/ContractorAuth.php on line 9
+[22-May-2021 11:28:20 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/ContractorAuthItem.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/ContractorAuthItem.php on line 8
+[22-May-2021 11:28:21 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/ContractorCategories.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/ContractorCategories.php on line 8
+[22-May-2021 11:28:21 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/Contractors.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/Contractors.php on line 8
+[22-May-2021 11:28:22 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/Customer.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/Customer.php on line 8
+[22-May-2021 11:28:22 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/CustomerInvoice.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/CustomerInvoice.php on line 8
+[22-May-2021 11:28:23 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/CustomerInvoiceItems.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/CustomerInvoiceItems.php on line 8
+[22-May-2021 11:28:23 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/Fmv.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/Fmv.php on line 9
+[22-May-2021 11:28:24 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/FmvHasFiles.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/FmvHasFiles.php on line 12
+[22-May-2021 11:28:24 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/FmvHasItems.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/FmvHasItems.php on line 8
+[22-May-2021 11:28:25 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/Invoice.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/Invoice.php on line 9
+[22-May-2021 11:28:25 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/InvoiceHasItems.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/InvoiceHasItems.php on line 8
+[22-May-2021 11:28:26 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/ItemHasCategories.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/ItemHasCategories.php on line 8
+[22-May-2021 11:28:26 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/ItemHasConditionReports.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/ItemHasConditionReports.php on line 11
+[22-May-2021 11:28:27 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/ItemHasExpense.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/ItemHasExpense.php on line 9
+[22-May-2021 11:28:27 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/ItemImages.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/ItemImages.php on line 13
+[22-May-2021 11:28:27 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/ItemImages_backup.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/ItemImages_backup.php on line 13
+[22-May-2021 11:28:28 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/Items.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/Items.php on line 10
+[22-May-2021 11:28:28 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/State.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/State.php on line 8
+[22-May-2021 11:28:29 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Auth\User' not found in /home/edinplaceauction/public_html/app/Models/User.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/User.php on line 10
+[05-Jun-2021 22:28:54 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/Assignment.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/Assignment.php on line 9
+[05-Jun-2021 22:28:54 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/AssignmentHasClients.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/AssignmentHasClients.php on line 8
+[05-Jun-2021 22:28:55 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/AssignmentHasFiles.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/AssignmentHasFiles.php on line 12
+[05-Jun-2021 22:28:55 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/Bid.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/Bid.php on line 9
+[05-Jun-2021 22:28:56 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/Category.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/Category.php on line 8
+[05-Jun-2021 22:28:56 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/ClientInvoiceLines.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/ClientInvoiceLines.php on line 8
+[05-Jun-2021 22:28:57 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/ClientInvoices.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/ClientInvoices.php on line 10
+[05-Jun-2021 22:28:57 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/ClientRemittance.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/ClientRemittance.php on line 9
+[05-Jun-2021 22:28:58 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/ClientRemittanceHasExpense.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/ClientRemittanceHasExpense.php on line 8
+[05-Jun-2021 22:28:58 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Auth\User' not found in /home/edinplaceauction/public_html/app/Models/Clients.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/Clients.php on line 13
+[05-Jun-2021 22:28:59 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/ClientsHasContacts.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/ClientsHasContacts.php on line 8
+[05-Jun-2021 22:28:59 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/Communications.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/Communications.php on line 9
+[05-Jun-2021 22:28:59 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/ContractorAuth.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/ContractorAuth.php on line 9
+[05-Jun-2021 22:29:00 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/ContractorAuthItem.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/ContractorAuthItem.php on line 8
+[05-Jun-2021 22:29:00 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/ContractorCategories.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/ContractorCategories.php on line 8
+[05-Jun-2021 22:29:01 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/Contractors.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/Contractors.php on line 8
+[05-Jun-2021 22:29:01 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/Customer.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/Customer.php on line 8
+[05-Jun-2021 22:29:02 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/CustomerInvoice.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/CustomerInvoice.php on line 8
+[05-Jun-2021 22:29:02 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/CustomerInvoiceItems.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/CustomerInvoiceItems.php on line 8
+[05-Jun-2021 22:29:03 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/Fmv.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/Fmv.php on line 9
+[05-Jun-2021 22:29:03 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/FmvHasFiles.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/FmvHasFiles.php on line 12
+[05-Jun-2021 22:29:04 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/FmvHasItems.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/FmvHasItems.php on line 8
+[05-Jun-2021 22:29:04 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/Invoice.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/Invoice.php on line 9
+[05-Jun-2021 22:29:04 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/InvoiceHasItems.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/InvoiceHasItems.php on line 8
+[05-Jun-2021 22:29:05 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/ItemHasCategories.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/ItemHasCategories.php on line 8
+[05-Jun-2021 22:29:05 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/ItemHasConditionReports.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/ItemHasConditionReports.php on line 11
+[05-Jun-2021 22:29:06 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/ItemHasExpense.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/ItemHasExpense.php on line 9
+[05-Jun-2021 22:29:06 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/ItemImages.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/ItemImages.php on line 13
+[05-Jun-2021 22:29:07 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/ItemImages_backup.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/ItemImages_backup.php on line 13
+[05-Jun-2021 22:29:07 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/Items.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/Items.php on line 10
+[05-Jun-2021 22:29:08 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/State.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/State.php on line 8
+[05-Jun-2021 22:29:08 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Auth\User' not found in /home/edinplaceauction/public_html/app/Models/User.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/User.php on line 10
+[19-Jun-2021 18:16:31 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/Assignment.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/Assignment.php on line 9
+[19-Jun-2021 18:16:31 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/AssignmentHasClients.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/AssignmentHasClients.php on line 8
+[19-Jun-2021 18:16:32 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/AssignmentHasFiles.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/AssignmentHasFiles.php on line 12
+[19-Jun-2021 18:16:32 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/Bid.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/Bid.php on line 9
+[19-Jun-2021 18:16:33 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/Category.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/Category.php on line 8
+[19-Jun-2021 18:16:33 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/ClientInvoiceLines.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/ClientInvoiceLines.php on line 8
+[19-Jun-2021 18:16:34 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/ClientInvoices.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/ClientInvoices.php on line 10
+[19-Jun-2021 18:16:34 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/ClientRemittance.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/ClientRemittance.php on line 9
+[19-Jun-2021 18:16:34 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/ClientRemittanceHasExpense.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/ClientRemittanceHasExpense.php on line 8
+[19-Jun-2021 18:16:35 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Auth\User' not found in /home/edinplaceauction/public_html/app/Models/Clients.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/Clients.php on line 13
+[19-Jun-2021 18:16:35 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/ClientsHasContacts.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/ClientsHasContacts.php on line 8
+[19-Jun-2021 18:16:36 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/Communications.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/Communications.php on line 9
+[19-Jun-2021 18:16:36 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/ContractorAuth.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/ContractorAuth.php on line 9
+[19-Jun-2021 18:16:37 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/ContractorAuthItem.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/ContractorAuthItem.php on line 8
+[19-Jun-2021 18:16:37 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/ContractorCategories.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/ContractorCategories.php on line 8
+[19-Jun-2021 18:16:38 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/Contractors.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/Contractors.php on line 8
+[19-Jun-2021 18:16:38 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/Customer.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/Customer.php on line 8
+[19-Jun-2021 18:16:39 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/CustomerInvoice.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/CustomerInvoice.php on line 8
+[19-Jun-2021 18:16:39 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/CustomerInvoiceItems.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/CustomerInvoiceItems.php on line 8
+[19-Jun-2021 18:16:40 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/Fmv.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/Fmv.php on line 9
+[19-Jun-2021 18:16:40 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/FmvHasFiles.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/FmvHasFiles.php on line 12
+[19-Jun-2021 18:16:41 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/FmvHasItems.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/FmvHasItems.php on line 8
+[19-Jun-2021 18:16:41 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/Invoice.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/Invoice.php on line 9
+[19-Jun-2021 18:16:41 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/InvoiceHasItems.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/InvoiceHasItems.php on line 8
+[19-Jun-2021 18:16:42 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/ItemHasCategories.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/ItemHasCategories.php on line 8
+[19-Jun-2021 18:16:42 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/ItemHasConditionReports.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/ItemHasConditionReports.php on line 11
+[19-Jun-2021 18:16:43 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/ItemHasExpense.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/ItemHasExpense.php on line 9
+[19-Jun-2021 18:16:43 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/ItemImages.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/ItemImages.php on line 13
+[19-Jun-2021 18:16:44 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/ItemImages_backup.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/ItemImages_backup.php on line 13
+[19-Jun-2021 18:16:44 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/Items.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/Items.php on line 10
+[19-Jun-2021 18:16:45 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/edinplaceauction/public_html/app/Models/State.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/State.php on line 8
+[19-Jun-2021 18:16:45 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Auth\User' not found in /home/edinplaceauction/public_html/app/Models/User.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Models/User.php on line 10

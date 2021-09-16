@@ -1,0 +1,252 @@
+[27-Feb-2021 21:17:35 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Auth\Middleware\Authenticate' not found in /home/edinplaceauction/public_html/app/Http/Middleware/Authenticate.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Middleware/Authenticate.php on line 7
+[27-Feb-2021 21:17:35 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Cookie\Middleware\EncryptCookies' not found in /home/edinplaceauction/public_html/app/Http/Middleware/EncryptCookies.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Middleware/EncryptCookies.php on line 7
+[27-Feb-2021 21:17:36 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\Middleware\PreventRequestsDuringMaintenance' not found in /home/edinplaceauction/public_html/app/Http/Middleware/PreventRequestsDuringMaintenance.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Middleware/PreventRequestsDuringMaintenance.php on line 7
+[27-Feb-2021 21:17:37 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\Middleware\TrimStrings' not found in /home/edinplaceauction/public_html/app/Http/Middleware/TrimStrings.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Middleware/TrimStrings.php on line 7
+[27-Feb-2021 21:17:37 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Http\Middleware\TrustHosts' not found in /home/edinplaceauction/public_html/app/Http/Middleware/TrustHosts.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Middleware/TrustHosts.php on line 7
+[27-Feb-2021 21:17:38 UTC] PHP Fatal error:  Uncaught Error: Class 'Fideloper\Proxy\TrustProxies' not found in /home/edinplaceauction/public_html/app/Http/Middleware/TrustProxies.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Middleware/TrustProxies.php on line 8
+[27-Feb-2021 21:17:39 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\Middleware\VerifyCsrfToken' not found in /home/edinplaceauction/public_html/app/Http/Middleware/VerifyCsrfToken.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Middleware/VerifyCsrfToken.php on line 7
+[14-Mar-2021 22:55:29 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Auth\Middleware\Authenticate' not found in /home/edinplaceauction/public_html/app/Http/Middleware/Authenticate.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Middleware/Authenticate.php on line 7
+[14-Mar-2021 22:55:29 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Cookie\Middleware\EncryptCookies' not found in /home/edinplaceauction/public_html/app/Http/Middleware/EncryptCookies.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Middleware/EncryptCookies.php on line 7
+[14-Mar-2021 22:55:29 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\Middleware\PreventRequestsDuringMaintenance' not found in /home/edinplaceauction/public_html/app/Http/Middleware/PreventRequestsDuringMaintenance.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Middleware/PreventRequestsDuringMaintenance.php on line 7
+[14-Mar-2021 22:55:30 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\Middleware\TrimStrings' not found in /home/edinplaceauction/public_html/app/Http/Middleware/TrimStrings.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Middleware/TrimStrings.php on line 7
+[14-Mar-2021 22:55:31 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Http\Middleware\TrustHosts' not found in /home/edinplaceauction/public_html/app/Http/Middleware/TrustHosts.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Middleware/TrustHosts.php on line 7
+[14-Mar-2021 22:55:31 UTC] PHP Fatal error:  Uncaught Error: Class 'Fideloper\Proxy\TrustProxies' not found in /home/edinplaceauction/public_html/app/Http/Middleware/TrustProxies.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Middleware/TrustProxies.php on line 8
+[14-Mar-2021 22:55:32 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\Middleware\VerifyCsrfToken' not found in /home/edinplaceauction/public_html/app/Http/Middleware/VerifyCsrfToken.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Middleware/VerifyCsrfToken.php on line 7
+[28-Mar-2021 18:17:16 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Auth\Middleware\Authenticate' not found in /home/edinplaceauction/public_html/app/Http/Middleware/Authenticate.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Middleware/Authenticate.php on line 7
+[28-Mar-2021 18:17:16 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Cookie\Middleware\EncryptCookies' not found in /home/edinplaceauction/public_html/app/Http/Middleware/EncryptCookies.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Middleware/EncryptCookies.php on line 7
+[28-Mar-2021 18:17:17 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\Middleware\PreventRequestsDuringMaintenance' not found in /home/edinplaceauction/public_html/app/Http/Middleware/PreventRequestsDuringMaintenance.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Middleware/PreventRequestsDuringMaintenance.php on line 7
+[28-Mar-2021 18:17:18 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\Middleware\TrimStrings' not found in /home/edinplaceauction/public_html/app/Http/Middleware/TrimStrings.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Middleware/TrimStrings.php on line 7
+[28-Mar-2021 18:17:18 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Http\Middleware\TrustHosts' not found in /home/edinplaceauction/public_html/app/Http/Middleware/TrustHosts.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Middleware/TrustHosts.php on line 7
+[28-Mar-2021 18:17:19 UTC] PHP Fatal error:  Uncaught Error: Class 'Fideloper\Proxy\TrustProxies' not found in /home/edinplaceauction/public_html/app/Http/Middleware/TrustProxies.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Middleware/TrustProxies.php on line 8
+[28-Mar-2021 18:17:19 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\Middleware\VerifyCsrfToken' not found in /home/edinplaceauction/public_html/app/Http/Middleware/VerifyCsrfToken.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Middleware/VerifyCsrfToken.php on line 7
+[11-Apr-2021 13:55:30 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Auth\Middleware\Authenticate' not found in /home/edinplaceauction/public_html/app/Http/Middleware/Authenticate.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Middleware/Authenticate.php on line 7
+[11-Apr-2021 13:55:30 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Cookie\Middleware\EncryptCookies' not found in /home/edinplaceauction/public_html/app/Http/Middleware/EncryptCookies.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Middleware/EncryptCookies.php on line 7
+[11-Apr-2021 13:55:31 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\Middleware\PreventRequestsDuringMaintenance' not found in /home/edinplaceauction/public_html/app/Http/Middleware/PreventRequestsDuringMaintenance.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Middleware/PreventRequestsDuringMaintenance.php on line 7
+[11-Apr-2021 13:55:32 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\Middleware\TrimStrings' not found in /home/edinplaceauction/public_html/app/Http/Middleware/TrimStrings.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Middleware/TrimStrings.php on line 7
+[11-Apr-2021 13:55:32 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Http\Middleware\TrustHosts' not found in /home/edinplaceauction/public_html/app/Http/Middleware/TrustHosts.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Middleware/TrustHosts.php on line 7
+[11-Apr-2021 13:55:33 UTC] PHP Fatal error:  Uncaught Error: Class 'Fideloper\Proxy\TrustProxies' not found in /home/edinplaceauction/public_html/app/Http/Middleware/TrustProxies.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Middleware/TrustProxies.php on line 8
+[11-Apr-2021 13:55:34 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\Middleware\VerifyCsrfToken' not found in /home/edinplaceauction/public_html/app/Http/Middleware/VerifyCsrfToken.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Middleware/VerifyCsrfToken.php on line 7
+[25-Apr-2021 10:00:23 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Auth\Middleware\Authenticate' not found in /home/edinplaceauction/public_html/app/Http/Middleware/Authenticate.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Middleware/Authenticate.php on line 7
+[25-Apr-2021 10:00:24 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Cookie\Middleware\EncryptCookies' not found in /home/edinplaceauction/public_html/app/Http/Middleware/EncryptCookies.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Middleware/EncryptCookies.php on line 7
+[25-Apr-2021 10:00:24 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\Middleware\PreventRequestsDuringMaintenance' not found in /home/edinplaceauction/public_html/app/Http/Middleware/PreventRequestsDuringMaintenance.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Middleware/PreventRequestsDuringMaintenance.php on line 7
+[25-Apr-2021 10:00:25 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\Middleware\TrimStrings' not found in /home/edinplaceauction/public_html/app/Http/Middleware/TrimStrings.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Middleware/TrimStrings.php on line 7
+[25-Apr-2021 10:00:26 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Http\Middleware\TrustHosts' not found in /home/edinplaceauction/public_html/app/Http/Middleware/TrustHosts.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Middleware/TrustHosts.php on line 7
+[25-Apr-2021 10:00:26 UTC] PHP Fatal error:  Uncaught Error: Class 'Fideloper\Proxy\TrustProxies' not found in /home/edinplaceauction/public_html/app/Http/Middleware/TrustProxies.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Middleware/TrustProxies.php on line 8
+[25-Apr-2021 10:00:27 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\Middleware\VerifyCsrfToken' not found in /home/edinplaceauction/public_html/app/Http/Middleware/VerifyCsrfToken.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Middleware/VerifyCsrfToken.php on line 7
+[09-May-2021 06:12:53 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Auth\Middleware\Authenticate' not found in /home/edinplaceauction/public_html/app/Http/Middleware/Authenticate.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Middleware/Authenticate.php on line 7
+[09-May-2021 06:12:54 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Cookie\Middleware\EncryptCookies' not found in /home/edinplaceauction/public_html/app/Http/Middleware/EncryptCookies.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Middleware/EncryptCookies.php on line 7
+[09-May-2021 06:12:54 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\Middleware\PreventRequestsDuringMaintenance' not found in /home/edinplaceauction/public_html/app/Http/Middleware/PreventRequestsDuringMaintenance.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Middleware/PreventRequestsDuringMaintenance.php on line 7
+[09-May-2021 06:12:55 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\Middleware\TrimStrings' not found in /home/edinplaceauction/public_html/app/Http/Middleware/TrimStrings.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Middleware/TrimStrings.php on line 7
+[09-May-2021 06:12:56 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Http\Middleware\TrustHosts' not found in /home/edinplaceauction/public_html/app/Http/Middleware/TrustHosts.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Middleware/TrustHosts.php on line 7
+[09-May-2021 06:12:56 UTC] PHP Fatal error:  Uncaught Error: Class 'Fideloper\Proxy\TrustProxies' not found in /home/edinplaceauction/public_html/app/Http/Middleware/TrustProxies.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Middleware/TrustProxies.php on line 8
+[09-May-2021 06:12:57 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\Middleware\VerifyCsrfToken' not found in /home/edinplaceauction/public_html/app/Http/Middleware/VerifyCsrfToken.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Middleware/VerifyCsrfToken.php on line 7
+[22-May-2021 11:28:07 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Auth\Middleware\Authenticate' not found in /home/edinplaceauction/public_html/app/Http/Middleware/Authenticate.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Middleware/Authenticate.php on line 7
+[22-May-2021 11:28:07 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Cookie\Middleware\EncryptCookies' not found in /home/edinplaceauction/public_html/app/Http/Middleware/EncryptCookies.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Middleware/EncryptCookies.php on line 7
+[22-May-2021 11:28:08 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\Middleware\PreventRequestsDuringMaintenance' not found in /home/edinplaceauction/public_html/app/Http/Middleware/PreventRequestsDuringMaintenance.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Middleware/PreventRequestsDuringMaintenance.php on line 7
+[22-May-2021 11:28:09 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\Middleware\TrimStrings' not found in /home/edinplaceauction/public_html/app/Http/Middleware/TrimStrings.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Middleware/TrimStrings.php on line 7
+[22-May-2021 11:28:09 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Http\Middleware\TrustHosts' not found in /home/edinplaceauction/public_html/app/Http/Middleware/TrustHosts.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Middleware/TrustHosts.php on line 7
+[22-May-2021 11:28:10 UTC] PHP Fatal error:  Uncaught Error: Class 'Fideloper\Proxy\TrustProxies' not found in /home/edinplaceauction/public_html/app/Http/Middleware/TrustProxies.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Middleware/TrustProxies.php on line 8
+[22-May-2021 11:28:10 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\Middleware\VerifyCsrfToken' not found in /home/edinplaceauction/public_html/app/Http/Middleware/VerifyCsrfToken.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Middleware/VerifyCsrfToken.php on line 7
+[05-Jun-2021 22:28:46 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Auth\Middleware\Authenticate' not found in /home/edinplaceauction/public_html/app/Http/Middleware/Authenticate.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Middleware/Authenticate.php on line 7
+[05-Jun-2021 22:28:47 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Cookie\Middleware\EncryptCookies' not found in /home/edinplaceauction/public_html/app/Http/Middleware/EncryptCookies.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Middleware/EncryptCookies.php on line 7
+[05-Jun-2021 22:28:47 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\Middleware\PreventRequestsDuringMaintenance' not found in /home/edinplaceauction/public_html/app/Http/Middleware/PreventRequestsDuringMaintenance.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Middleware/PreventRequestsDuringMaintenance.php on line 7
+[05-Jun-2021 22:28:48 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\Middleware\TrimStrings' not found in /home/edinplaceauction/public_html/app/Http/Middleware/TrimStrings.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Middleware/TrimStrings.php on line 7
+[05-Jun-2021 22:28:49 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Http\Middleware\TrustHosts' not found in /home/edinplaceauction/public_html/app/Http/Middleware/TrustHosts.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Middleware/TrustHosts.php on line 7
+[05-Jun-2021 22:28:49 UTC] PHP Fatal error:  Uncaught Error: Class 'Fideloper\Proxy\TrustProxies' not found in /home/edinplaceauction/public_html/app/Http/Middleware/TrustProxies.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Middleware/TrustProxies.php on line 8
+[05-Jun-2021 22:28:50 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\Middleware\VerifyCsrfToken' not found in /home/edinplaceauction/public_html/app/Http/Middleware/VerifyCsrfToken.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Middleware/VerifyCsrfToken.php on line 7
+[19-Jun-2021 18:16:23 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Auth\Middleware\Authenticate' not found in /home/edinplaceauction/public_html/app/Http/Middleware/Authenticate.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Middleware/Authenticate.php on line 7
+[19-Jun-2021 18:16:24 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Cookie\Middleware\EncryptCookies' not found in /home/edinplaceauction/public_html/app/Http/Middleware/EncryptCookies.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Middleware/EncryptCookies.php on line 7
+[19-Jun-2021 18:16:24 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\Middleware\PreventRequestsDuringMaintenance' not found in /home/edinplaceauction/public_html/app/Http/Middleware/PreventRequestsDuringMaintenance.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Middleware/PreventRequestsDuringMaintenance.php on line 7
+[19-Jun-2021 18:16:25 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\Middleware\TrimStrings' not found in /home/edinplaceauction/public_html/app/Http/Middleware/TrimStrings.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Middleware/TrimStrings.php on line 7
+[19-Jun-2021 18:16:25 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Http\Middleware\TrustHosts' not found in /home/edinplaceauction/public_html/app/Http/Middleware/TrustHosts.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Middleware/TrustHosts.php on line 7
+[19-Jun-2021 18:16:26 UTC] PHP Fatal error:  Uncaught Error: Class 'Fideloper\Proxy\TrustProxies' not found in /home/edinplaceauction/public_html/app/Http/Middleware/TrustProxies.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Middleware/TrustProxies.php on line 8
+[19-Jun-2021 18:16:26 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\Middleware\VerifyCsrfToken' not found in /home/edinplaceauction/public_html/app/Http/Middleware/VerifyCsrfToken.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Middleware/VerifyCsrfToken.php on line 7

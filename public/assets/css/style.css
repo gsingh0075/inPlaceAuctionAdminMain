@@ -1,0 +1,248 @@
+/*================================================================================
+	Item Name: Frest HTML Admin Template
+	Version: 1.0
+	Author: PIXINVENT
+	Author URL: http://www.themeforest.net/user/pixinvent
+================================================================================
+
+NOTE:
+------
+PLACE HERE YOUR OWN SCSS CODES AND IF NEEDED, OVERRIDE THE STYLES FROM THE OTHER STYLESHEETS.
+WE WILL RELEASE FUTURE UPDATES SO IN ORDER TO NOT OVERWRITE YOUR STYLES IT'S BETTER LIKE THIS.  */
+html body.navbar-static .app-content .content-wrapper{
+    padding: 1rem;
+}
+body.dark-layout{
+    background-color: #fff;
+}
+body.dark-layout .breadcrumb{
+    background-color: #fff;
+}
+body.dark-layout input.form-control, body.dark-layout .custom-file-label, body.dark-layout textarea.form-control{
+    color: #fff;
+}
+body.dark-layout .select2-container .select2-selection .select2-selection__rendered{
+    color: #fff;
+}
+#addItemBidModal .select2-container, #addItemExpenseModal .select2-container{
+    width: 100% !important;
+}
+body.dark-layout select.form-control, body.dark-layout .custom-select{
+    color: #fff;
+}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
+    text-transform: uppercase;
+}
+body.dark-layout h1, body.dark-layout h2, body.dark-layout h3, body.dark-layout h4, body.dark-layout h5, body.dark-layout h6{
+    color: #fff;
+}
+body.dark-layout p, body.dark-layout small, body.dark-layout span, body.dark-layout label{
+    color: #fff;
+}
+body.dark-layout .card .card-body{
+    border-radius: 10px;
+}
+h6{
+    font-size: 1.2rem;
+}
+nav.header-navbar .navbar-container ul.nav li.dropdown .dropdown-menu{
+    top: 30px;
+}
+.header-navbar .navbar-container ul.nav li.dropdown .dropdown-menu{
+    top: 40px;
+}
+/*.addContainer .card-content{
+    background-color:#dfddff
+}*/
+div.dataTables_wrapper div.dataTables_filter, div.dataTables_wrapper div.dataTables_length {
+    margin: 0 1rem !important;
+    display: inline;
+}
+.dataTables_filter{
+    float: right;
+}
+.table th{
+    padding: 1rem;
+}
+.table td{
+    padding: 0.8rem;
+}
+.table th select{
+    padding:0.35rem 0.7rem
+}
+.semi-dark-layout .table {
+    color: #000;
+}
+.dark .table{
+    color: #727E8C;
+}
+/* Semi-Dark*/
+.semi-dark-layout .table.dataTable{
+    margin-top: 10px !important;
+}
+.semi-dark-layout .table.dataTable td.twoWeekOld a{
+    color: #000;
+}
+.semi-dark-layout .table.dataTable td.sixWeekOld a{
+    color: #000;
+}
+.semi-dark-layout .table.dataTable td.twelveWeekOld a{
+    color: #000;
+}
+.semi-dark-layout .table.dataTable td.inWeekOld a{
+    color: #000;
+}
+.semi-dark-layout .table.dataTable td a{
+    color: #000;
+    text-decoration: underline;
+}
+/* Dark */
+.dark-layout .table.dataTable{
+    margin-top: 10px !important;
+}
+.dark-layout .table.dataTable td.twoWeekOld a{
+    color: #98c9fe;
+}
+.dark-layout .table.dataTable td.sixWeekOld a{
+    color: #b3fdb5;
+}
+.dark-layout .table.dataTable td.twelveWeekOld a{
+    color: #ffff80;
+}
+.dark-layout .table.dataTable td.inWeekOld a{
+    color: #ff9fbc;
+}
+.dark-layout .table.dataTable td a{
+    color: #fff;
+    text-decoration: underline;
+}
+/* Semi Dark theme */
+.semi-dark-layout .table.dataTable td span.twoWeekOld{
+    background-color: #98c9fe;
+}
+.semi-dark-layout .table.dataTable td span.sixWeekOld{
+    background-color: #b3fdb5;
+}
+.semi-dark-layout .table.dataTable td span.twelveWeekOld{
+    background-color: #ffff80;
+}
+.semi-dark-layout .table.dataTable td span.inWeekOld{
+    background-color: #ff9fbc;
+}
+.semi-dark-layout .table.dataTable td.twoWeekOld{
+    background-color: #98c9fe;
+}
+.semi-dark-layout .table.dataTable td.sixWeekOld{
+    background-color: #b3fdb5;
+}
+.semi-dark-layout .table.dataTable td.twelveWeekOld{
+    background-color: #ffff80;
+}
+.semi-dark-layout .table.dataTable td.inWeekOld{
+    background-color: #ff9fbc;
+}
+/* Dark theme */
+.dark-layout .table.dataTable td span.twoWeekOld{
+    color: #98c9fe;
+}
+.dark-layout .table.dataTable td span.sixWeekOld{
+    color: #b3fdb5;
+}
+.dark-layout .table.dataTable td span.twelveWeekOld{
+    color: #ffff80;
+}
+.dark-layout .table.dataTable td span.inWeekOld{
+    color: #ff9fbc;
+}
+.dark-layout .table.dataTable td.twoWeekOld{
+    color: #98c9fe;
+}
+.dark-layout .table.dataTable td.sixWeekOld{
+    color: #b3fdb5;
+}
+.dark-layout .table.dataTable td.twelveWeekOld{
+    color: #ffff80;
+}
+.dark-layout .table.dataTable td.inWeekOld{
+    color: #ff9fbc;
+}
+.table tr.tableRow-light{
+    background-color: #e5e9ed !important;
+}
+td.details-control {
+    background: url('../images/details_open.png') no-repeat center center;
+    cursor: pointer;
+}
+tr.shown td.details-control {
+    background: url('../images/details_close.png') no-repeat center center;
+}
+.card-content table{
+    font-size: 0.9rem;
+}
+body.dark-layout .table tbody td, body.dark-layout .table tbody th{
+    color: #fff;
+}
+label{
+    font-size: 0.9rem;
+}
+.widget-timeline{
+    background: #fff;
+    border-radius: 5px;
+}
+.contractorMarkerContent{
+    min-width: 230px;
+    min-height: 185px;
+}
+.dropzone .dz-message{
+    top: 25%;
+}
+.ui-widget-content{
+    z-index:9999;
+}
+body.dark-layout #dashboard-ecommerce .statistics span.text-success{
+    color: #39DA8A !important;
+}
+body.dark-layout #dashboard-ecommerce .statistics span.text-danger{
+    color: #FF5B5C !important;
+}
+.form-group.required:before {
+    content:"*";
+    color:red;
+    position: absolute;
+    left: -20px;
+}
+/* Dark theme */
+.semi-dark-layout .progress{
+    background: #fff;
+}
+
+.semi-dark-layout #findContractorMap .select2-container .select2-selection {
+    background: #cfcfcf !important;
+    border: 0;
+}
+.semi-dark-layout #findContractorMap .select2-search__field{
+    color: #000 !important;
+}
+
+.dark-layout #findContractorMap .select2-container .select2-selection {
+    background: #fff !important;
+    border: 0;
+}
+.dark-layout #findContractorMap .select2-search__field{
+    color: #000 !important;
+}
+/** Dark and Light **/
+.dark-layout #authorizeModal .itemText{
+    color: #fff;
+}
+.semi-dark-layout #authorizeModal .itemText{
+    color: #000;
+}
+
+.dark-layout .table.dataTable td.working-files{
+    color: #ff9fbc;
+}
+.semi-dark-layout .table.dataTable td.working-files{
+    background-color: #ff9fbc;
+}
+

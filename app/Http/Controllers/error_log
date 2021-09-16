@@ -1,0 +1,584 @@
+[27-Feb-2021 21:17:21 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/edinplaceauction/public_html/app/Http/Controllers/AccountingController.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Controllers/AccountingController.php on line 12
+[27-Feb-2021 21:17:22 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/edinplaceauction/public_html/app/Http/Controllers/AssignmentClientController.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Controllers/AssignmentClientController.php on line 10
+[27-Feb-2021 21:17:22 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/edinplaceauction/public_html/app/Http/Controllers/AssignmentController.php:42
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Controllers/AssignmentController.php on line 42
+[27-Feb-2021 21:17:23 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/edinplaceauction/public_html/app/Http/Controllers/ClientHomeController.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Controllers/ClientHomeController.php on line 19
+[27-Feb-2021 21:17:24 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/edinplaceauction/public_html/app/Http/Controllers/ClientsController.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Controllers/ClientsController.php on line 18
+[27-Feb-2021 21:17:24 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/edinplaceauction/public_html/app/Http/Controllers/ContractorController.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Controllers/ContractorController.php on line 18
+[27-Feb-2021 21:17:25 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Routing\Controller' not found in /home/edinplaceauction/public_html/app/Http/Controllers/Controller.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Controllers/Controller.php on line 10
+[27-Feb-2021 21:17:25 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/edinplaceauction/public_html/app/Http/Controllers/CustomerInvoiceController.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Controllers/CustomerInvoiceController.php on line 12
+[27-Feb-2021 21:17:26 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/edinplaceauction/public_html/app/Http/Controllers/FmvClientController.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Controllers/FmvClientController.php on line 20
+[27-Feb-2021 21:17:26 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/edinplaceauction/public_html/app/Http/Controllers/FmvController.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Controllers/FmvController.php on line 25
+[27-Feb-2021 21:17:27 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/edinplaceauction/public_html/app/Http/Controllers/HomeController.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Controllers/HomeController.php on line 20
+[27-Feb-2021 21:17:27 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/edinplaceauction/public_html/app/Http/Controllers/ItemController.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Controllers/ItemController.php on line 34
+[27-Feb-2021 21:17:28 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/edinplaceauction/public_html/app/Http/Controllers/NotificationController.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Controllers/NotificationController.php on line 8
+[14-Mar-2021 22:55:16 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/edinplaceauction/public_html/app/Http/Controllers/AccountingController.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Controllers/AccountingController.php on line 12
+[14-Mar-2021 22:55:16 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/edinplaceauction/public_html/app/Http/Controllers/AssignmentClientController.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Controllers/AssignmentClientController.php on line 10
+[14-Mar-2021 22:55:17 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/edinplaceauction/public_html/app/Http/Controllers/AssignmentController.php:44
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Controllers/AssignmentController.php on line 44
+[14-Mar-2021 22:55:17 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/edinplaceauction/public_html/app/Http/Controllers/AssignmentController_BKUP.php:42
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Controllers/AssignmentController_BKUP.php on line 42
+[14-Mar-2021 22:55:18 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/edinplaceauction/public_html/app/Http/Controllers/ClientHomeController.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Controllers/ClientHomeController.php on line 19
+[14-Mar-2021 22:55:18 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/edinplaceauction/public_html/app/Http/Controllers/ClientsController.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Controllers/ClientsController.php on line 18
+[14-Mar-2021 22:55:19 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/edinplaceauction/public_html/app/Http/Controllers/ContractorController.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Controllers/ContractorController.php on line 18
+[14-Mar-2021 22:55:19 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Routing\Controller' not found in /home/edinplaceauction/public_html/app/Http/Controllers/Controller.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Controllers/Controller.php on line 10
+[14-Mar-2021 22:55:20 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/edinplaceauction/public_html/app/Http/Controllers/CustomerInvoiceController.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Controllers/CustomerInvoiceController.php on line 12
+[14-Mar-2021 22:55:20 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/edinplaceauction/public_html/app/Http/Controllers/FmvClientController.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Controllers/FmvClientController.php on line 20
+[14-Mar-2021 22:55:21 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/edinplaceauction/public_html/app/Http/Controllers/FmvController.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Controllers/FmvController.php on line 25
+[14-Mar-2021 22:55:21 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/edinplaceauction/public_html/app/Http/Controllers/HomeController.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Controllers/HomeController.php on line 21
+[14-Mar-2021 22:55:22 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/edinplaceauction/public_html/app/Http/Controllers/ItemController.php:35
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Controllers/ItemController.php on line 35
+[14-Mar-2021 22:55:22 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/edinplaceauction/public_html/app/Http/Controllers/ItemController_BKUP.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Controllers/ItemController_BKUP.php on line 34
+[14-Mar-2021 22:55:23 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/edinplaceauction/public_html/app/Http/Controllers/NotificationController.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Controllers/NotificationController.php on line 8
+[28-Mar-2021 18:17:01 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/edinplaceauction/public_html/app/Http/Controllers/AccountingController.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Controllers/AccountingController.php on line 12
+[28-Mar-2021 18:17:02 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/edinplaceauction/public_html/app/Http/Controllers/AssignmentClientController.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Controllers/AssignmentClientController.php on line 10
+[28-Mar-2021 18:17:03 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/edinplaceauction/public_html/app/Http/Controllers/AssignmentController.php:44
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Controllers/AssignmentController.php on line 44
+[28-Mar-2021 18:17:03 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/edinplaceauction/public_html/app/Http/Controllers/AssignmentController_BKUP.php:42
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Controllers/AssignmentController_BKUP.php on line 42
+[28-Mar-2021 18:17:04 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/edinplaceauction/public_html/app/Http/Controllers/ClientHomeController.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Controllers/ClientHomeController.php on line 19
+[28-Mar-2021 18:17:04 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/edinplaceauction/public_html/app/Http/Controllers/ClientsController.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Controllers/ClientsController.php on line 18
+[28-Mar-2021 18:17:05 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/edinplaceauction/public_html/app/Http/Controllers/ContractorController.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Controllers/ContractorController.php on line 18
+[28-Mar-2021 18:17:05 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Routing\Controller' not found in /home/edinplaceauction/public_html/app/Http/Controllers/Controller.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Controllers/Controller.php on line 10
+[28-Mar-2021 18:17:06 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/edinplaceauction/public_html/app/Http/Controllers/CustomerController.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Controllers/CustomerController.php on line 13
+[28-Mar-2021 18:17:06 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/edinplaceauction/public_html/app/Http/Controllers/CustomerInvoiceController.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Controllers/CustomerInvoiceController.php on line 12
+[28-Mar-2021 18:17:07 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/edinplaceauction/public_html/app/Http/Controllers/FmvClientController.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Controllers/FmvClientController.php on line 20
+[28-Mar-2021 18:17:08 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/edinplaceauction/public_html/app/Http/Controllers/FmvController.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Controllers/FmvController.php on line 25
+[28-Mar-2021 18:17:08 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/edinplaceauction/public_html/app/Http/Controllers/HomeController.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Controllers/HomeController.php on line 21
+[28-Mar-2021 18:17:09 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/edinplaceauction/public_html/app/Http/Controllers/ItemController.php:36
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Controllers/ItemController.php on line 36
+[28-Mar-2021 18:17:09 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/edinplaceauction/public_html/app/Http/Controllers/ItemController_BKUP.php:35
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Controllers/ItemController_BKUP.php on line 35
+[28-Mar-2021 18:17:10 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/edinplaceauction/public_html/app/Http/Controllers/NotificationController.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Controllers/NotificationController.php on line 8
+[11-Apr-2021 13:55:16 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/edinplaceauction/public_html/app/Http/Controllers/AccountingController.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Controllers/AccountingController.php on line 12
+[11-Apr-2021 13:55:16 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/edinplaceauction/public_html/app/Http/Controllers/AssignmentClientController.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Controllers/AssignmentClientController.php on line 10
+[11-Apr-2021 13:55:17 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/edinplaceauction/public_html/app/Http/Controllers/AssignmentController.php:44
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Controllers/AssignmentController.php on line 44
+[11-Apr-2021 13:55:17 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/edinplaceauction/public_html/app/Http/Controllers/AssignmentController_BKUP.php:42
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Controllers/AssignmentController_BKUP.php on line 42
+[11-Apr-2021 13:55:18 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/edinplaceauction/public_html/app/Http/Controllers/ClientHomeController.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Controllers/ClientHomeController.php on line 19
+[11-Apr-2021 13:55:18 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/edinplaceauction/public_html/app/Http/Controllers/ClientsController.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Controllers/ClientsController.php on line 18
+[11-Apr-2021 13:55:19 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/edinplaceauction/public_html/app/Http/Controllers/ContractorController.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Controllers/ContractorController.php on line 18
+[11-Apr-2021 13:55:19 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Routing\Controller' not found in /home/edinplaceauction/public_html/app/Http/Controllers/Controller.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Controllers/Controller.php on line 10
+[11-Apr-2021 13:55:20 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/edinplaceauction/public_html/app/Http/Controllers/CustomerController.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Controllers/CustomerController.php on line 13
+[11-Apr-2021 13:55:20 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/edinplaceauction/public_html/app/Http/Controllers/CustomerInvoiceController.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Controllers/CustomerInvoiceController.php on line 12
+[11-Apr-2021 13:55:21 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/edinplaceauction/public_html/app/Http/Controllers/FmvClientController.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Controllers/FmvClientController.php on line 20
+[11-Apr-2021 13:55:21 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/edinplaceauction/public_html/app/Http/Controllers/FmvController.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Controllers/FmvController.php on line 25
+[11-Apr-2021 13:55:22 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/edinplaceauction/public_html/app/Http/Controllers/HomeController.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Controllers/HomeController.php on line 21
+[11-Apr-2021 13:55:23 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/edinplaceauction/public_html/app/Http/Controllers/ItemController.php:36
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Controllers/ItemController.php on line 36
+[11-Apr-2021 13:55:23 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/edinplaceauction/public_html/app/Http/Controllers/ItemController_BKUP.php:35
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Controllers/ItemController_BKUP.php on line 35
+[11-Apr-2021 13:55:24 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/edinplaceauction/public_html/app/Http/Controllers/NotificationController.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Controllers/NotificationController.php on line 8
+[25-Apr-2021 10:00:08 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/edinplaceauction/public_html/app/Http/Controllers/AccountingController.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Controllers/AccountingController.php on line 15
+[25-Apr-2021 10:00:08 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/edinplaceauction/public_html/app/Http/Controllers/AssignmentClientController.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Controllers/AssignmentClientController.php on line 20
+[25-Apr-2021 10:00:09 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/edinplaceauction/public_html/app/Http/Controllers/AssignmentClientController_bkup21Apr.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Controllers/AssignmentClientController_bkup21Apr.php on line 10
+[25-Apr-2021 10:00:09 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/edinplaceauction/public_html/app/Http/Controllers/AssignmentController.php:45
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Controllers/AssignmentController.php on line 45
+[25-Apr-2021 10:00:10 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/edinplaceauction/public_html/app/Http/Controllers/AssignmentController_bkup21Apr.php:45
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Controllers/AssignmentController_bkup21Apr.php on line 45
+[25-Apr-2021 10:00:11 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/edinplaceauction/public_html/app/Http/Controllers/ClientHomeController.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Controllers/ClientHomeController.php on line 19
+[25-Apr-2021 10:00:11 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/edinplaceauction/public_html/app/Http/Controllers/ClientsController.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Controllers/ClientsController.php on line 18
+[25-Apr-2021 10:00:12 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/edinplaceauction/public_html/app/Http/Controllers/ContractorController.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Controllers/ContractorController.php on line 18
+[25-Apr-2021 10:00:12 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Routing\Controller' not found in /home/edinplaceauction/public_html/app/Http/Controllers/Controller.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Controllers/Controller.php on line 10
+[25-Apr-2021 10:00:13 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/edinplaceauction/public_html/app/Http/Controllers/CustomerController.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Controllers/CustomerController.php on line 13
+[25-Apr-2021 10:00:13 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/edinplaceauction/public_html/app/Http/Controllers/CustomerInvoiceController.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Controllers/CustomerInvoiceController.php on line 12
+[25-Apr-2021 10:00:14 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/edinplaceauction/public_html/app/Http/Controllers/FmvClientController.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Controllers/FmvClientController.php on line 20
+[25-Apr-2021 10:00:14 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/edinplaceauction/public_html/app/Http/Controllers/FmvController.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Controllers/FmvController.php on line 25
+[25-Apr-2021 10:00:15 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/edinplaceauction/public_html/app/Http/Controllers/HomeController.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Controllers/HomeController.php on line 21
+[25-Apr-2021 10:00:15 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/edinplaceauction/public_html/app/Http/Controllers/ItemController.php:37
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Controllers/ItemController.php on line 37
+[25-Apr-2021 10:00:16 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/edinplaceauction/public_html/app/Http/Controllers/NotificationController.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Controllers/NotificationController.php on line 8
+[25-Apr-2021 10:00:17 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/edinplaceauction/public_html/app/Http/Controllers/UserController.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Controllers/UserController.php on line 13
+[09-May-2021 06:12:40 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/edinplaceauction/public_html/app/Http/Controllers/AccountingController.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Controllers/AccountingController.php on line 15
+[09-May-2021 06:12:40 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/edinplaceauction/public_html/app/Http/Controllers/AssignmentClientController.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Controllers/AssignmentClientController.php on line 20
+[09-May-2021 06:12:41 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/edinplaceauction/public_html/app/Http/Controllers/AssignmentClientController_bkup21Apr.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Controllers/AssignmentClientController_bkup21Apr.php on line 10
+[09-May-2021 06:12:41 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/edinplaceauction/public_html/app/Http/Controllers/AssignmentController.php:45
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Controllers/AssignmentController.php on line 45
+[09-May-2021 06:12:42 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/edinplaceauction/public_html/app/Http/Controllers/AssignmentController_bkup21Apr.php:45
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Controllers/AssignmentController_bkup21Apr.php on line 45
+[09-May-2021 06:12:42 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/edinplaceauction/public_html/app/Http/Controllers/ClientHomeController.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Controllers/ClientHomeController.php on line 19
+[09-May-2021 06:12:43 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/edinplaceauction/public_html/app/Http/Controllers/ClientsController.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Controllers/ClientsController.php on line 18
+[09-May-2021 06:12:43 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/edinplaceauction/public_html/app/Http/Controllers/ContractorController.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Controllers/ContractorController.php on line 18
+[09-May-2021 06:12:44 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Routing\Controller' not found in /home/edinplaceauction/public_html/app/Http/Controllers/Controller.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Controllers/Controller.php on line 10
+[09-May-2021 06:12:44 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/edinplaceauction/public_html/app/Http/Controllers/CustomerController.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Controllers/CustomerController.php on line 13
+[09-May-2021 06:12:45 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/edinplaceauction/public_html/app/Http/Controllers/CustomerInvoiceController.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Controllers/CustomerInvoiceController.php on line 12
+[09-May-2021 06:12:45 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/edinplaceauction/public_html/app/Http/Controllers/FmvClientController.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Controllers/FmvClientController.php on line 20
+[09-May-2021 06:12:46 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/edinplaceauction/public_html/app/Http/Controllers/FmvController.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Controllers/FmvController.php on line 25
+[09-May-2021 06:12:46 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/edinplaceauction/public_html/app/Http/Controllers/HomeController.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Controllers/HomeController.php on line 21
+[09-May-2021 06:12:47 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/edinplaceauction/public_html/app/Http/Controllers/ItemController.php:37
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Controllers/ItemController.php on line 37
+[09-May-2021 06:12:47 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/edinplaceauction/public_html/app/Http/Controllers/NotificationController.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Controllers/NotificationController.php on line 8
+[09-May-2021 06:12:48 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/edinplaceauction/public_html/app/Http/Controllers/UserController.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Controllers/UserController.php on line 13
+[22-May-2021 11:27:54 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/edinplaceauction/public_html/app/Http/Controllers/AccountingController.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Controllers/AccountingController.php on line 15
+[22-May-2021 11:27:54 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/edinplaceauction/public_html/app/Http/Controllers/AssignmentClientController.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Controllers/AssignmentClientController.php on line 20
+[22-May-2021 11:27:55 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/edinplaceauction/public_html/app/Http/Controllers/AssignmentController.php:45
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Controllers/AssignmentController.php on line 45
+[22-May-2021 11:27:55 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/edinplaceauction/public_html/app/Http/Controllers/AssignmentController_bkup18may.php:45
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Controllers/AssignmentController_bkup18may.php on line 45
+[22-May-2021 11:27:56 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/edinplaceauction/public_html/app/Http/Controllers/ClientHomeController.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Controllers/ClientHomeController.php on line 19
+[22-May-2021 11:27:56 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/edinplaceauction/public_html/app/Http/Controllers/ClientsController.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Controllers/ClientsController.php on line 18
+[22-May-2021 11:27:57 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/edinplaceauction/public_html/app/Http/Controllers/ContractorController.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Controllers/ContractorController.php on line 18
+[22-May-2021 11:27:57 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Routing\Controller' not found in /home/edinplaceauction/public_html/app/Http/Controllers/Controller.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Controllers/Controller.php on line 10
+[22-May-2021 11:27:58 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/edinplaceauction/public_html/app/Http/Controllers/CustomerController.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Controllers/CustomerController.php on line 13
+[22-May-2021 11:27:58 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/edinplaceauction/public_html/app/Http/Controllers/CustomerInvoiceController.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Controllers/CustomerInvoiceController.php on line 12
+[22-May-2021 11:27:59 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/edinplaceauction/public_html/app/Http/Controllers/FmvClientController.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Controllers/FmvClientController.php on line 20
+[22-May-2021 11:27:59 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/edinplaceauction/public_html/app/Http/Controllers/FmvController.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Controllers/FmvController.php on line 25
+[22-May-2021 11:28:00 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/edinplaceauction/public_html/app/Http/Controllers/HomeController.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Controllers/HomeController.php on line 21
+[22-May-2021 11:28:00 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/edinplaceauction/public_html/app/Http/Controllers/ItemController.php:37
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Controllers/ItemController.php on line 37
+[22-May-2021 11:28:01 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/edinplaceauction/public_html/app/Http/Controllers/NotificationController.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Controllers/NotificationController.php on line 8
+[22-May-2021 11:28:01 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/edinplaceauction/public_html/app/Http/Controllers/UserController.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Controllers/UserController.php on line 13
+[05-Jun-2021 22:28:33 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/edinplaceauction/public_html/app/Http/Controllers/AccountingController.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Controllers/AccountingController.php on line 15
+[05-Jun-2021 22:28:33 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/edinplaceauction/public_html/app/Http/Controllers/AssignmentClientController.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Controllers/AssignmentClientController.php on line 21
+[05-Jun-2021 22:28:34 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/edinplaceauction/public_html/app/Http/Controllers/AssignmentController.php:45
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Controllers/AssignmentController.php on line 45
+[05-Jun-2021 22:28:34 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/edinplaceauction/public_html/app/Http/Controllers/AssignmentController_bkup1june.php:45
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Controllers/AssignmentController_bkup1june.php on line 45
+[05-Jun-2021 22:28:35 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/edinplaceauction/public_html/app/Http/Controllers/ClientHomeController.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Controllers/ClientHomeController.php on line 19
+[05-Jun-2021 22:28:35 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/edinplaceauction/public_html/app/Http/Controllers/ClientsController.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Controllers/ClientsController.php on line 18
+[05-Jun-2021 22:28:36 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/edinplaceauction/public_html/app/Http/Controllers/ContractorController.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Controllers/ContractorController.php on line 18
+[05-Jun-2021 22:28:36 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Routing\Controller' not found in /home/edinplaceauction/public_html/app/Http/Controllers/Controller.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Controllers/Controller.php on line 10
+[05-Jun-2021 22:28:37 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/edinplaceauction/public_html/app/Http/Controllers/CustomerController.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Controllers/CustomerController.php on line 13
+[05-Jun-2021 22:28:37 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/edinplaceauction/public_html/app/Http/Controllers/CustomerInvoiceController.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Controllers/CustomerInvoiceController.php on line 12
+[05-Jun-2021 22:28:38 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/edinplaceauction/public_html/app/Http/Controllers/FmvClientController.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Controllers/FmvClientController.php on line 20
+[05-Jun-2021 22:28:38 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/edinplaceauction/public_html/app/Http/Controllers/FmvController.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Controllers/FmvController.php on line 25
+[05-Jun-2021 22:28:38 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/edinplaceauction/public_html/app/Http/Controllers/HomeController.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Controllers/HomeController.php on line 21
+[05-Jun-2021 22:28:39 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/edinplaceauction/public_html/app/Http/Controllers/ItemController.php:37
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Controllers/ItemController.php on line 37
+[05-Jun-2021 22:28:39 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/edinplaceauction/public_html/app/Http/Controllers/ItemController_bkup1june.php:37
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Controllers/ItemController_bkup1june.php on line 37
+[05-Jun-2021 22:28:40 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/edinplaceauction/public_html/app/Http/Controllers/ItemsClientController.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Controllers/ItemsClientController.php on line 10
+[05-Jun-2021 22:28:40 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/edinplaceauction/public_html/app/Http/Controllers/NotificationController.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Controllers/NotificationController.php on line 8
+[05-Jun-2021 22:28:41 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/edinplaceauction/public_html/app/Http/Controllers/UserController.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Controllers/UserController.php on line 13
+[19-Jun-2021 18:16:09 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/edinplaceauction/public_html/app/Http/Controllers/AccountingController.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Controllers/AccountingController.php on line 15
+[19-Jun-2021 18:16:10 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/edinplaceauction/public_html/app/Http/Controllers/AssignmentClientController.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Controllers/AssignmentClientController.php on line 21
+[19-Jun-2021 18:16:10 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/edinplaceauction/public_html/app/Http/Controllers/AssignmentController.php:45
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Controllers/AssignmentController.php on line 45
+[19-Jun-2021 18:16:10 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/edinplaceauction/public_html/app/Http/Controllers/AssignmentController_bkup1june.php:45
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Controllers/AssignmentController_bkup1june.php on line 45
+[19-Jun-2021 18:16:11 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/edinplaceauction/public_html/app/Http/Controllers/ClientHomeController.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Controllers/ClientHomeController.php on line 19
+[19-Jun-2021 18:16:12 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/edinplaceauction/public_html/app/Http/Controllers/ClientsController.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Controllers/ClientsController.php on line 18
+[19-Jun-2021 18:16:12 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/edinplaceauction/public_html/app/Http/Controllers/ContractorController.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Controllers/ContractorController.php on line 18
+[19-Jun-2021 18:16:12 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Routing\Controller' not found in /home/edinplaceauction/public_html/app/Http/Controllers/Controller.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Controllers/Controller.php on line 10
+[19-Jun-2021 18:16:13 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/edinplaceauction/public_html/app/Http/Controllers/CustomerController.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Controllers/CustomerController.php on line 13
+[19-Jun-2021 18:16:13 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/edinplaceauction/public_html/app/Http/Controllers/CustomerInvoiceController.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Controllers/CustomerInvoiceController.php on line 12
+[19-Jun-2021 18:16:14 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/edinplaceauction/public_html/app/Http/Controllers/FmvClientController.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Controllers/FmvClientController.php on line 20
+[19-Jun-2021 18:16:14 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/edinplaceauction/public_html/app/Http/Controllers/FmvController.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Controllers/FmvController.php on line 25
+[19-Jun-2021 18:16:15 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/edinplaceauction/public_html/app/Http/Controllers/HomeController.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Controllers/HomeController.php on line 21
+[19-Jun-2021 18:16:15 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/edinplaceauction/public_html/app/Http/Controllers/ItemController.php:37
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Controllers/ItemController.php on line 37
+[19-Jun-2021 18:16:16 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/edinplaceauction/public_html/app/Http/Controllers/ItemController_bkup1june.php:37
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Controllers/ItemController_bkup1june.php on line 37
+[19-Jun-2021 18:16:16 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/edinplaceauction/public_html/app/Http/Controllers/ItemsClientController.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Controllers/ItemsClientController.php on line 10
+[19-Jun-2021 18:16:17 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/edinplaceauction/public_html/app/Http/Controllers/NotificationController.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Controllers/NotificationController.php on line 8
+[19-Jun-2021 18:16:17 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/edinplaceauction/public_html/app/Http/Controllers/UserController.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Http/Controllers/UserController.php on line 13

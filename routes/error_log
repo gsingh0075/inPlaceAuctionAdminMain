@@ -1,0 +1,144 @@
+[27-Feb-2021 21:19:26 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Route' not found in /home/edinplaceauction/public_html/routes/api.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/routes/api.php on line 17
+[27-Feb-2021 21:19:26 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Broadcast' not found in /home/edinplaceauction/public_html/routes/channels.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/routes/channels.php on line 16
+[27-Feb-2021 21:19:27 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Artisan' not found in /home/edinplaceauction/public_html/routes/console.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/routes/console.php on line 17
+[27-Feb-2021 21:19:27 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Route' not found in /home/edinplaceauction/public_html/routes/web.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/routes/web.php on line 17
+[14-Mar-2021 22:57:06 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Route' not found in /home/edinplaceauction/public_html/routes/api.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/routes/api.php on line 17
+[14-Mar-2021 22:57:06 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Broadcast' not found in /home/edinplaceauction/public_html/routes/channels.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/routes/channels.php on line 16
+[14-Mar-2021 22:57:07 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Artisan' not found in /home/edinplaceauction/public_html/routes/console.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/routes/console.php on line 17
+[14-Mar-2021 22:57:07 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Route' not found in /home/edinplaceauction/public_html/routes/web.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/routes/web.php on line 17
+[28-Mar-2021 18:19:03 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Route' not found in /home/edinplaceauction/public_html/routes/api.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/routes/api.php on line 17
+[28-Mar-2021 18:19:03 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Broadcast' not found in /home/edinplaceauction/public_html/routes/channels.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/routes/channels.php on line 16
+[28-Mar-2021 18:19:04 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Artisan' not found in /home/edinplaceauction/public_html/routes/console.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/routes/console.php on line 17
+[28-Mar-2021 18:19:04 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Route' not found in /home/edinplaceauction/public_html/routes/web.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/routes/web.php on line 17
+[11-Apr-2021 13:57:19 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Route' not found in /home/edinplaceauction/public_html/routes/api.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/routes/api.php on line 17
+[11-Apr-2021 13:57:19 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Broadcast' not found in /home/edinplaceauction/public_html/routes/channels.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/routes/channels.php on line 16
+[11-Apr-2021 13:57:20 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Artisan' not found in /home/edinplaceauction/public_html/routes/console.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/routes/console.php on line 17
+[11-Apr-2021 13:57:20 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Route' not found in /home/edinplaceauction/public_html/routes/web.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/routes/web.php on line 17
+[25-Apr-2021 10:02:23 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Route' not found in /home/edinplaceauction/public_html/routes/api.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/routes/api.php on line 17
+[25-Apr-2021 10:02:23 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Broadcast' not found in /home/edinplaceauction/public_html/routes/channels.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/routes/channels.php on line 16
+[25-Apr-2021 10:02:24 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Artisan' not found in /home/edinplaceauction/public_html/routes/console.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/routes/console.php on line 17
+[25-Apr-2021 10:02:24 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Route' not found in /home/edinplaceauction/public_html/routes/web.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/routes/web.php on line 17
+[09-May-2021 06:14:38 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Route' not found in /home/edinplaceauction/public_html/routes/api.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/routes/api.php on line 17
+[09-May-2021 06:14:38 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Broadcast' not found in /home/edinplaceauction/public_html/routes/channels.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/routes/channels.php on line 16
+[09-May-2021 06:14:39 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Artisan' not found in /home/edinplaceauction/public_html/routes/console.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/routes/console.php on line 17
+[09-May-2021 06:14:39 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Route' not found in /home/edinplaceauction/public_html/routes/web.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/routes/web.php on line 17
+[22-May-2021 11:29:51 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Route' not found in /home/edinplaceauction/public_html/routes/api.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/routes/api.php on line 17
+[22-May-2021 11:29:51 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Broadcast' not found in /home/edinplaceauction/public_html/routes/channels.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/routes/channels.php on line 16
+[22-May-2021 11:29:52 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Artisan' not found in /home/edinplaceauction/public_html/routes/console.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/routes/console.php on line 17
+[22-May-2021 11:29:52 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Route' not found in /home/edinplaceauction/public_html/routes/web.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/routes/web.php on line 17
+[05-Jun-2021 22:30:31 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Route' not found in /home/edinplaceauction/public_html/routes/api.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/routes/api.php on line 17
+[05-Jun-2021 22:30:32 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Broadcast' not found in /home/edinplaceauction/public_html/routes/channels.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/routes/channels.php on line 16
+[05-Jun-2021 22:30:32 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Artisan' not found in /home/edinplaceauction/public_html/routes/console.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/routes/console.php on line 17
+[05-Jun-2021 22:30:33 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Route' not found in /home/edinplaceauction/public_html/routes/web.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/routes/web.php on line 17
+[19-Jun-2021 18:18:12 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Route' not found in /home/edinplaceauction/public_html/routes/api.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/routes/api.php on line 17
+[19-Jun-2021 18:18:12 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Broadcast' not found in /home/edinplaceauction/public_html/routes/channels.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/routes/channels.php on line 16
+[19-Jun-2021 18:18:13 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Artisan' not found in /home/edinplaceauction/public_html/routes/console.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/routes/console.php on line 17
+[19-Jun-2021 18:18:13 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Route' not found in /home/edinplaceauction/public_html/routes/web.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/routes/web.php on line 17

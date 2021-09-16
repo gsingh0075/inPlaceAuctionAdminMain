@@ -1,0 +1,36 @@
+[27-Feb-2021 21:17:19 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Exceptions\Handler' not found in /home/edinplaceauction/public_html/app/Exceptions/Handler.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Exceptions/Handler.php on line 7
+[14-Mar-2021 22:55:14 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Exceptions\Handler' not found in /home/edinplaceauction/public_html/app/Exceptions/Handler.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Exceptions/Handler.php on line 7
+[28-Mar-2021 18:16:59 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Exceptions\Handler' not found in /home/edinplaceauction/public_html/app/Exceptions/Handler.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Exceptions/Handler.php on line 7
+[11-Apr-2021 13:55:13 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Exceptions\Handler' not found in /home/edinplaceauction/public_html/app/Exceptions/Handler.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Exceptions/Handler.php on line 7
+[25-Apr-2021 10:00:05 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Exceptions\Handler' not found in /home/edinplaceauction/public_html/app/Exceptions/Handler.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Exceptions/Handler.php on line 7
+[09-May-2021 06:12:38 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Exceptions\Handler' not found in /home/edinplaceauction/public_html/app/Exceptions/Handler.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Exceptions/Handler.php on line 7
+[22-May-2021 11:27:52 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Exceptions\Handler' not found in /home/edinplaceauction/public_html/app/Exceptions/Handler.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Exceptions/Handler.php on line 7
+[05-Jun-2021 22:28:31 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Exceptions\Handler' not found in /home/edinplaceauction/public_html/app/Exceptions/Handler.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Exceptions/Handler.php on line 7
+[19-Jun-2021 18:16:07 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Exceptions\Handler' not found in /home/edinplaceauction/public_html/app/Exceptions/Handler.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edinplaceauction/public_html/app/Exceptions/Handler.php on line 7
