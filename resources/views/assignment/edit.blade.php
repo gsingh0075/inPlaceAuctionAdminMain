@@ -205,6 +205,8 @@
             var clientInvoiceId = $('#client_invoice_id');
 
             var visibilityReport = $('.visibilityReport');
+            var itemExpenseDescModal = $('#itemExpenseDescModalHeading');
+            var itemBidDescModal = $('#itemBidDescModalHeading');
 
             $('#bid_date').pickadate(); // Date Picker
 
@@ -295,16 +297,21 @@
                 addItemBidModal.on('show.bs.modal', function (e) {
                     let btn = $(e.relatedTarget);
                     let id = btn.data('id');
-                    console.log(id);
+                    let itemDesc = btn.data('item');
+                    //console.log(id);
                     itemBidId.val(id);
+                    itemBidDescModal.html(itemDesc);
                 });
 
                 /******* Expense Modal Show ********/
                 addItemExpenseModal.on('show.bs.modal', function (e) {
                     let btn = $(e.relatedTarget);
                     let id = btn.data('id');
-                    console.log(id);
+                    let itemDesc = btn.data('item');
+                    //console.log(itemDesc);
+                    //console.log(id);
                     itemExpenseId.val(id);
+                    itemExpenseDescModal.html(itemDesc)
                 });
 
                 /******** Authorize Modal Show ***********/

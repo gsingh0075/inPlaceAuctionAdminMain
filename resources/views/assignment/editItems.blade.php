@@ -63,11 +63,11 @@
                                             <td>{{ $item->LOC_STATE }}</td>
                                             <td>
                                                    <a href="javascript:void(0)" data-toggle="modal"
-                                                   data-id="{{ $item->ITEM_ID }}"
+                                                   data-id="{{ $item->ITEM_ID }}" data-item="{{ $item->ITEM_SERIAL }}"
                                                    data-target="#addItemBidModal">Place</a>
                                             </td>
                                             <td>   <a href="javascript:void(0)" data-toggle="modal"
-                                                   data-id="{{ $item->ITEM_ID }}"
+                                                   data-id="{{ $item->ITEM_ID }}" data-item="{{ $item->ITEM_SERIAL }}"
                                                    data-target="#addItemExpenseModal">Add</a></td>
                                             <td>
                                                    <a href="{{ route('viewItem', $item->ITEM_ID)}}"
@@ -363,7 +363,7 @@
     <div class="modal-dialog modal-dialog-centered" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <h4 class="modal-title" id="myModalLabel33">Place Bid</h4>
+                <h4 class="modal-title">Place Bid - <span id="itemBidDescModalHeading"></span></h4>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <i class="bx bx-x"></i>
                 </button>
@@ -431,7 +431,7 @@
     <div class="modal-dialog modal-dialog-centered" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <h4 class="modal-title" id="myModalLabel33">Add Expense</h4>
+                <h4 class="modal-title" id="myModalLabel33">Add Expense - <span id="itemExpenseDescModalHeading"></span></h4>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <i class="bx bx-x"></i>
                 </button>
