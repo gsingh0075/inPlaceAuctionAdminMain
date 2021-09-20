@@ -1517,7 +1517,7 @@ class AssignmentController extends Controller
         $assignment = Assignment::findorfail($assignmentId);
 
         $authorizationPdf = PDF::loadView('assignment.contractorAuthPdf', ['authorization' => $contractorAuthorizations, 'assignment' => $assignment]);
-        return $authorizationPdf->download($contractorAuthorizations->contractor_auth_id.'.pdf');
+        return $authorizationPdf->download('IPA_pickup_authorization#'.$assignmentId.'.pdf');
 
     }
 
@@ -1528,7 +1528,7 @@ class AssignmentController extends Controller
         $assignment = Assignment::findorfail($assignmentId);
 
         $InvoicePdf = PDF::loadView('assignment.clientInvoicePdf', ['clientInvoice' => $clientInvoice, 'assignment' => $assignment]);
-        return $InvoicePdf->download($invoiceId.'.pdf');
+        return $InvoicePdf->download('IPA_client_invoice#'.$assignmentId.'.pdf');
 
     }
 
@@ -1539,7 +1539,7 @@ class AssignmentController extends Controller
         //Log::info($clientRemittance);
 
         $remittancePdf = PDF::loadView('assignment.clientRemittancePdf', ['clientRemittance' => $clientRemittance ]);
-        return $remittancePdf->download($remittanceId.'.pdf');
+        return $remittancePdf->download('IPA_client_remittance#'.$remittanceId.'.pdf');
 
     }
 
