@@ -73,13 +73,13 @@
     <tr>
         <td style="text-align: left; padding-left: 0">
             <b>Bill to : </b> <br>
-            <b>{{ $clientInvoice->client->COMPANY }}</b> <br>
-            <b>{{ $clientInvoice->client->ADDRESS1 }}</b> <br>
-            <b>{{ $clientInvoice->client->CITY }}, {{ $clientInvoice->client->STATE }},{{ $clientInvoice->client->ZIP }}</b><br>
-            <b>{{ $clientInvoice->client->FIRSTNAME }} {{ $clientInvoice->client->LASTNAME }}</b><br>
-            <b>{{ $clientInvoice->client->PHONE }}</b><br>
-            <b>{{ $clientInvoice->client->EMAIL }}</b><br>
-            <b>{{ $clientInvoice->client->FAX }}</b>
+            {{ $clientInvoice->client->COMPANY }}<br>
+            {{ $clientInvoice->client->ADDRESS1 }}<br>
+            {{ $clientInvoice->client->CITY }}, {{ $clientInvoice->client->STATE }},{{ $clientInvoice->client->ZIP }}<br>
+            {{ $clientInvoice->client->FIRSTNAME }} {{ $clientInvoice->client->LASTNAME }}<br>
+            {{ $clientInvoice->client->PHONE }}<br>
+            {{ $clientInvoice->client->EMAIL }}<br>
+            {{ $clientInvoice->client->FAX }}
         </td>
     </tr>
 </table>
