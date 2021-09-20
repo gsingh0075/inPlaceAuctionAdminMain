@@ -10,6 +10,7 @@ use App\Models\Category;
 use App\Models\ClientInvoiceLines;
 use App\Models\ClientInvoices;
 use App\Models\Customer;
+use App\Models\ExpenseType;
 use App\Models\FmvHasFiles;
 use App\Models\Invoice;
 use App\Models\InvoiceHasItems;
@@ -1333,7 +1334,6 @@ class ItemController extends Controller
     }
 
     // Update Category
-
     public function updateCategory( Request $request){
 
         $validator = \Validator::make(
@@ -1390,5 +1390,120 @@ class ItemController extends Controller
         }
 
     }
+
+    // List All the Categories.
+    public function listExpense(){
+
+        $expense  = ExpenseType::orderBy('name', 'asc')->get();
+
+        return view('expense.list',['expense' => $expense]);
+
+    }
+
+    // Add New Expense
+    public function addNewExpense(Request $request){
+
+        $validator = \Validator::make(
+            array(
+                'expense_name' => $request->input('expense_name'),
+            ),
+            array(
+                'expense_name' => 'required',
+            )
+        );
+
+        if ($validator->fails()) {
+            return response(['status' => false, 'errors' => $validator->messages()], 200);
+        } else {
+
+            try{
+
+                $expenseName = $request->input('expense_name');
+                $expenseType = new ExpenseType();
+                $expenseType->name =  $expenseName;
+                $expenseType->status = 1;
+                $expenseType->save();
+
+                return response(['status' => true, 'data' => $expenseType , 'message' => 'Expense Successfully Added' ], 200);
+
+            } catch (Exception $e) {
+
+                if ($e instanceof ModelNotFoundException) {
+                    Log::error('Model Exception : ' . $e->getMessage());
+                    return response(['status' => false, 'errors' => array('error' => 'No Entry matched for Model ' . str_replace('App\v2\\', '', $e->getModel()), 'value' => $e->getIds())], 400);
+
+                } elseif ($e instanceof QueryException) {
+                    Log::error('Query Exception : ' . $e->getMessage());
+                    return response(['status' => false, 'errors' => array('error' => 'Data save exception. Please contact administrator')], 500);
+
+                } else {
+                    Log::error('Unknown Exception : ' . $e->getMessage());
+                    return response(['status' => false, 'errors' => array('error' => 'Something went wrong')], 500);
+
+                }
+            }
+
+        }
+    }
+
+    // Update Expense
+    public function updateExpense( Request $request){
+
+        $validator = \Validator::make(
+            array(
+                'expense_id'   => $request->input('expense_id'),
+                'expense_name' => $request->input('expense_name'),
+                'status'        => $request->input('status')
+            ),
+            array(
+                'expense_name' => 'required',
+                'expense_id'   => 'required|int',
+                'status'        => 'nullable'
+            )
+        );
+
+        if ($validator->fails()) {
+            return response(['status' => false, 'errors' => $validator->messages()], 200);
+        } else {
+
+            try{
+
+                $expense_name = $request->input('expense_name');
+                $expense_id = $request->input('expense_id');
+                $status = $request->input('status');
+
+                $expenseType = ExpenseType::findorfail($expense_id);
+                $expenseType->name = $expense_name;
+
+                if(isset($status)){
+                    $expenseType->status = $status;
+                }
+
+                $expenseType->save();
+
+                return response(['status' => true, 'data' => $expenseType , 'message' => 'Expense Successfully Updated' ], 200);
+
+            } catch (Exception $e) {
+
+                if ($e instanceof ModelNotFoundException) {
+                    Log::error('Model Exception : ' . $e->getMessage());
+                    return response(['status' => false, 'errors' => array('error' => 'No Entry matched for Model ' . str_replace('App\v2\\', '', $e->getModel()), 'value' => $e->getIds())], 400);
+
+                } elseif ($e instanceof QueryException) {
+                    Log::error('Query Exception : ' . $e->getMessage());
+                    return response(['status' => false, 'errors' => array('error' => 'Data save exception. Please contact administrator')], 500);
+
+                } else {
+                    Log::error('Unknown Exception : ' . $e->getMessage());
+                    return response(['status' => false, 'errors' => array('error' => 'Something went wrong')], 500);
+
+                }
+            }
+
+
+        }
+
+    }
+
 
 }

@@ -260,6 +260,12 @@
                             <span class="menu-item" data-i18n="List">Category</span>
                         </a>
                     </li>
+                    <li class="{{ request()->is('tools/listExpense') ? 'active' : '' }}">
+                        <a class="dropdown-item align-items-center" href="{{ route('listExpense') }}">
+                            <i class="bx bx-right-arrow-alt"></i>
+                            <span class="menu-item" data-i18n="List">Expense Types</span>
+                        </a>
+                    </li>
                 </ul>
             </li>
             <!-- End Tools Menu -->

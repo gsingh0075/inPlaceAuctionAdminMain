@@ -19,6 +19,7 @@ use App\Models\ContractorAuthItem;
 use App\Models\Contractors;
 use App\Models\Customer;
 use App\Models\CustomerInvoice;
+use App\Models\ExpenseType;
 use App\Models\Fmv;
 use App\Models\FmvHasFiles;
 use App\Models\Invoice;
@@ -1033,7 +1034,8 @@ class AssignmentController extends Controller
         $customers = Customer::where('ACTIVE', '=', 1)->get();
 
         // Get All different types of expense
-        $expenseType = ItemHasExpense::distinct()->get(['expense_type']);
+        //$expenseType = ItemHasExpense::distinct()->get(['expense_type']);
+        $expenseType = ExpenseType::where('status',1)->get();
 
         if(isset($assignment->items) && !empty($assignment->items)) {
 

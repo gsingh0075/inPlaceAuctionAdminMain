@@ -28,5 +28,8 @@ Route::get('/tools/listCategories', [\App\Http\Controllers\ItemController::class
 Route::post('/addNewCategory', [\App\Http\Controllers\ItemController::class, 'addNewCategory'])->name('addNewCategory');
 Route::post('/updateCategory', [\App\Http\Controllers\ItemController::class, 'updateCategory'])->name('updateCategory');
 
-
+//Expense Routes
+Route::get('/tools/listExpense', [\App\Http\Controllers\ItemController::class, 'listExpense'])->name('listExpense');
+Route::post('/addNewExpense', [\App\Http\Controllers\ItemController::class, 'addNewExpense'])->name('addNewExpense');
+Route::post('/updateExpense', [\App\Http\Controllers\ItemController::class, 'updateExpense'])->name('updateExpense');
 ?>
