@@ -450,7 +450,7 @@
                                 <option value="">Select</option>
                                 @if(isset($expenseType) && !empty($expenseType))
                                     @foreach($expenseType as $type)
-                                        <option value="{{ $type->expense_type }}">{{ $type->expense_type }}</option>
+                                        <option value="{{ $type->name }}">{{ $type->name }}</option>
                                     @endforeach
                                 @endif
                             </select>
