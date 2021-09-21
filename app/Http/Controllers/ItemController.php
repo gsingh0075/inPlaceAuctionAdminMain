@@ -1221,6 +1221,54 @@ class ItemController extends Controller
         }
 
     }
+    // Update Recovery Date Items
+    public function updateRecoveryDate( Request $request){
+
+        $validator = \Validator::make(
+            array(
+                'items' => $request->input('items'),
+            ),
+            array(
+                'items' => 'required|array',
+            )
+        );
+
+        if ($validator->fails()) {
+            return response(['status' => false, 'errors' => $validator->messages()], 200);
+        } else {
+
+            try{
+
+                $items = $request->input('items');
+
+                if(isset($items) && !empty($items)){
+                    foreach($items as $itemId => $val){
+                        $item = Items::findOrFail($itemId);
+                        $item->ITEM_RECOVERY_DT = Carbon::createFromFormat('j F, Y', $val)->format('Y-m-d H:i:s');
+                        $item->save();
+                    }
+                }
+
+                return response(['status' => true , 'message' => 'Item Recovery Date updated' ], 200);
+
+            } catch (Exception $e) {
+
+                if ($e instanceof ModelNotFoundException) {
+                    Log::error('Model Exception : ' . $e->getMessage());
+                    return response(['status' => false, 'errors' => array('error' => 'No Entry matched for Model ' . str_replace('App\v2\\', '', $e->getModel()), 'value' => $e->getIds())], 400);
+
+                } elseif ($e instanceof QueryException) {
+                    Log::error('Query Exception : ' . $e->getMessage());
+                    return response(['status' => false, 'errors' => array('error' => 'Data save exception. Please contact administrator')], 500);
+
+                } else {
+                    Log::error('Unknown Exception : ' . $e->getMessage());
+                    return response(['status' => false, 'errors' => array('error' => 'Something went wrong')], 500);
+
+                }
+            }
+        }
+    }
     // Accept Bid
     public function acceptBid($bidId) {
 

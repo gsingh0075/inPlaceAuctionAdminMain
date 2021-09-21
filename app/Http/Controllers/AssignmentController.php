@@ -994,16 +994,7 @@ class AssignmentController extends Controller
     // Edit Assignment
     public function show($id) {
 
-
-        //$assignment = '';
-
-        //if(Cache::get('assignmentView-'.$id)){
-
-            //$assignment = Cache::get('assignmentView-'.$id); // Lets Read Cache Data if existed.
-
-        //} else {
-
-            $assignmentQuery = Assignment::with(['communicationsPrivate',
+       $assignmentQuery = Assignment::with(['communicationsPrivate',
                 'communicationsPublic',
                 'client.clientInfo',
                 'files',
@@ -1012,15 +1003,6 @@ class AssignmentController extends Controller
                 'items.expense',
                 'items.itemContractor',
                 'items.invoiceAuth.invoice.remittance'])->findorfail($id);
-
-            //if (isset($assignmentQuery) && !empty($assignmentQuery)) {
-
-               // $assignment = $assignmentQuery;
-               // Cache::put('assignmentView-'.$id, $assignmentQuery, $this->cacheExpires);
-
-            //}
-
-        //}
 
         //Log::info($assignment);
 
@@ -1053,6 +1035,7 @@ class AssignmentController extends Controller
                     }
                 });
                 $contractData = $contractorAuthorizations->get();
+                //Log::info($contractData);
             }
             // We can alo PULLS Client Invoices.
             if(!empty($itemsData)){

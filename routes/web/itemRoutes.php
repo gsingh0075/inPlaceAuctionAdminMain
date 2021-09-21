@@ -20,6 +20,7 @@ Route::post('/addExpenseToItem', [\App\Http\Controllers\ItemController::class, '
 Route::post('/generatePictureReport', [\App\Http\Controllers\ItemController::class, 'generatePictureReport'])->name('generatePictureReport');
 Route::post('/visibilityReport', [\App\Http\Controllers\ItemController::class, 'visibilityReport'])->name('visibilityReport');
 Route::post('/generateCustomerInvoice', [\App\Http\Controllers\ItemController::class, 'generateCustomerInvoice'])->name('generateCustomerInvoice');
+Route::post('/updateRecoveryDate', [\App\Http\Controllers\ItemController::class, 'updateRecoveryDate'])->name('updateRecoveryDate');
 
 
 // Category Routes.
