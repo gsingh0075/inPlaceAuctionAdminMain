@@ -209,7 +209,7 @@
             var itemBidDescModal = $('#itemBidDescModalHeading');
 
             $('#bid_date').pickadate(); // Date Picker
-
+            $('.item_recovery_date_pick').pickadate();
             // Visibility Click
             visibilityReport.click(function(){
 
@@ -545,6 +545,67 @@
 
             });
 
+            /*** Recovery Date update click **/
+            $('#updateRecoveryDateBtn').click(function () {
+
+                console.log('Button clicked');
+                var action = $(this).attr('data-action');
+
+                let items = {};
+
+                $('input[name^=auth_item]').each(function () {
+                    if($(this).val() !== ''){
+                        items[$(this).attr('data-item')] = $(this).val();
+                    }
+                });
+                console.log(items);
+                console.log(Object.keys(items).length);
+
+                if(Object.keys(items).length === 0 ){
+                    Swal.fire({
+                        title: "Missing Items Dates",
+                        text: "Please select items",
+                        type: "error",
+                        confirmButtonClass: 'btn btn-primary',
+                        buttonsStyling: false,
+                    });
+                    return false;
+                }
+
+               $.ajax({
+                    url: action,
+                    type: "POST",
+                    dataType: "json",
+                    data: {
+                        'items': items
+                    },
+                    headers: {"X-CSRF-TOKEN": $('meta[name="csrf-token"]').attr("content")},
+                    success: function (response) {
+                        if (response.status) {
+                            Swal.fire({
+                                title: "Good job!",
+                                text: "Items recovery date updated sucessfully!",
+                                type: "success",
+                                confirmButtonClass: 'btn btn-primary',
+                                buttonsStyling: false,
+                            }).then(function (result) {
+                                if (result.value) {
+                                    window.location.reload();
+                                }
+                            });
+                        } else {
+                            $.each(response.errors, function (key, value) {
+                                toastr.error(value)
+                            });
+                        }
+                    },
+                    error: function (xhr, resp, text) {
+                        console.log(xhr, resp, text);
+                        toastr.error(text);
+                    }
+                });
+
+            });
             /*** Generate Customer Invoice **/
             $('#generateCustomerInvoice').click(function () {
 
