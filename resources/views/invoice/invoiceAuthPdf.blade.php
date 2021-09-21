@@ -71,12 +71,12 @@
     <tr>
         <td style="text-align: left; padding-left: 0">
             <b>Bill to : </b> <br>
-            <b>{{ $authorization->customer->COMPANY }}</b> <br>
-            <b>{{ $authorization->customer->ADDRESS1 }}</b> <br>
-            <b>{{ $authorization->customer->CITY }}, {{ $authorization->customer->STATE }},{{ $authorization->customer->ZIP }}</b><br>
-            <b>{{ $authorization->customer->FIRSTNAME }} {{ $authorization->customer->LASTNAME }}</b><br>
-            <b>{{ $authorization->customer->PHONE }}</b><br>
-            <b>{{ $authorization->customer->EMAIL }}</b>
+            {{ $authorization->customer->COMPANY }} <br>
+            {{ $authorization->customer->ADDRESS1 }} <br>
+            {{ $authorization->customer->CITY }}, {{ $authorization->customer->STATE }},{{ $authorization->customer->ZIP }}<br>
+            {{ $authorization->customer->FIRSTNAME }} {{ $authorization->customer->LASTNAME }}<br>
+            {{ $authorization->customer->PHONE }}<br>
+            {{ $authorization->customer->EMAIL }}
         </td>
     </tr>
 </table>
@@ -130,8 +130,12 @@
                 </tr>
             @endif
         </table>
-      <p>AS IS, WHERE IS except for title when applicable, Seller shall make no warranties regarding the Equipment. Seller believes the Equipment is accurately described, but does not guarantee this. Buyer is responsible for all storage, maintenance and insurance costs once full payment is received</p>
-      <h4 style="text-align: center; margin-top: 10px"> Payment Due Upon Receipt :</h4>
+     @if(isset($authorization->special_instructions) && !empty($authorization->special_instructions))
+     <h4 style="text-align: left;"> Notes :</h4>
+     <p>{{ $authorization->special_instructions }}</p>
+     @endif
+     <p>AS IS, WHERE IS except for title when applicable, Seller shall make no warranties regarding the Equipment. Seller believes the Equipment is accurately described, but does not guarantee this. Buyer is responsible for all storage, maintenance and insurance costs once full payment is received</p>
+     <h4 style="text-align: center; margin-top: 10px"> Payment Due Upon Receipt :</h4>
      <p style="text-align: center">Make all checks payable to:</p>
      <p style="text-align: center; font-weight: bold;">InPlace Auction LLC. <br>
      68 South Service Road, Suite 100 <br>

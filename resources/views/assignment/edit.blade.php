@@ -553,6 +553,8 @@
 
                 let items = [];
                 let customerId = $('#customer_invoice').val();
+                let notes = $('#notes_invoice').val();
+
                 $('input[name="invoice_itemIds[]"]:checked').each(function () {
                     items.push($(this).val());
                 });
@@ -587,6 +589,7 @@
                     data: {
                         'customer_id': parseInt(customerId),
                         'items': items,
+                        'notes' : notes
                     },
                     headers: {"X-CSRF-TOKEN": $('meta[name="csrf-token"]').attr("content")},
                     success: function (response) {
