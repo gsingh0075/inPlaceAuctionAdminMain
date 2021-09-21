@@ -19,7 +19,7 @@ class CustomerInvoiceController extends Controller
         $invoiceAuthorization = Invoice::with(['customer', 'items.item.bids'])->findorfail($InvoiceId);
 
         $authorizationPdf = PDF::loadView('invoice.invoiceAuthPdf', ['authorization' => $invoiceAuthorization]);
-        return $authorizationPdf->download($invoiceAuthorization->invoice_auth_id.'.pdf');
+        return $authorizationPdf->download('IPA_customer_invoice#'.$invoiceAuthorization->invoice_auth_id.'.pdf');
 
     }
 

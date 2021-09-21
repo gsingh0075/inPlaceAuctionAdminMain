@@ -1128,6 +1128,7 @@ class ItemController extends Controller
             try{
 
                 $items = $request->input('items');
+                $notes = $request->input('notes');
                 $customerId = $request->input('customer_id');
                 $invoiceAmount = 0;
 
@@ -1158,6 +1159,7 @@ class ItemController extends Controller
                 $invoiceAuth->customer_id = $customer->CUSTOMER_ID;
                 $invoiceAuth->create_dt = Carbon::now()->format('y-m-d H:i:s');
                 $invoiceAuth->invoice_amount = $invoiceAmount;
+                $invoiceAuth->special_instructions = $notes;
                 $invoiceAuth->terms = 'Total Due on Receipt';
                 $invoiceAuth->send_to_email = $customer->EMAIL;
                 $invoiceAuth->invoice_number = $invoiceNumber;
@@ -1181,7 +1183,7 @@ class ItemController extends Controller
                     $invoiceAuthorization = Invoice::with(['customer', 'items.item.bids'])->findorfail($invoiceAuth->invoice_auth_id);
                     $customerPdf = PDF::loadView('invoice.invoiceAuthPdf', ['authorization' => $invoiceAuthorization]);
 
-                    $fileOriginalName = 'CustomerInvoice_'.$invoiceAuth->invoice_auth_id.'.pdf';
+                    $fileOriginalName = 'IPA_Customer_Invoice#'.$invoiceAuth->invoice_auth_id.'.pdf';
                     Storage::disk('gcs')->put('assignment/'.$itemData->ASSIGNMENT_ID.'/'.$fileOriginalName, $customerPdf->output());
 
                     $assignmentHasFiles = new AssignmentHasFiles();

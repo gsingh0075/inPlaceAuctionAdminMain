@@ -190,6 +190,16 @@
                                             </div>
                                         </div>
                                     </div>
+                                    <div class="col-12">
+                                        <div class="row">
+                                            <div class="col-md-5 col-12">
+                                                <label for="notes_invoice">Notes</label>
+                                            </div>
+                                            <div class="col-md-7 form-group col-12">
+                                                <textarea name="notes_invoice" id="notes_invoice" cols="5" rows="4" style="width:90%"></textarea>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
