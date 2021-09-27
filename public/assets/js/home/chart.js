@@ -591,6 +591,8 @@ function loadFmvTypeAnalysis( year, month ){
     let medFmvData = [];
     let HighFmvData = [];
     let assignmentFmvData = [];
+    let clientInvoiceOut = [];
+    let customerInvoiceOut = [];
     let fmvGenerated = [];
     let assignmentGenerated = [];
 
@@ -615,11 +617,13 @@ function loadFmvTypeAnalysis( year, month ){
                     medFmvData.push(result.medFmv[m]/1000);
                     HighFmvData.push(result.highFmv[m]/1000);
                     assignmentFmvData.push(result.assignmentFmv[m]/1000);
+                    clientInvoiceOut.push(result.clientInvoicesOut[m]/1000);
+                    customerInvoiceOut.push(result.customerInvoiceOut[m]/1000);
                     fmvGenerated.push(result.FmvGenerated[m]);
                     assignmentGenerated.push(result.assignmentGenerated[m]);
                 });
 
-                generateFmvItemAnalysis(columnMonths, lowFmvData, medFmvData, HighFmvData, assignmentFmvData);
+                generateFmvItemAnalysis(columnMonths, lowFmvData, medFmvData, HighFmvData, assignmentFmvData, clientInvoiceOut, customerInvoiceOut);
                 generateFmvToAssignmentAnalysis(columnMonths,fmvGenerated,assignmentGenerated);
 
             } else {
@@ -820,7 +824,7 @@ function loadCustomerReceivables( year, month){
     }
 // Function generate FMV Item Analysis
 
-function generateFmvItemAnalysis(categories, lowFmvData, MedFmvData, higFmvData, assignmentFmvData ) {
+function generateFmvItemAnalysis(categories, lowFmvData, MedFmvData, higFmvData, assignmentFmvData, clientInvoiceOut, customerInvoiceOut ) {
 
     var columnChartOptions = {
         chart: {
@@ -855,6 +859,12 @@ function generateFmvItemAnalysis(categories, lowFmvData, MedFmvData, higFmvData,
         },{
             name: 'Sum of Assignment Item FMV Value',
             data: assignmentFmvData
+        },{
+            name: 'Client Invoices Sent',
+            data: clientInvoiceOut
+         },{
+           name: 'Customer Invoice Sent',
+           data: customerInvoiceOut
         }],
         legend: {
             offsetY: -10
