@@ -115,7 +115,7 @@
                     </div>
                 </div>
                 <div class="list-content">
-                    <span class="list-title">Expected EQ sales</span>
+                    <span class="list-title">Current Inventory Value</span>
                 </div>
             </div>
             <span>${{  number_format($data['expectedOlvValue'], 2) }}</span>
@@ -235,7 +235,7 @@
                     </div>
                 </div>
                 <div class="list-content">
-                    <h5>Total Profit</h5>
+                    <h5>Gross Profit</h5>
                 </div>
             </div>
             <span class="text-success">${{number_format($data['profit'], 2) }}</span>
