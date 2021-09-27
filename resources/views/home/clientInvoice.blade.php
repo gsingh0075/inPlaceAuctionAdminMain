@@ -10,22 +10,22 @@
                        <!-- data -->
                        <div class="statistics-data my-auto">
                            <div class="statistics">
-                               @php $totalPendingAmount = 0 ; @endphp
+                               @php $totalInvoiceAmountSent = 0 ; @endphp
                                @if( (isset($clientInvoicesOut)) &&  (count($clientInvoicesOut) > 0))
                                    @foreach( $clientInvoicesOut as $amount)
-                                       @php $totalPendingAmount += $amount->invoice_amount; @endphp
+                                       @php $totalInvoiceAmountSent += $amount->invoice_amount; @endphp
                                    @endforeach
                                @endif
-                               <!--<span class="font-medium-2 mr-50 text-bold-600"> Total ${{ number_format(round($totalPendingAmount,2)) }}</span>-->
+                               <!--<span class="font-medium-2 mr-50 text-bold-600"> Total ${{ number_format(round($totalInvoiceAmountSent,2)) }}</span>-->
                            </div>
                        </div>
                    </div>
                </div>
                @php $totalPaidAmount = 0 ;
-                 $totalUnPaidAmount = 0 ;
+                    $totalUnPaidAmount = 0 ;
                @endphp
-               @if( (isset($clientInvoicesOut)) &&  (count($clientInvoicesOut) > 0))
-                   @foreach( $clientInvoicesOut as $amount)
+               @if( (isset($clientInvoicesPaid)) &&  (count($clientInvoicesPaid) > 0))
+                   @foreach( $clientInvoicesPaid as $amount)
                        @if($amount->paid === 1)
                            @php $totalPaidAmount += $amount->invoice_amount; @endphp
                        @else
@@ -47,16 +47,16 @@
                        </div>
                    </div>
                </div>
-               <!--<div class="d-inline-block">
+               <div class="d-inline-block">
                    <div class="d-flex market-statistics-1">
                        <div id="donut-success-chart"></div>
                        <div class="statistics-data my-auto">
                            <div class="statistics">
-                               <span class="font-medium-2 mr-50 text-bold-600 text-danger"> UnPaid ${{ number_format(round($totalUnPaidAmount,2)) }}</span>
+                               <span class="font-medium-2 mr-50 text-bold-600 text-danger"> Invoice Sent ${{ number_format(round($totalInvoiceAmountSent,2)) }}</span>
                            </div>
                        </div>
                    </div>
-               </div>-->
+               </div>
            </div>
        </div>
        <div class="table-responsive" id="client-receivable-table" style="height: 500px">
@@ -75,8 +75,8 @@
                </tr>
                </thead>
                <tbody>
-               @if( (isset($clientInvoicesOut)) &&  (count($clientInvoicesOut) > 0))
-                   @foreach($clientInvoicesOut as $clientInvoice)
+               @if( (isset($clientInvoicesPaid)) &&  (count($clientInvoicesPaid) > 0))
+                   @foreach($clientInvoicesPaid as $clientInvoice)
                        <tr>
                            <td>
                                {{ $clientInvoice->invoice_number }}

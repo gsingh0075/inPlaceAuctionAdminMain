@@ -10,13 +10,13 @@
                         <!-- data -->
                         <!--<div class="statistics-data my-auto">
                             <div class="statistics">
-                                @php $totalCustomerPendingAmount = 0 ; @endphp
+                                @php $totalCustomerInvoiceAmountSent = 0 ; @endphp
                                 @if( (isset($customerInvoicesOut)) &&  (count($customerInvoicesOut) > 0))
                                     @foreach( $customerInvoicesOut as $amt)
-                                        @php $totalCustomerPendingAmount += $amt->invoice_amount; @endphp
+                                        @php $totalCustomerInvoiceAmountSent += $amt->invoice_amount; @endphp
                                     @endforeach
                                 @endif
-                                <span class="font-medium-2 mr-50 text-bold-600"> Total ${{ number_format(round($totalCustomerPendingAmount,2)) }}</span>
+                                <span class="font-medium-2 mr-50 text-bold-600"> Total ${{ number_format(round($totalCustomerInvoiceAmountSent,2)) }}</span>
                             </div>
                         </div>-->
                     </div>
@@ -24,8 +24,8 @@
                 @php $totalPaidAmount = 0 ;
                  $totalUnPaidAmount = 0 ;
                 @endphp
-                @if( (isset($customerInvoicesOut)) &&  (count($customerInvoicesOut) > 0))
-                    @foreach( $customerInvoicesOut as $amount)
+                @if( (isset($customerInvoicesPaid)) &&  (count($customerInvoicesPaid) > 0))
+                    @foreach( $customerInvoicesPaid as $amount)
                         @if($amount->paid === 1)
                             @php $totalPaidAmount += $amount->invoice_amount; @endphp
                         @else
@@ -49,14 +49,14 @@
                 </div>
                 <div class="d-inline-block">
                     <!-- chart-1   -->
-                    <!--<div class="d-flex market-statistics-1">
+                    <div class="d-flex market-statistics-1">
                         <div id="donut-success-chart"></div>
                         <div class="statistics-data my-auto">
                             <div class="statistics">
-                                <span class="font-medium-2 mr-50 text-bold-600 text-danger"> UnPaid ${{ number_format(round($totalUnPaidAmount,2)) }}</span>
+                                <span class="font-medium-2 mr-50 text-bold-600 text-danger"> Invoice Sent ${{ number_format(round($totalCustomerInvoiceAmountSent,2)) }}</span>
                             </div>
                         </div>
-                    </div>-->
+                    </div>
                 </div>
             </div>
         </div>
@@ -76,8 +76,8 @@
                 </tr>
                 </thead>
                 <tbody>
-                @if( (isset($customerInvoicesOut)) &&  (count($customerInvoicesOut) > 0))
-                    @foreach($customerInvoicesOut as $customerInvoice)
+                @if( (isset($customerInvoicesPaid)) &&  (count($customerInvoicesPaid) > 0))
+                    @foreach($customerInvoicesPaid as $customerInvoice)
                         <tr>
                             <td>
                                 {{ $customerInvoice->invoice_number }}

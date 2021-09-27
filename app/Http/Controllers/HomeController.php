@@ -105,7 +105,7 @@ class HomeController extends Controller
 
         $fmvData = Fmv::with(['items'])->orderBy('cdate', 'asc')->whereYear('cdate', '=', $filterYear)->get();
         $assignmentData = Assignment::with(['items'])->orderBy('dt_stmp','asc')->whereYear('dt_stmp','=',$filterYear)->get();
-        
+
         //Log::info($fmvData);
         // Lets generate Empty Stats for Calculations.
         $lowFmvItems = array('Jan' => 0 ,'Feb' => 0,'Mar' => 0,'Apr' => 0,'May' => 0,'Jun' => 0,'Jul'=> 0,'Aug'=>0,'Sep'=>0,'Oct' =>0 ,'Nov'=> 0,'Dec'=> 0);
@@ -149,7 +149,7 @@ class HomeController extends Controller
                 }
             }
         }
-        
+
           // Processing assignment data
         if(isset($assignmentData) && !empty($assignmentData)){
             foreach ($assignmentData as $assignment) {
@@ -486,16 +486,19 @@ class HomeController extends Controller
                 //Log::info($filterMonth);
                 //Log::info($filterYear);
 
-                $clientInvoicesOut = ClientInvoices::with(['client', 'lines.expense.item'])
+                $clientInvoicesPaid = ClientInvoices::with(['client', 'lines.expense.item'])
                                      ->where('sent','=',1)
-                                     //->whereMonth('sent_dt', '=', $filterMonth)
                                      ->whereIn(DB::raw('MONTH(paid_dt1)'), $filterMonth)
                                      ->whereYear('sent_dt','=', $filterYear)->get();
 
+                $clientInvoicesOut = ClientInvoices::with(['client', 'lines.expense.item'])
+                                    ->where('sent','=',1)
+                                    ->whereIn(DB::raw('MONTH(sent_dt)'), $filterMonth)
+                                    ->whereYear('sent_dt','=', $filterYear)->get();
+
                 //Log::info($clientInvoicesOut);
 
-
-                return response()->json(['status' => true, 'html' => View('home.clientInvoice', compact('clientInvoicesOut'))->render()]);
+                return response()->json(['status' => true, 'html' => View('home.clientInvoice', compact('clientInvoicesOut','clientInvoicesPaid'))->render()]);
 
             } catch (Exception $e) {
 
@@ -556,15 +559,20 @@ class HomeController extends Controller
                 //Log::info($filterMonth);
                 //Log::info($filterYear);
 
-                $customerInvoicesOut = Invoice::with(['customer','items.item'])
+                $customerInvoicesPaid = Invoice::with(['customer','items.item'])
                                        ->where('email_sent','=',1)
-                                       //->whereMonth('sent_date', '=', $filterMonth)
                                        ->whereIn(DB::raw('MONTH(paid_dt)'), $filterMonth)
                                        ->whereYear('sent_date','=', $filterYear)
                                        ->orderBy('generated_date','asc')->get();
 
+                $customerInvoicesOut = Invoice::with(['customer','items.item'])
+                                        ->where('email_sent','=',1)
+                                        ->whereIn(DB::raw('MONTH(sent_date)'), $filterMonth)
+                                        ->whereYear('sent_date','=', $filterYear)
+                                        ->orderBy('generated_date','asc')->get();
+
                 //Log::info($customerInvoicesOut);
-                return response()->json(['status' => true, 'html' => View('home.customerInvoice', compact('customerInvoicesOut'))->render()]);
+                return response()->json(['status' => true, 'html' => View('home.customerInvoice', compact('customerInvoicesOut','customerInvoicesPaid'))->render()]);
 
             } catch (Exception $e) {
 
