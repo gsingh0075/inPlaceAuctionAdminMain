@@ -106,7 +106,10 @@ class HomeController extends Controller
         $fmvData = Fmv::with(['items'])->orderBy('cdate', 'asc')->whereYear('cdate', '=', $filterYear)->get();
         $assignmentData = Assignment::with(['items'])->orderBy('dt_stmp','asc')->whereYear('dt_stmp','=',$filterYear)->get();
         $clientInvoicesData = ClientInvoices::with(['client', 'lines.expense.item'])->where('sent','=',1)->whereYear('sent_dt','=', $filterYear)->get();
+        $clientInvoicesPaidData = ClientInvoices::with(['client', 'lines.expense.item'])->where('sent','=',1)->where('paid', '=', '1')->whereYear('paid_dt1','=', $filterYear)->get();
         $customerInvoicesData = Invoice::with(['customer','items.item'])->where('email_sent','=',1)->whereYear('sent_date','=', $filterYear)->get();
+        $customerInvoicesPaidData =  Invoice::with(['customer','items.item'])->where('email_sent','=',1)->where('paid','=',1)->whereYear('paid_dt','=', $filterYear)->get();
+        $clientRemittanceData = ClientRemittance::where('SENT', '=', 1)->whereYear('SENT_DATE','=', $filterYear)->get();
 
         //Log::info($fmvData);
         // Lets generate Empty Stats for Calculations.
@@ -115,7 +118,11 @@ class HomeController extends Controller
         $highFmvItems = array('Jan' => 0 ,'Feb' => 0,'Mar' => 0,'Apr' => 0,'May' => 0,'Jun' => 0,'Jul'=> 0,'Aug'=>0,'Sep'=>0,'Oct' =>0 ,'Nov'=> 0,'Dec'=> 0);
         $assignmentItems = array('Jan' => 0 ,'Feb' => 0,'Mar' => 0,'Apr' => 0,'May' => 0,'Jun' => 0,'Jul'=> 0,'Aug'=>0,'Sep'=>0,'Oct' =>0 ,'Nov'=> 0,'Dec'=> 0);
         $clientInvoicesOut = array('Jan' => 0 ,'Feb' => 0,'Mar' => 0,'Apr' => 0,'May' => 0,'Jun' => 0,'Jul'=> 0,'Aug'=>0,'Sep'=>0,'Oct' =>0 ,'Nov'=> 0,'Dec'=> 0);
+        $clientInvoicesPaidOut = array('Jan' => 0 ,'Feb' => 0,'Mar' => 0,'Apr' => 0,'May' => 0,'Jun' => 0,'Jul'=> 0,'Aug'=>0,'Sep'=>0,'Oct' =>0 ,'Nov'=> 0,'Dec'=> 0);
         $customerInvoicesOut = array('Jan' => 0 ,'Feb' => 0,'Mar' => 0,'Apr' => 0,'May' => 0,'Jun' => 0,'Jul'=> 0,'Aug'=>0,'Sep'=>0,'Oct' =>0 ,'Nov'=> 0,'Dec'=> 0);
+        $customerInvoicesPaidOut = array('Jan' => 0 ,'Feb' => 0,'Mar' => 0,'Apr' => 0,'May' => 0,'Jun' => 0,'Jul'=> 0,'Aug'=>0,'Sep'=>0,'Oct' =>0 ,'Nov'=> 0,'Dec'=> 0);
+        $clientRemittanceOut = array('Jan' => 0 ,'Feb' => 0,'Mar' => 0,'Apr' => 0,'May' => 0,'Jun' => 0,'Jul'=> 0,'Aug'=>0,'Sep'=>0,'Oct' =>0 ,'Nov'=> 0,'Dec'=> 0);
+        $profit = array('Jan' => 0 ,'Feb' => 0,'Mar' => 0,'Apr' => 0,'May' => 0,'Jun' => 0,'Jul'=> 0,'Aug'=>0,'Sep'=>0,'Oct' =>0 ,'Nov'=> 0,'Dec'=> 0);
 
         $yearMonth = array('Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec');
         $FmvGenerated = array('Jan' => 0 ,'Feb' => 0,'Mar' => 0,'Apr' => 0,'May' => 0,'Jun' => 0,'Jul'=> 0,'Aug'=>0,'Sep'=>0,'Oct' =>0 ,'Nov'=> 0,'Dec'=> 0);
@@ -194,6 +201,23 @@ class HomeController extends Controller
                 }
             }
         }
+        // Processing Invoice Paid Data
+        if(isset($clientInvoicesPaidData) && !empty($clientInvoicesPaidData)){
+            foreach ($clientInvoicesPaidData as $clientInvoice) {
+                $rawSentDate = explode(' ', $clientInvoice['paid_dt1']);
+                if(isset($rawSentDate) && !empty($rawSentDate)) {
+                    $sentDate = Carbon::createFromFormat('Y-m-d', $rawSentDate[0])->format('M');
+                    foreach($yearMonth as $month){
+                        if($month == $sentDate) {
+                            if (isset($clientInvoice->invoice_amount)) {
+                                $clientInvoicesPaidOut[$month] += round($clientInvoice->invoice_amount);
+                            }
+
+                        }
+                    }
+                }
+            }
+        }
 
         // Processing Customer Invoice out data
         if(isset($customerInvoicesData) && !empty($customerInvoicesData)){
@@ -211,6 +235,48 @@ class HomeController extends Controller
                 }
             }
         }
+
+        // Processing Customer Invoice Paid Data
+        if(isset($customerInvoicesPaidData) && !empty($customerInvoicesPaidData)){
+            foreach($customerInvoicesPaidData as $customerInvoice){
+                $rawSentDate = explode(' ', $customerInvoice['paid_dt']);
+                if(isset($rawSentDate) && !empty($rawSentDate)) {
+                    $sentDate = Carbon::createFromFormat('Y-m-d', $rawSentDate[0])->format('M');
+                    foreach($yearMonth as $month){
+                        if($month == $sentDate) {
+                            if (isset($customerInvoice->invoice_amount)) {
+                                $customerInvoicesPaidOut[$month] += round($customerInvoice->invoice_amount);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        // Procession Client Remittance
+        if(isset($clientRemittanceData) && !empty($clientRemittanceData)){
+            foreach($clientRemittanceData as $clientRemittance){
+                $rawSentDate = explode(' ', $clientRemittance['SENT_DATE']);
+                if(isset($rawSentDate) && !empty($rawSentDate)) {
+                    $sentDate = Carbon::createFromFormat('Y-m-d', $rawSentDate[0])->format('M');
+                    foreach($yearMonth as $month){
+                        if($month == $sentDate) {
+                            if (isset($clientRemittance->REMITTANCE_AMT)) {
+                                $clientRemittanceOut[$month] += round($clientRemittance->REMITTANCE_AMT);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        //Calculate Profit
+        if( (isset($customerInvoicesPaidOut) && !empty($customerInvoicesPaidOut)) && (isset($clientRemittanceOut) && !empty($clientRemittanceOut)) && (isset($clientInvoicesPaidOut) && !empty($clientInvoicesPaidOut)) ){
+            foreach($yearMonth as $month){
+                $profit[$month] = ($customerInvoicesPaidOut[$month]-$clientRemittanceOut[$month])+$clientInvoicesPaidOut[$month];
+            }
+        }
+
         //Log::info($lowFmvItems);
         return response(['status' => true,
                          'data'   => $fmvData ,
@@ -219,7 +285,11 @@ class HomeController extends Controller
                          'highFmv'=> $highFmvItems,
                          'assignmentFmv' => $assignmentItems,
                          'clientInvoicesOut' => $clientInvoicesOut,
+                         'clientInvoicesPaidOut' => $clientInvoicesPaidOut,
                          'customerInvoiceOut' => $customerInvoicesOut,
+                         'customerInvoicesPaidOut' => $customerInvoicesPaidOut,
+                         'clientRemittanceOut' => $clientRemittanceOut,
+                         'profit' => $profit,
                          'FmvGenerated' => $FmvGenerated,
                          'assignmentGenerated' => $assignmentGenerated,
                          'filterYear' => $filterYear], 200);
