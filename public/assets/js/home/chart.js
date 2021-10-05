@@ -595,6 +595,7 @@ function loadFmvTypeAnalysis( year, month ){
     let customerInvoiceOut = [];
     let fmvGenerated = [];
     let assignmentGenerated = [];
+    let profit = [];
 
     let columnMonths = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
 
@@ -621,9 +622,10 @@ function loadFmvTypeAnalysis( year, month ){
                     customerInvoiceOut.push(result.customerInvoiceOut[m]/1000);
                     fmvGenerated.push(result.FmvGenerated[m]);
                     assignmentGenerated.push(result.assignmentGenerated[m]);
+                    profit.push(result.profit[m]/1000);
                 });
 
-                generateFmvItemAnalysis(columnMonths, lowFmvData, medFmvData, HighFmvData, assignmentFmvData, clientInvoiceOut, customerInvoiceOut);
+                generateFmvItemAnalysis(columnMonths, lowFmvData, medFmvData, HighFmvData, assignmentFmvData, clientInvoiceOut, customerInvoiceOut, profit);
                 generateFmvToAssignmentAnalysis(columnMonths,fmvGenerated,assignmentGenerated);
 
             } else {
@@ -824,7 +826,7 @@ function loadCustomerReceivables( year, month){
     }
 // Function generate FMV Item Analysis
 
-function generateFmvItemAnalysis(categories, lowFmvData, MedFmvData, higFmvData, assignmentFmvData, clientInvoiceOut, customerInvoiceOut ) {
+function generateFmvItemAnalysis(categories, lowFmvData, MedFmvData, higFmvData, assignmentFmvData, clientInvoiceOut, customerInvoiceOut, profit ) {
 
     var columnChartOptions = {
         chart: {
@@ -865,6 +867,9 @@ function generateFmvItemAnalysis(categories, lowFmvData, MedFmvData, higFmvData,
          },{
            name: 'Customer Invoice Sent',
            data: customerInvoiceOut
+        },{
+           name: 'Profit',
+           data: profit
         }],
         legend: {
             offsetY: -10
