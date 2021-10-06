@@ -322,12 +322,13 @@
                             <div class="card-content">
                                 <div class="card-body card-dashboard">
                                     <div class="table-responsive">
-                                        <table class="table dataTable zero-configuration">
+                                        <table class="table dataTable zero-configuration" id="itemConditionReportTable">
                                             <thead>
                                             <tr>
                                                 <th>Logs</th>
                                                 <th>Type</th>
                                                 <th>Upload Date</th>
+                                                <th>Generated Date</th>
                                                 <th>Visibility</th>
                                                 <th>View</th>
                                                 <th>Delete</th>
@@ -340,6 +341,7 @@
                                                         <td>{{ $file->logs }}</td>
                                                         <td>{{ $file->fileType }} </td>
                                                         <td>{{ \Carbon\Carbon::createFromFormat('Y-m-d H:i:s', $file->updated_at)->format('j F, Y') }}</td>
+                                                        <td>@if(!empty( $file->generated_date)){{ \Carbon\Carbon::createFromFormat('Y-m-d H:i:s', $file->generated_date)->format('j F, Y') }}@else NO DATE @endif &nbsp; <button type="button" class="btn btn-primary mr-1 mb-1" data-toggle="modal" data-target="#itemAddReportDateModal" data-id="{{$file->id}}" data-item="{{$file->logs}}">Update</button></td>
                                                         <td>
                                                             @if($file->status === 1)
                                                                <a href="javascript:void(0)" data-url="{{ route('visibilityReport') }}" class="visibilityReport" data-id="{{ $file->id }}" data-status="0">Hide on Client Portal</a>
@@ -364,7 +366,40 @@
                 </div>
             </section>
             <!-- End Files list -->
-
+            <!-- Item Condition ReportDate Update -->
+            <div class="modal fade text-left" id="itemAddReportDateModal" data-backdrop="static" data-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="itemAddReportDateModal" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title">Add Date <span id="item_report_date_desc"></span></h4>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <i class="bx bx-x"></i>
+                            </button>
+                        </div>
+                        <form action="" method="post" id="addReportsDate">
+                            <div class="modal-body">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <input type="hidden" name="item_report_condition_id" id="item_report_condition_id" value="">
+                                        <input type="text" id="item_report_condition_date" class="form-control pickDate" name="item_report_condition_date" placeholder="Report Date" value="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-light-secondary" data-dismiss="modal">
+                                    <i class="bx bx-x d-block d-sm-none"></i>
+                                    <span class="d-none d-sm-block">Close</span>
+                                </button>
+                                <button type="button" id="addItemReportDateFormModal" data-action="{{ route('updateConditionReportVisibilityDate') }}" class="btn btn-primary ml-1">
+                                    <i class="bx bx-check d-block d-sm-none"></i>
+                                    <span class="d-none d-sm-block">Update</span>
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <!-- End Modal -->
             <!-- Item Form -->
             <div class="modal fade text-left" id="itemAddReportsModal" data-backdrop="static" data-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="itemAddFilesModal" aria-hidden="true">
                 <div class="modal-dialog modal-dialog-centered" role="document">
@@ -466,6 +501,11 @@
     var itemContainer = $('#item-edit-container'); // Main Container
     var deleteItemImage = $('.deleteItemImage');
     var visibilityReport = $('.visibilityReport');
+    var itemAddReportDateModal = $('#itemAddReportDateModal');
+    var itemReportConditionId = $('#item_report_condition_id');
+    var itemReportConditionDate = $('#item_report_condition_date');
+    var itemReportDateDesc = $('#item_report_date_desc');
+    var addItemReportDateFormModal = $('#addItemReportDateFormModal');
    // var itemDraggable = $('.itemDraggable');
    // var itemImageDropArea = $('#itemImageDropArea');
    // var itemImageDropAreaContainer = $('#itemImageDropAreaContainer');
@@ -473,6 +513,59 @@
 
    // Ready Function.
     //$(document).ready(function() {
+
+    // On Item condition report show Modal
+    itemAddReportDateModal.on('show.bs.modal', function (e) {
+        let btn = $(e.relatedTarget);
+        let id = btn.data('id');
+        let itemDesc = btn.data('item');
+        console.log(id);
+        console.log(itemDesc);
+        itemReportConditionId.val(id);
+        itemReportDateDesc.html(itemDesc)
+    });
+
+    // On save Item condition report
+    addItemReportDateFormModal.click(function () {
+
+        console.log('Button clicked');
+        var action = $(this).attr('data-action');
+
+        $.ajax({
+            url: action,
+            type: "POST",
+            dataType: "json",
+            data: {
+                'item_condition_report_id': itemReportConditionId.val(),
+                'item_condition_report_date': itemReportConditionDate.val(),
+            },
+            headers: {"X-CSRF-TOKEN": $('meta[name="csrf-token"]').attr("content")},
+            success: function (response) {
+                if (response.status) {
+                    Swal.fire({
+                        title: "Good job!",
+                        text: "Date is updated successfully",
+                        type: "success",
+                        confirmButtonClass: 'btn btn-primary',
+                        buttonsStyling: false,
+                    }).then(function (result) {
+                        if (result.value) {
+                            window.location.reload();
+                        }
+                    });
+                } else {
+                    $.each(response.errors, function (key, value) {
+                        toastr.error(value)
+                    });
+                }
+            },
+            error: function (xhr, resp, text) {
+                console.log(xhr, resp, text);
+                toastr.error(text);
+            }
+        });
+
+    });
 
         loadItemImages();
 
@@ -484,6 +577,10 @@
         });
 
         $('.pickDate').pickadate(); // Date Picker
+
+        $('.pickDateConditionReport').pickadate({
+            container:'#itemConditionReportTable'
+        }); // Date Picker
 
 
         // Drag Drop Feature.

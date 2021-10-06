@@ -21,6 +21,7 @@ Route::post('/generatePictureReport', [\App\Http\Controllers\ItemController::cla
 Route::post('/visibilityReport', [\App\Http\Controllers\ItemController::class, 'visibilityReport'])->name('visibilityReport');
 Route::post('/generateCustomerInvoice', [\App\Http\Controllers\ItemController::class, 'generateCustomerInvoice'])->name('generateCustomerInvoice');
 Route::post('/updateRecoveryDate', [\App\Http\Controllers\ItemController::class, 'updateRecoveryDate'])->name('updateRecoveryDate');
+Route::post('/updateConditionReportVisibilityDate', [\App\Http\Controllers\ItemController::class, 'updateConditionReportVisibilityDate'])->name('updateConditionReportVisibilityDate');
 
 
 // Category Routes.
