@@ -544,6 +544,52 @@ class ItemController extends Controller
 
     }
 
+    public function updateConditionReportVisibilityDate(Request $request){
+
+        $validator = \Validator::make(
+            array(
+                'item_condition_report_id' => $request->input('item_condition_report_id'),
+                'item_condition_report_date' => $request->input('item_condition_report_date')
+            ),
+            array(
+                'item_condition_report_id' => 'required|int',
+                'item_condition_report_date' => 'required'
+            )
+        );
+        if ($validator->fails()) {
+            return response(['status' => false, 'errors' => $validator->messages()], 200);
+        } else {
+
+            try{
+
+                $item_condition_report_id = $request->input('item_condition_report_id');
+                $item_condition_report_date = $request->input('item_condition_report_date');
+
+                $itemConditionReport = ItemHasConditionReports::findorfail($item_condition_report_id);
+                $itemConditionReport->generated_date = Carbon::createFromFormat('j F, Y', $item_condition_report_date)->format('Y-m-d H:i:s');
+                $itemConditionReport->save();
+
+                return response(['status' => true, 'message' => array('Date was updated successfully')], 200);
+
+            } catch (Exception $e) {
+
+                if ($e instanceof ModelNotFoundException) {
+                    Log::error('Model Exception : ' . $e->getMessage());
+                    return response(['status' => false, 'errors' => array('error' => 'No Entry matched for Model ' . str_replace('App\v2\\', '', $e->getModel()), 'value' => $e->getIds())], 400);
+
+                } elseif ($e instanceof QueryException) {
+                    Log::error('Query Exception : ' . $e->getMessage());
+                    return response(['status' => false, 'errors' => array('error' => 'Data save exception. Please contact administrator')], 500);
+
+                } else {
+                    Log::error('Unknown Exception : ' . $e->getMessage());
+                    return response(['status' => false, 'errors' => array('error' => 'Something went wrong')], 500);
+
+                }
+            }
+
+        }
+    }
    // Generate Picture Report
     public function generatePictureReport(Request $request){
 
