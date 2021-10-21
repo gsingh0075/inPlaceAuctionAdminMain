@@ -84,6 +84,7 @@
        </td>
        <td colspan="4">
            <h4 style="text-align: left;">Lease Information :</h4>
+           {{ $assignment->ls_full_name }} <br>
            {{ $assignment->ls_company }} <br>
            {{ $assignment->ls_address1 }} <br>
            {{ $assignment->ls_city }}, {{ $assignment->ls_state }}, {{ $assignment->ls_zip }}<br>
