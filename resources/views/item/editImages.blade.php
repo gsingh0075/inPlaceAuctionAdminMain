@@ -42,6 +42,12 @@
             <form action="#" method="post" enctype="multipart/form-data" id="generatePictureReportForm">
                 <div class="modal-body">
                     <div class="row">
+                        <div class="col-6 mb-2">
+                            <p>Effective Report Date</p>
+                        </div>
+                        <div class="col-6 mb-2">
+                            <input type="text" id="item_report_effective_date" class="form-control effectiveDate" name="item_report_effective_date" placeholder="Report Date" value="">
+                        </div>
                         <div class="col-6">
                             <p>Drop Item Image on the right in order for report</p>
                             @if(isset($itemImages) && !empty($itemImages))
@@ -82,7 +88,10 @@
     var itemDraggable = $('.itemDraggable');
     var itemImageDropArea = $('#itemImageDropArea');
     var itemImageDropAreaContainer = $('#itemImageDropAreaContainer');
+    var itemReportEffectiveDate = $('#item_report_effective_date');
     var itemConditionReport = [];
+
+    $('#item_report_effective_date').pickadate(); // Date Picker
 
     // Drag Drop Feature.
     itemDraggable.draggable({
@@ -111,7 +120,7 @@
     $('#submitGeneratePictureReportBtn').click(function(){
 
         console.log('Generate Picture report');
-
+        console.log(itemReportEffectiveDate.val());
         //let itemImages = [];
         //$('input[name="itemImageRpt[]"]:checked').each(function () {
         //itemImages.push($(this).val());
@@ -130,7 +139,7 @@
             type: "POST",
             dataType: "json",
             data: {
-                //'item_image_ids': itemImages,
+                'item_report_effective_date': itemReportEffectiveDate.val(),
                 'item_image_ids': itemConditionReport,
                 'item_id': $('#item_id').val(),
             },

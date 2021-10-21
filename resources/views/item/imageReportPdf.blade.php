@@ -47,6 +47,7 @@
          table#itemDetails th {
              background-color: #0074bd;
              color: white;
+             border: none;
          }
          /* Item Images CSS */
          table#items td{
@@ -98,7 +99,8 @@
 </table>
 <table id="itemDetails" style="margin-top: 10px;">
     <tr>
-        <th colspan="5" style="padding:10px;"><b>{{ $item->ITEM_YEAR }} {{ $item->ITEM_MAKE }} {{ $item->ITEM_MODEL }} {{ $item->ITEM_SERIAL }}</b></th>
+        <th colspan="4" style="padding:10px; border-right: 0px solid"><b>{{ $item->ITEM_YEAR }} {{ $item->ITEM_MAKE }} {{ $item->ITEM_MODEL }} {{ $item->ITEM_SERIAL }}</b></th>
+        <th colspan="1" style="padding:10px; border-left: 0px solid"><b>Effective Date:{{ $item_report_effective_date }}</b></th>
     </tr>
     <tr>
         <td colspan="2">

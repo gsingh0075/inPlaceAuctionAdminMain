@@ -596,11 +596,13 @@ class ItemController extends Controller
         $validator = \Validator::make(
             array(
                 'item_image_ids' => $request->input('item_image_ids'),
-                'item_id' => $request->input('item_id')
+                'item_id' => $request->input('item_id'),
+                'item_report_effective_date' => $request->input('item_report_effective_date')
             ),
             array(
                 'item_image_ids' => 'required|array',
-                'item_id' => 'required|int'
+                'item_id' => 'required|int',
+                'item_report_effective_date' => 'required'
             )
         );
         if ($validator->fails()) {
@@ -611,6 +613,7 @@ class ItemController extends Controller
 
                 $itemImageIds = $request->input('item_image_ids');
                 $item_id = $request->input('item_id');
+                $item_report_effective_date = $request->input('item_report_effective_date');
 
                 foreach($itemImageIds as $itemImage) {
                     ItemImages::findorfail($itemImage);
@@ -673,7 +676,7 @@ class ItemController extends Controller
                 }
                 //Log::info($tobeAddedLocalFile);
 
-                $imagePDfReport  = PDF::loadView('item.imageReportPdf', ['toBeAddedToPdf' => $tobeAddedLocalFile, 'item' => $item]);
+                $imagePDfReport  = PDF::loadView('item.imageReportPdf', ['toBeAddedToPdf' => $tobeAddedLocalFile, 'item' => $item,'item_report_effective_date' => $item_report_effective_date]);
                 //$imagePDfReport->setOption('footer-html', 'Test work');
 
                 $fileOriginalName = 'Item_'.$item->ITEM_ID.'_'.Carbon::now()->timestamp.'.pdf';
@@ -683,6 +686,7 @@ class ItemController extends Controller
                 $itemHasConditionReport->item_id = $item->ITEM_ID;
                 $itemHasConditionReport->filename = $fileOriginalName;
                 $itemHasConditionReport->fileType = 'pdf';
+                $itemHasConditionReport->generated_date = Carbon::createFromFormat('j F, Y', $item_report_effective_date)->format('Y-m-d H:i:s');
                 $itemHasConditionReport->logs = 'Picture_Report-IPA-Item-'. $item->ITEM_ID;
                 $itemHasConditionReport->status = false;
                 $itemHasConditionReport->save();
