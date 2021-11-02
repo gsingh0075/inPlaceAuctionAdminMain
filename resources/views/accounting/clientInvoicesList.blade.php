@@ -97,6 +97,8 @@
                                                                   <b>Paid On:</b> {{ \Carbon\Carbon::createFromFormat('Y-m-d H:i:s', $invoice->paid_dt1)->format('j F, Y')}} <br>
                                                                   <b>Paid Amount:</b> ${{ round($invoice->paid_amount1,2) }} <br>
                                                                   <b>Reference:</b> {{ $invoice->check_num1 }}
+                                                              @elseif( $invoice->write_off)
+                                                                  <span class="text-warning">!!! Write Off !!!</span>
                                                               @else
                                                                   <span class="text-info">!!! NOT PAID !!!</span>
                                                               @endif
