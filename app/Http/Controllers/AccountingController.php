@@ -43,13 +43,75 @@ class AccountingController extends Controller
                            })->get();
 
         $totalPendingAmount = 0;
+        $totalWriteOffAmount = 0;
         if(isset($clientInvoices) && !empty($clientInvoices)){
             foreach($clientInvoices as $invoice){
-                $totalPendingAmount += $invoice->invoice_amount;
+                if(!$invoice->write_off) {
+                    $totalPendingAmount += $invoice->invoice_amount;
+                } else {
+                    $totalWriteOffAmount += $invoice->invoice_amount;
+                }
             }
         }
 
-        return view('accounting.clientReceivableList',  ['clientInvoices' => $clientInvoices, 'totalPendingAmount' => $totalPendingAmount ]);
+        return view('accounting.clientReceivableList',  ['clientInvoices' => $clientInvoices, 'totalPendingAmount' => $totalPendingAmount, 'totalWriteOffAmount' => $totalWriteOffAmount ]);
+    }
+
+    //Update the Client Invoice
+    public function updateClientReceivables( Request $request){
+
+        $validator = \Validator::make(
+            array(
+                'client_invoice_id' => $request->input('client_invoice_id'),
+            ),
+            array(
+                'client_invoice_id' => 'required|int',
+            )
+        );
+
+        if ($validator->fails()) {
+            return response(['status' => false, 'errors' => $validator->messages()], 200);
+        } else {
+
+            try{
+
+                $validFields = ['write_off'];
+                $clientInvoice = ClientInvoices::findorfail($request->input('client_invoice_id'));
+                $updateModel = false;
+
+                foreach($validFields as $field){
+                    $value = $request->input($field);
+                    if(isset($value)){
+                        $updateModel = true;
+                        $clientInvoice->$field = $value;
+                    }
+                }
+
+                if($updateModel){
+                    $clientInvoice->save();
+                }
+
+                return response(['status' => true, 'message' => array('Invoice updated successfully')], 200);
+
+            } catch (Exception $e) {
+
+                if ($e instanceof ModelNotFoundException) {
+                    Log::error('Model Exception : ' . $e->getMessage());
+                    return response(['status' => false, 'errors' => array('error' => 'No Entry matched for Model ' . str_replace('App\v2\\', '', $e->getModel()), 'value' => $e->getIds())], 400);
+
+                } elseif ($e instanceof QueryException) {
+                    Log::error('Query Exception : ' . $e->getMessage());
+                    return response(['status' => false, 'errors' => array('error' => 'Data save exception. Please contact administrator')], 500);
+
+                } else {
+                    Log::error('Unknown Exception : ' . $e->getMessage());
+                    return response(['status' => false, 'errors' => array('error' => 'Something went wrong')], 500);
+
+                }
+            }
+
+        }
+
     }
 
     // Return the view for Customer Invoices

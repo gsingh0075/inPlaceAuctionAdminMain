@@ -43,7 +43,8 @@
                                 <div class="card-body card-dashboard">
                                     <div class="table-responsive">
                                         <div class="col-12 text-left pb-2" style="font-size: 15px;">
-                                            Total Amount: <span class="text-danger">${{ round($totalPendingAmount, 2) }}</span>
+                                            Total Amount: <span class="text-danger mr-5">${{ round($totalPendingAmount, 2) }}</span>
+                                            Write Off Amount : <span class="text-warning">${{ round($totalWriteOffAmount, 2) }}</span>
                                         </div>
                                         <table class="table" id="getClientInvoiceDataTable">
                                             <thead>
@@ -52,15 +53,16 @@
                                                 <th>Amount</th>
                                                 <th>Company</th>
                                                 <th>Sent Date</th>
-                                                <th>Action</th>
                                                 <th>Assignment</th>
+                                                <th>Action</th>
+                                                <th>Write Off</th>
                                             </tr>
                                             </thead>
                                             <tbody>
                                             @if(isset($clientInvoices) && !empty($clientInvoices))
                                                 @foreach($clientInvoices as $invoice)
                                                     <tr>
-                                                        <td @if($invoice["invoice_color_status"] >= 42 ) class="inWeekOld" @endif>
+                                                        <td @if($invoice["invoice_color_status"] >= 42 && !$invoice['write_off'] ) class="inWeekOld" @endif @if($invoice['write_off'] ) class="twelveWeekOld" @endif>
                                                             @if(!empty($invoice->lines))
                                                                 @php $assignmentId = ''; @endphp
                                                                 @if(isset($invoice->lines[0]->expense))
@@ -78,24 +80,27 @@
                                                             @endif
 
                                                         </td>
-                                                        <td @if($invoice["invoice_color_status"] >= 42 ) class="inWeekOld" @endif>
+                                                        <td @if($invoice["invoice_color_status"] >= 42 && !$invoice['write_off'] ) class="inWeekOld" @endif @if($invoice['write_off'] ) class="twelveWeekOld" @endif>
                                                             ${{ round($invoice->invoice_amount,2) }}
                                                         </td>
-                                                        <td @if($invoice["invoice_color_status"] >= 42 ) class="inWeekOld" @endif>
+                                                        <td @if($invoice["invoice_color_status"] >= 42 && !$invoice['write_off']) class="inWeekOld" @endif @if($invoice['write_off'] ) class="twelveWeekOld" @endif>
                                                             @if(!empty($invoice->client))
                                                                 {{ $invoice->client->COMPANY }}
                                                             @else
                                                                 -
                                                             @endif
                                                         </td>
-                                                        <td @if($invoice["invoice_color_status"] >= 42 ) class="inWeekOld" @endif>
+                                                        <td @if($invoice["invoice_color_status"] >= 42 && !$invoice['write_off']) class="inWeekOld" @endif @if($invoice['write_off'] ) class="twelveWeekOld" @endif>
                                                             @if(!empty( $invoice->sent_dt))
                                                                 {{ \Carbon\Carbon::createFromFormat('Y-m-d H:i:s', $invoice->sent_dt)->format('j F, Y')}}
                                                             @else
                                                                 -
                                                             @endif
                                                         </td>
-                                                        <td @if($invoice["invoice_color_status"] >= 42 ) class="inWeekOld" @endif>
+                                                        <td @if($invoice["invoice_color_status"] >= 42 && !$invoice['write_off']) class="inWeekOld" @endif @if($invoice['write_off'] ) class="twelveWeekOld" @endif>
+                                                            <a target="_blank" href="{{ route('showAssignment',$assignmentId ) }}">{{ $assignmentId }}</a>
+                                                        </td>
+                                                        <td @if($invoice["invoice_color_status"] >= 42 && !$invoice['write_off']) class="inWeekOld" @endif @if($invoice['write_off'] ) class="twelveWeekOld" @endif>
                                                             @if($invoice->paid !== 1)
                                                                 <a href="javascript:void(0)"
                                                                    class="markClientInvoiceAsPaid"
@@ -108,8 +113,26 @@
                                                                 -
                                                             @endif
                                                         </td>
-                                                        <td @if($invoice["invoice_color_status"] >= 42 ) class="inWeekOld" @endif>
-                                                            <a target="_blank" href="{{ route('showAssignment',$assignmentId ) }}">{{ $assignmentId }}</a>
+                                                        <td @if($invoice["invoice_color_status"] >= 42 && !$invoice['write_off']) class="inWeekOld" @endif @if($invoice['write_off'] ) class="twelveWeekOld" @endif>
+                                                            @if(!$invoice['write_off'])
+                                                                <a href="javascript:void(0)"
+                                                                   class="markClientInvoiceAsWriteOff"
+                                                                   data-type="{{ $invoice->client->COMPANY }}"
+                                                                   data-amount="{{ round($invoice->invoice_amount,2) }}"
+                                                                   data-id="{{ $invoice->client_invoice_id }}"
+                                                                   data-val="1"
+                                                                   data-action="{{ route('updateClientReceivables') }}">
+                                                                   Write Off</a>
+                                                            @else
+                                                                <a href="javascript:void(0)"
+                                                                   class="markClientInvoiceAsWriteOff"
+                                                                   data-type="{{ $invoice->client->COMPANY }}"
+                                                                   data-amount="{{ round($invoice->invoice_amount,2) }}"
+                                                                   data-id="{{ $invoice->client_invoice_id }}"
+                                                                   data-val="0"
+                                                                   data-action="{{ route('updateClientReceivables') }}">
+                                                                   Remove Write Off</a>
+                                                            @endif
                                                         </td>
                                                     </tr>
                                                 @endforeach
@@ -121,8 +144,9 @@
                                                 <th>Amount</th>
                                                 <th>Company</th>
                                                 <th>Sent Date</th>
-                                                <th>Action</th>
                                                 <th>Assignment</th>
+                                                <th>Action</th>
+                                                <th>Write Off</th>
                                             </tr>
                                             </tfoot>
                                         </table>
@@ -219,6 +243,7 @@
     var clientInvoiceId = $('#client_invoice_id');
     var clientInvoicePaidBtn = $('#clientInvoicePaidBtn');
     var clientInvoicePaidModal = $('#clientInvoicePaidModal');
+    var markClientInvoiceAsWriteOff = $('.markClientInvoiceAsWriteOff');
 
     $(document).ready(function() {
         $('#getClientInvoiceDataTable').DataTable({
@@ -235,7 +260,71 @@
             $('#originalClientInvoice').html('<span class="text-info">$' + amount + '</span>');
         });
 
+        markClientInvoiceAsWriteOff.click(function(){
 
+            let invoiceType = $(this).attr('data-type');
+            let invoiceAmount = $(this).attr('data-amount');
+            let action = $(this).attr('data-action');
+            let writeOff = $(this).attr('data-val');
+            let invoiceId = $(this).attr('data-id');
+            let popupText = "The invoice amount $"+invoiceAmount+" billed to Company "+invoiceType+" will be written off";
+
+            if(writeOff == "0"){
+                popupText = "The invoice amount $"+invoiceAmount+" billed to Company "+invoiceType+" will be marked as pending";
+            }
+
+            Swal.fire({
+                title: 'Are you sure?',
+                text: popupText,
+                icon: 'warning',
+                showCancelButton: true,
+                confirmButtonColor: '#3085d6',
+                cancelButtonColor: '#d33',
+                confirmButtonText: 'Yes!'
+            }).then((result) => {
+                console.log(result.value);
+                if (result.value) {
+
+                    blockExt($('#getClientInvoiceDataTable'), $('#waitingMessage'));
+
+                    $.ajax({
+                        url: action,
+                        type: "POST",
+                        dataType: "json",
+                        data: {
+                            'write_off': writeOff,
+                            'client_invoice_id' : invoiceId
+                        },
+                        headers: {"X-CSRF-TOKEN": $('meta[name="csrf-token"]').attr("content")},
+                        success: function (response) {
+                            if (response.status) {
+                                Swal.fire({
+                                    title: "Good job!",
+                                    text: "Invoice was updated successfully.",
+                                    type: "success",
+                                    confirmButtonClass: 'btn btn-primary',
+                                    buttonsStyling: false,
+                                }).then(function (result) {
+                                    if (result.value) {
+                                        window.location.reload();
+                                    }
+                                });
+                            } else {
+                                $.each(response.errors, function (key, value) {
+                                    toastr.error(value)
+                                });
+                                unBlockExt( $('#getClientInvoiceDataTable') );
+                            }
+                        },
+                        error: function (xhr, resp, text) {
+                            console.log(xhr, resp, text);
+                            toastr.error(text);
+                        }
+                    });
+                }
+            });
+
+        });
 
         /*** Mark Invoice as Paid Client **/
         clientInvoicePaidBtn.click(function () {

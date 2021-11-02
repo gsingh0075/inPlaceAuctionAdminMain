@@ -403,6 +403,7 @@ class HomeController extends Controller
             // Client Invoice Sent
             $clientInvoicesOut = ClientInvoices::with(['client'])
                 ->where('sent','=',1)
+                ->where('write_off','=',0)
                 //->whereMonth('sent_dt', '=', $filterMonth)
                 ->whereIn(DB::raw('MONTH(sent_dt)'), $filterMonth)
                 ->whereYear('sent_dt','=', $filterYear)->get();
@@ -417,6 +418,7 @@ class HomeController extends Controller
             $clientInvoicesPaid = ClientInvoices::with(['client'])
                 ->where('sent','=',1)
                 ->where('paid', '=', '1')
+                ->where('write_off','=',0)
                 //->whereMonth('paid_dt1', '=', $filterMonth)
                 ->whereIn(DB::raw('MONTH(paid_dt1)'), $filterMonth)
                 ->whereYear('paid_dt1','=', $filterYear)->get();
@@ -599,11 +601,13 @@ class HomeController extends Controller
 
                 $clientInvoicesPaid = ClientInvoices::with(['client', 'lines.expense.item'])
                                      ->where('sent','=',1)
+                                     ->where('write_off','=',0)
                                      ->whereIn(DB::raw('MONTH(paid_dt1)'), $filterMonth)
                                      ->whereYear('sent_dt','=', $filterYear)->get();
 
                 $clientInvoicesOut = ClientInvoices::with(['client', 'lines.expense.item'])
                                     ->where('sent','=',1)
+                                    ->where('write_off','=',0)
                                     ->whereIn(DB::raw('MONTH(sent_dt)'), $filterMonth)
                                     ->whereYear('sent_dt','=', $filterYear)->get();
 
