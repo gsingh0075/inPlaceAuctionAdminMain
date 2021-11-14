@@ -303,7 +303,12 @@ class ItemController extends Controller
                 'original_sold_date' => $request->get('original_sold_date'),
                 'condition_code' => $request->get('condition_code'),
                 'recovered_date' => $request->get('recovered_date'),
-                'in_possession' => $request->get('in_possession')
+                'in_possession' => $request->get('in_possession'),
+                'storage_location' => $request->get('storage_location'),
+                'storage_contact_name' => $request->get('storage_contact_name'),
+                'storage_contact_number' => $request->get('storage_contact_number'),
+                'inplace_sale_date' => $request->get('inplace_sale_date'),
+                'sold_flag' => $request->get('sold_flag')
             ),
             array(
                 'item_id' => 'required',
@@ -326,7 +331,12 @@ class ItemController extends Controller
                 'original_sold_date' => 'nullable',
                 'condition_code' => 'nullable',
                 'recovered_date' => 'nullable',
-                'in_possession' => 'nullable'
+                'in_possession' => 'nullable',
+                'storage_location' => 'nullable',
+                'storage_contact_name' => 'nullable',
+                'storage_contact_number' => 'nullable',
+                'inplace_sale_date' => 'nullable',
+                'sold_flag' => 'nullable'
             )
         );
 
@@ -356,6 +366,11 @@ class ItemController extends Controller
                 $condition_code = $request->get('condition_code');
                 $recovered_date = $request->get('recovered_date');
                 $in_possession = $request->get('in_possession');
+                $storage_location = $request->get('storage_location');
+                $storage_contact_name= $request->get('storage_contact_name');
+                $storage_contact_number= $request->get('storage_contact_number');
+                $inplace_sale_date = $request->get('inplace_sale_date');
+                $sold_flag = $request->get('sold_flag');
 
                 //Log::info($category_id);
 
@@ -405,6 +420,13 @@ class ItemController extends Controller
                 }
                 $item->CONDITION_CODE = $condition_code;
                 $item->IN_POSSESSION = $in_possession;
+                $item->storage_location = $storage_location;
+                $item->storage_contact_name = $storage_contact_name;
+                $item->storage_contact_number = $storage_contact_number;
+                $item->SOLD_FLAG = $sold_flag;
+                if(!empty($inplace_sale_date)){
+                    $item->inplace_sale_date = Carbon::createFromFormat('j F, Y', $inplace_sale_date)->format('Y-m-d H:i:s');
+                }
                 $item->save();
 
                 //Store the Category IDs as well.
