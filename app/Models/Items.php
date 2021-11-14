@@ -59,6 +59,14 @@ class Items extends Model
         }
     }
 
+    public function getInplaceSaleDateAttribute($value){
+        if(!empty($value)){
+            return Carbon::parse($value)->format('Y-m-d H:i:s');
+        } else {
+            return '';
+        }
+    }
+
     public function getItemRecoveryDtAttribute($value){
         //Log::info($value);
         if(!empty($value)){

@@ -203,6 +203,40 @@
                                                                 <option value="0" @if($item->IN_POSSESSION == 0) selected @endif>No</option>
                                                             </select>
                                                         </div>
+                                                        <div class="col-md-4 col-12">
+                                                            <label for="in_possession">Storage Location</label>
+                                                        </div>
+                                                        <div class="col-md-8 form-group col-12">
+                                                            <input type="text" id="storage_location" class="form-control" name="storage_location" placeholder="Storage Location" value="">
+                                                        </div>
+                                                        <div class="col-md-4 col-12">
+                                                            <label for="in_possession">Storage Contact Person Name</label>
+                                                        </div>
+                                                        <div class="col-md-8 form-group col-12">
+                                                            <input type="text" id="storage_contact_name" class="form-control" name="storage_contact_name" placeholder="Name" value="">
+                                                        </div>
+                                                        <div class="col-md-4 col-12">
+                                                            <label for="in_possession">Storage Contact Person Phone No.</label>
+                                                        </div>
+                                                        <div class="col-md-8 form-group col-12">
+                                                            <input type="text" id="storage_contact_number" class="form-control" name="storage_contact_number" placeholder="Phone No" value="">
+                                                        </div>
+                                                        <div class="col-md-4 col-12">
+                                                            <label for="original_sold_date">Sale Date</label>
+                                                        </div>
+                                                        <div class="col-md-8 form-group col-12">
+                                                            <input type="text" id="inplace_sale_date" class="form-control pickDate" name="inplace_sale_date" placeholder="Sale Date" value="@if(!empty($item->inplace_sale_date)){{ \Carbon\Carbon::createFromFormat('Y-m-d H:i:s', $item->inplace_sale_date)->format('j F, Y') }}@endif">
+                                                        </div>
+                                                        <div class="col-md-4 col-12">
+                                                            <label for="in_possession">Sold</label>
+                                                        </div>
+                                                        <div class="col-md-8 form-group col-12">
+                                                            <select class="custom-select form-control" name="sold_flag" id="sold_flag">
+                                                                <option value="">Please select</option>
+                                                                <option value="1" @if($item->SOLD_FLAG == 1) selected @endif>Yes</option>
+                                                                <option value="0" @if($item->SOLD_FLAG == 0) selected @endif>No</option>
+                                                            </select>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
