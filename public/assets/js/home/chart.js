@@ -830,7 +830,7 @@ function generateFmvItemAnalysis(categories, lowFmvData, MedFmvData, higFmvData,
 
     var columnChartOptions = {
         chart: {
-            height: 350,
+            height: 550,
             type: 'bar',
         },
         colors: themeColors,
@@ -908,7 +908,7 @@ function generateFmvToAssignmentAnalysis(columnMonths,fmvGenerated,assignmentGen
 
         var mixedChartOptions = {
             chart: {
-                height: 350,
+                height: 550,
                 type: 'line',
                 stacked: false,
             },

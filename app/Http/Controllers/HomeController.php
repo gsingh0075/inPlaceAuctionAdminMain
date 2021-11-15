@@ -44,6 +44,56 @@ class HomeController extends Controller
             }
         }
 
+        // Assignment Data
+        $currentYear =  date('Y');
+        $assignments = Assignment::with(['items.invoiceAuth.invoice.remittance', 'items.expense.expenseAuth.invoice'])
+            ->whereYear('dt_stmp','=', $currentYear)->get();
+
+        $approvedAssignments = 0;
+        $activeAssignments = 0;
+        $openAssignments = 0;
+        $closedAssignments = 0;
+        $totalAssignments = count($assignments);
+        $totalAssets = 0;
+        $expectedOlvValue = 0;
+        $assetsSold = 0;
+        $appraisalAccount = 0;
+
+        if(isset($assignments) && !empty($assignments)){
+
+            foreach($assignments as $assignment) {
+                if($assignment->active === 1){
+                    $activeAssignments += 1;
+                }
+                if($assignment->is_appraisal === 1){
+                    $appraisalAccount += 1;
+                }
+                if($assignment->approved === 1){
+                    $approvedAssignments += 1;
+                }
+                if($assignment->isopen === 1){
+                    $openAssignments += 1;
+                }
+                if($assignment->isopen === 0){
+                    $closedAssignments += 1;
+                }
+
+                // Lets Count Total Assets
+                if(isset($assignment->items) && !empty($assignment->items)){
+                    $totalAssets += count($assignment->items);
+
+                    foreach($assignment->items as $item) {
+
+                        if($item->SOLD_FLAG === 1 ){
+                            $assetsSold += 1;
+                        }
+                        $expectedOlvValue += $item->FMV;
+                    }
+                }
+
+            }
+        }
+
         // Get Total Number of Pending Client Invoices
         $clientInvoicesOut = ClientInvoices::with(['client'])->whereNull('paid')->where('sent','=',1)->get();
         // Customer Invoices Out
@@ -82,7 +132,16 @@ class HomeController extends Controller
                          'customerPaidInvoiceAmount' => $customerPaidInvoiceAmount,
                          'totalFmvToAssignment' => count($fmvToAssignment),
                          'year' => $years,
-                         'months' => $months
+                         'months' => $months,
+                         'approvedAssignments' => $approvedAssignments,
+                         'activeAssignments' => $activeAssignments,
+                         'openAssignments' => $openAssignments,
+                         'closedAssignments' => $closedAssignments,
+                         'totalAssignments' => $totalAssignments,
+                         'totalAssets' => $totalAssets,
+                         'expectedOlvValue' => $expectedOlvValue,
+                         'assetsSold' => $assetsSold,
+                         'appraisalAccount' => $appraisalAccount
                 ]
 
         );
