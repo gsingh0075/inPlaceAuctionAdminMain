@@ -186,6 +186,15 @@
                                                             </select>
                                                         </div>
                                                         <div class="col-md-4 col-12">
+                                                            <label for="isopen">Is Appraisal</label>
+                                                        </div>
+                                                        <div class="col-md-8 form-group col-12">
+                                                            <select class="custom-select form-control" name="is_appraisal" id="is_appraisal">
+                                                                <option value="1">Yes</option>
+                                                                <option value="0">No</option>
+                                                            </select>
+                                                        </div>
+                                                        <div class="col-md-4 col-12">
                                                             <label for="approved">Approval Status</label>
                                                         </div>
                                                         <div class="col-md-8 form-group col-12">
