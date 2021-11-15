@@ -128,6 +128,11 @@ class AssignmentController extends Controller
             $assignment->where('approved',$status);
         }
 
+        if($columnsData[10]['search']['value'] !== NULL) {
+            $status = $columnsData[10]['search']['value'];
+            $assignment->where('is_appraisal', $status);
+        }
+
         if(!empty($searchData['value'])){
             //Log::info($searchData['value']);
             $searchVar = $searchData['value'];
@@ -581,7 +586,8 @@ class AssignmentController extends Controller
                 'res_inv'   => $request->input('res_knock'),
                 'res_ins'   => $request->input('res_ins'),
                 'res_eol'   => $request->input('res_ins'),
-                'make_prior_contact' => $request->input('make_prior_contact')
+                'make_prior_contact' => $request->input('make_prior_contact'),
+                'is_appraisal' => $request->input('is_appraisal'),
             ),
             array(
                 'assignment_id' => 'required|int',
@@ -615,6 +621,7 @@ class AssignmentController extends Controller
                 'res_ins'   => 'nullable',
                 'res_eol'   => 'nullable',
                 'make_prior_contact' => 'nullable',
+                'is_appraisal' => 'nullable'
 
             )
         );
@@ -655,6 +662,7 @@ class AssignmentController extends Controller
                 $recovery_month  = $request->input('recovery_month');
                 $recovery_day  = $request->input('recovery_day');
                 $recovery_year = $request->input('recovery_year');
+                $is_appraisal = $request->input('is_appraisal');
 
 
 
@@ -691,6 +699,7 @@ class AssignmentController extends Controller
                 $assignment->placed_by = Auth::user()->name;
                 $assignment->placed_by_admin_id = Auth::id();
                 $assignment->source = 'ADMIN';
+                $assignment->is_appraisal = $is_appraisal;
                 if(!empty($dt_lease_inception_year) && !empty($dt_lease_inception_month)) {
                     $assignment->dt_lease_inception = $dt_lease_inception_year . '-' . $dt_lease_inception_month . '-' . '01 00:00:00';
                 }
@@ -761,7 +770,8 @@ class AssignmentController extends Controller
                 'res_inv'   => $request->input('res_knock'),
                 'res_ins'   => $request->input('res_ins'),
                 'res_eol'   => $request->input('res_ins'),
-                'make_prior_contact' => $request->input('make_prior_contact')
+                'make_prior_contact' => $request->input('make_prior_contact'),
+                'is_appraisal' => $request->input('is_appraisal'),
             ),
             array(
                 'client_id' => 'required|int',
@@ -795,6 +805,7 @@ class AssignmentController extends Controller
                 'res_ins'   => 'nullable',
                 'res_eol'   => 'nullable',
                 'make_prior_contact' => 'nullable',
+                'is_appraisal' => 'nullable'
 
             )
         );
@@ -831,6 +842,7 @@ class AssignmentController extends Controller
                  $res_ins = $request->input('res_ins');
                  $res_eol  = $request->input('res_ins');
                  $make_prior_contact = $request->input('make_prior_contact');
+                 $is_appraisal = $request->input('is_appraisal');
 
                  Clients::findorfail($client_id);
 
@@ -868,6 +880,7 @@ class AssignmentController extends Controller
                  $assignment->placed_by = Auth::user()->name;
                  $assignment->placed_by_admin_id = Auth::id();
                  $assignment->source = 'ADMIN';
+                 $assignment->is_appraisal = $is_appraisal;
                  if(!empty($dt_lease_inception_year) && !empty($dt_lease_inception_month)) {
                      $assignment->dt_lease_inception = $dt_lease_inception_year . '-' . $dt_lease_inception_month . '-' . '01 00:00:00';
                  }

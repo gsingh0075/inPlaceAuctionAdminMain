@@ -221,6 +221,22 @@
                                 </select>
                             </div>
                             <div class="col-md-4 col-12">
+                                <label for="is_appraisal">Is Appraisal</label>
+                            </div>
+                            <div class="col-md-8 form-group col-12">
+                                <select class="custom-select form-control" name="is_appraisal"
+                                        id="is_appraisal">
+                                    <option value="1"
+                                            @if($assignment->is_appraisal == 1) selected @endif>
+                                        Yes
+                                    </option>
+                                    <option value="0"
+                                            @if($assignment->is_appraisal == 0) selected @endif>
+                                        No
+                                    </option>
+                                </select>
+                            </div>
+                            <div class="col-md-4 col-12">
                                 <label for="approved">Approval Status</label>
                             </div>
                             <div class="col-md-8 form-group col-12">

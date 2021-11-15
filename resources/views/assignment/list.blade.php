@@ -57,6 +57,7 @@
                                                 <th>Date</th>
                                                 <th>Status</th>
                                                 <th>Approved</th>
+                                                <th>Is Appraisal</th>
                                             </tr>
                                             </thead>
                                             <tbody></tbody>
@@ -72,6 +73,7 @@
                                                 <th>Date</th>
                                                 <th>Status</th>
                                                 <th>Approved</th>
+                                                <th>Is Appraisal</th>
                                             </tr>
                                             </tfoot>
                                         </table>
@@ -127,6 +129,9 @@
                         }
                         if(index === 6){
                             return 'Date';
+                        }
+                        if(index === 10){
+                            return 'Is Appraisal';
                         }
                         //return text.includes("Company") ?
                            // text.replace( 'Company' ) :
@@ -199,6 +204,21 @@
                         } );
                     select.append( '<option value="1">Approved</option>' );
                     select.append( '<option value="0">Not Approved</option>' );
+                });
+                this.api().columns([10]).every(function() {
+                    let column = this;
+                    let select = $('<select><option value="">Is Appraisal</option></select>')
+                        .appendTo( $(column.header()).empty() )
+                        .on( 'change', function () {
+                            var val = $.fn.dataTable.util.escapeRegex(
+                                $(this).val()
+                            );
+                            column
+                                .search( val ? val : '', true, false )
+                                .draw();
+                        } );
+                    select.append( '<option value="1">Yes</option>' );
+                    select.append( '<option value="0">No</option>' );
                 });
             },
             rowCallback : function (row, data, index) {
@@ -330,6 +350,12 @@
                 {  data: "approved",
                     render : function(data, type, row, meta) {
                         return (data === 1) ?  'Approved' : 'Not Approved' ;
+                    },
+                    orderable: false
+                },
+                {  data: "is_appraisal",
+                    render : function(data, type, row, meta) {
+                        return (data === 1) ?  'Yes' : 'No' ;
                     },
                     orderable: false
                 }
