@@ -67,7 +67,163 @@
                     </div>
                     <!-- Ends Map Area -->
                 </div>
-
+                <!-- Over All Account Summary -->
+                <div class="row justify-content-center">
+                    <div class="col-6" id="overallAccountSummary">
+                        <div class="card">
+                            <div class="container">
+                                <div class="card-content">
+                                    <div class="row my-1">
+                                        <div class="col-12 text-center">
+                                            <h4 class="card-title">Account Summary {{ date('Y') }}</h4>
+                                        </div>
+                                        <div class="col-12">
+                                            <ul class="list-group list-group-flush">
+                                                <li class="list-group-item list-group-item-action border-0 d-flex align-items-center justify-content-between">
+                                                    <div class="list-left d-flex">
+                                                        <div class="list-icon mr-1">
+                                                            <div class="avatar bg-rgba-primary m-0">
+                                                                <div class="avatar-content">
+                                                                    <i class="bx bx-user text-primary font-size-base"></i>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="list-content">
+                                                            <span class="list-title">Total Accounts</span>
+                                                        </div>
+                                                    </div>
+                                                    <span>{{ $totalAssignments }}</span>
+                                                </li>
+                                                <li class="list-group-item list-group-item-action border-0 d-flex align-items-center justify-content-between">
+                                                    <div class="list-left d-flex">
+                                                        <div class="list-icon mr-1">
+                                                            <div class="avatar bg-rgba-primary m-0">
+                                                                <div class="avatar-content">
+                                                                    <i class="bx bx-user text-primary font-size-base"></i>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="list-content">
+                                                            <span class="list-title">Appraisal Accounts</span>
+                                                        </div>
+                                                    </div>
+                                                    <span>{{  $appraisalAccount }}</span>
+                                                </li>
+                                                <li class="list-group-item list-group-item-action border-0 d-flex align-items-center justify-content-between">
+                                                    <div class="list-left d-flex">
+                                                        <div class="list-icon mr-1">
+                                                            <div class="avatar bg-rgba-primary m-0">
+                                                                <div class="avatar-content">
+                                                                    <i class="bx bx-user text-primary font-size-base"></i>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="list-content">
+                                                            <span class="list-title">Approved Accounts</span>
+                                                        </div>
+                                                    </div>
+                                                    <span>{{  $approvedAssignments }}</span>
+                                                </li>
+                                                <li class="list-group-item list-group-item-action border-0 d-flex align-items-center justify-content-between">
+                                                    <div class="list-left d-flex">
+                                                        <div class="list-icon mr-1">
+                                                            <div class="avatar bg-rgba-primary m-0">
+                                                                <div class="avatar-content">
+                                                                    <i class="bx bx-user text-primary font-size-base"></i>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="list-content">
+                                                            <span class="list-title">Active Accounts</span>
+                                                        </div>
+                                                    </div>
+                                                    <span>{{ $activeAssignments }}</span>
+                                                </li>
+                                                <li class="list-group-item list-group-item-action border-0 d-flex align-items-center justify-content-between">
+                                                    <div class="list-left d-flex">
+                                                        <div class="list-icon mr-1">
+                                                            <div class="avatar bg-rgba-primary m-0">
+                                                                <div class="avatar-content">
+                                                                    <i class="bx bx-user text-primary font-size-base"></i>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="list-content">
+                                                            <span class="list-title">Open Accounts</span>
+                                                        </div>
+                                                    </div>
+                                                    <span>{{  $openAssignments }}</span>
+                                                </li>
+                                                </li>
+                                                <li class="list-group-item list-group-item-action border-0 d-flex align-items-center justify-content-between">
+                                                    <div class="list-left d-flex">
+                                                        <div class="list-icon mr-1">
+                                                            <div class="avatar bg-rgba-primary m-0">
+                                                                <div class="avatar-content">
+                                                                    <i class="bx bx-user text-primary font-size-base"></i>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="list-content">
+                                                            <span class="list-title">Closed Accounts</span>
+                                                        </div>
+                                                    </div>
+                                                    <span>{{ $closedAssignments }}</span>
+                                                </li>
+                                                <li class="list-group-item list-group-item-action border-0 d-flex align-items-center justify-content-between">
+                                                    <div class="list-left d-flex">
+                                                        <div class="list-icon mr-1">
+                                                            <div class="avatar bg-rgba-primary m-0">
+                                                                <div class="avatar-content">
+                                                                    <i class="bx bxs-zap text-primary font-size-base"></i>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="list-content">
+                                                            <span class="list-title">Total Assets</span>
+                                                        </div>
+                                                    </div>
+                                                    <span>{{  $totalAssets }}</span>
+                                                </li>
+                                                <li class="list-group-item list-group-item-action border-0 d-flex align-items-center justify-content-between">
+                                                    <div class="list-left d-flex">
+                                                        <div class="list-icon mr-1">
+                                                            <div class="avatar bg-rgba-primary m-0">
+                                                                <div class="avatar-content">
+                                                                    <i class="bx bxs-zap text-primary font-size-base"></i>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="list-content">
+                                                            <span class="list-title">Assets Sold</span>
+                                                        </div>
+                                                    </div>
+                                                    <span>{{ $assetsSold }}</span>
+                                                </li>
+                                                <li class="list-group-item list-group-item-action border-0 d-flex align-items-center justify-content-between">
+                                                    <div class="list-left d-flex">
+                                                        <div class="list-icon mr-1">
+                                                            <div class="avatar bg-rgba-primary m-0">
+                                                                <div class="avatar-content">
+                                                                    <i class="bx bx-dollar text-success text-primary font-size-base"></i>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="list-content">
+                                                            <span class="list-title">Current Inventory Value</span>
+                                                        </div>
+                                                    </div>
+                                                    <span>${{  number_format($expectedOlvValue, 2) }}</span>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Overall Account Summary -->
                 <!-- Filters Section -->
                 <div class="row">
                     <div class="col-12" id="filterSection">
@@ -195,7 +351,7 @@
                         </div>
                     </div>
                     <!-- End -->
-                    <div class="col-md-6 col-12" id="container-column-chart-fmv">
+                    <div class="col-12" id="container-column-chart-fmv">
                         <div class="card">
                             <div class="card-header">
                                 <h4 class="card-title">FMV Financial Data <span class="yearHeading"></span></h4>
@@ -207,7 +363,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-12" id="container-mixed-chart-fmv-to-assignment">
+                    <div class="col-12" id="container-mixed-chart-fmv-to-assignment">
                         <div class="card mb-2">
                             <div class="card-header">
                                 <h4 class="card-title">FMV to Assignment Data Type Analysis <span class="yearHeading"></span></h4>
