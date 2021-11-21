@@ -17,5 +17,6 @@ Route::get('/accounting/getClientRemittance', [\App\Http\Controllers\AccountingC
 Route::get('/accounting/getClientRemittanceDetails', [\App\Http\Controllers\AccountingController::class, 'getClientRemittanceDetails'])->name('getClientRemittanceDetails');
 
 Route::post('/updateClientReceivables', [\App\Http\Controllers\AccountingController::class, 'updateClientReceivables'])->name('updateClientReceivables');
+Route::post('/deleteCustomerInvoice', [\App\Http\Controllers\AccountingController::class, 'deleteCustomerInvoice'])->name('deleteCustomerInvoice');
 
 ?>
