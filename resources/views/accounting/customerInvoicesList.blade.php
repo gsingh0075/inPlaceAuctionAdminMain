@@ -92,7 +92,7 @@
                                                             <a target="_blank" href="{{ route('showAssignment',$assignmentId) }}">{{ $assignmentId }}</a>
                                                         </td>
                                                         <td @if(empty($customerInvoice->sent_date)) class="inWeekOld" @endif>
-                                                            <a href="javascript:void(0)" data-id="{{$customerInvoice->invoice_auth_id }}">Delete</a>
+                                                            <a href="javascript:void(0)" data-action="{{ route('deleteCustomerInvoice') }}" class="deleteCustomerInvoice" data-id="{{$customerInvoice->invoice_auth_id }}">Delete</a>
                                                         </td>
                                                     </tr>
                                                 @endforeach
@@ -141,11 +141,67 @@
 
     $(document).ready(function() {
 
+        var deleteCustomerInvoice = $('.deleteCustomerInvoice');
+
         $('#getCustomerInvoiceDataTable').DataTable({
             pageLength : 50,
             order :[["0","desc"]]
          });
 
+        deleteCustomerInvoice.click(function(){
+
+            var invoiceId = $(this).attr('data-id');
+            var action = $(this).attr('data-action');
+
+            Swal.fire({
+                title: 'Are you sure?',
+                text: "You won't be able to revert this!",
+                icon: 'warning',
+                showCancelButton: true,
+                confirmButtonColor: '#3085d6',
+                cancelButtonColor: '#d33',
+                confirmButtonText: 'Yes, delete it!'
+            }).then((result) => {
+                //console.log(result);
+                if (result.value) {
+
+                    $.ajax({
+                        url: action,
+                        type: "POST",
+                        dataType: "json",
+                        data: {
+                            'invoice_id': invoiceId,
+                        },
+                        headers : { "X-CSRF-TOKEN":$('meta[name="csrf-token"]').attr("content")},
+                        success: function (response) {
+                            if (response.status) {
+                                unBlockExt($('.addContainer'));
+                                Swal.fire({
+                                    title: "Deleted!",
+                                    text: "Invoice was deleted!",
+                                    type: "success",
+                                    confirmButtonClass: 'btn btn-primary',
+                                    buttonsStyling: false,
+                                }).then(function (result) {
+                                    if (result.value) {
+                                        window.location.reload();
+                                    }
+                                });
+                            } else {
+                                $.each(response.errors, function (key, value) {
+                                    toastr.error(value)
+                                });
+                            }
+                        },
+                        error: function (xhr, resp, text) {
+                            console.log(xhr, resp, text);
+                            toastr.error(text);
+                        }
+                    });
+                }
+            })
+
+        });
     });
 </script>
 @endpush

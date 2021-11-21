@@ -124,6 +124,53 @@ class AccountingController extends Controller
         return view('accounting.customerInvoicesList',['customerInvoices' => $customerInvoices]);
     }
 
+    // Delete Customer Invoice
+    public function deleteCustomerInvoice(  Request $request){
+
+        $validator = \Validator::make(
+            array(
+                'invoice_id'  => $request->input('invoice_id')
+            ),
+            array(
+                'invoice_id'  => 'required'
+            )
+        );
+
+        if ($validator->fails()) { return response( ['status' => false,  'errors' => $validator->messages()] , 200);
+        } else {
+
+            try{
+
+                $invoice_id = $request->input('invoice_id');
+
+                $customerInvoice = Invoice::find($invoice_id);
+                $customerInvoice->delete();
+
+                return response( ['status' => true,  'message' => 'Invoice is deleted successfully'] , 200);
+
+
+
+            }catch (Exception $e) {
+
+                if ($e instanceof ModelNotFoundException) {
+                    Log::error('Model Exception : ' . $e->getMessage());
+                    return response(['status' => false, 'errors' => array('error' => 'No Entry matched for Model ' . str_replace('App\v2\\', '', $e->getModel()), 'value' => $e->getIds())], 400);
+
+                } elseif ($e instanceof QueryException) {
+                    Log::error('Query Exception : ' . $e->getMessage());
+                    return response(['status' => false, 'errors' => array('error' => 'Data save exception. Please contact administrator')], 500);
+
+                } else {
+                    Log::error('Unknown Exception : ' . $e->getMessage());
+                    return response(['status' => false, 'errors' => array('error' => 'Something went wrong')], 500);
+
+                }
+            }
+
+        }
+
+    }
+
     // Return the view for Customer Receivables
     public function getCustomerReceivables(){
 
