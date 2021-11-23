@@ -83,10 +83,14 @@
                                 {{ $customerInvoice->invoice_number }}
                             </td>
                             <td>
+                                @if(!empty($customerInvoice->sent_date))
                                 {{ \Carbon\Carbon::createFromFormat('Y-m-d H:i:s', $customerInvoice->sent_date )->format('j F, Y') }}
+                                @endif
                             </td>
                             <td>
+                                @if(!empty($customerInvoice->paid_dt))
                                 {{ \Carbon\Carbon::createFromFormat('Y-m-d H:i:s', $customerInvoice->paid_dt )->format('j F, Y') }}
+                                @endif
                             </td>
                             <td class="@if($customerInvoice->paid === 1) text-success @else text-danger @endif">
                                 ${{ round($customerInvoice->invoice_amount,2) }}

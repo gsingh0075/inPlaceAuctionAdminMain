@@ -213,7 +213,131 @@
                                                             <span class="list-title">Current Inventory Value</span>
                                                         </div>
                                                     </div>
-                                                    <span>${{  number_format($expectedOlvValue, 2) }}</span>
+                                                    <span>${{ number_format($expectedOlvValue, 2) }}</span>
+                                                </li>
+
+                                                <li class="list-group-item list-group-item-action border-0 d-flex align-items-center justify-content-between">
+                                                    <!-- Empty Row -->
+                                                </li>
+                                                <!-- Invoice Data -->
+                                                <li class="list-group-item list-group-item-action border-0 d-flex align-items-center justify-content-between">
+                                                    <div class="list-left d-flex">
+                                                        <div class="list-icon mr-1">
+                                                            <div class="avatar bg-rgba-primary m-0">
+                                                                <div class="avatar-content">
+                                                                    <i class="bx bx-stats text-primary font-size-base"></i>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="list-content">
+                                                            <span class="list-title">Fee Invoice Sent ( {{ $totalFeeInvoice }} )</span>
+                                                        </div>
+                                                    </div>
+                                                    <span>${{ number_format($feeInvoiceSent, 2) }}</span>
+                                                </li>
+                                                <li class="list-group-item list-group-item-action border-0 d-flex align-items-center justify-content-between">
+                                                    <div class="list-left d-flex">
+                                                        <div class="list-icon mr-1">
+                                                            <div class="avatar bg-rgba-primary m-0">
+                                                                <div class="avatar-content">
+                                                                    <i class="bx bx-dollar text-success text-primary font-size-base"></i>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="list-content">
+                                                            <span class="list-title">Fee Invoice Paid</span>
+                                                        </div>
+                                                    </div>
+                                                    <span><span class="text-success">+</span>${{ number_format($feeInvoicePaid, 2) }}</span>
+                                                </li>
+
+                                                <li class="list-group-item list-group-item-action border-0 d-flex align-items-center justify-content-between">
+                                                    <!-- Empty Row -->
+                                                </li>
+
+
+                                                <li class="list-group-item list-group-item-action border-0 d-flex align-items-center justify-content-between">
+                                                    <!-- Empty -->
+                                                </li>
+                                                <!-- Commission and Remittance -->
+                                                <li class="list-group-item list-group-item-action border-0 d-flex align-items-center justify-content-between">
+                                                    <div class="list-left d-flex">
+                                                        <div class="list-icon mr-1">
+                                                            <div class="avatar bg-rgba-primary m-0">
+                                                                <div class="avatar-content">
+                                                                    <i class="bx bx-stats text-primary font-size-base"></i>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="list-content">
+                                                            <span class="list-title">EQ Invoice Sent ( {{ $totalCustomerInvoice }} )</span>
+                                                        </div>
+                                                    </div>
+                                                    <span>${{ number_format($customerInvoiceSent, 2) }}</span>
+                                                </li>
+                                                <li class="list-group-item list-group-item-action border-0 d-flex align-items-center justify-content-between">
+                                                    <div class="list-left d-flex">
+                                                        <div class="list-icon mr-1">
+                                                            <div class="avatar bg-rgba-primary m-0">
+                                                                <div class="avatar-content">
+                                                                    <i class="bx bx-dollar text-success text-primary font-size-base"></i>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="list-content">
+                                                            <span class="list-title">EQ Invoice Paid</span>
+                                                        </div>
+                                                    </div>
+                                                    <span><span class="text-success">+</span>${{ number_format($customerInvoicePaid, 2) }}</span>
+                                                </li>
+
+                                                <li class="list-group-item list-group-item-action border-0 d-flex align-items-center justify-content-between">
+                                                    <!-- Empty -->
+                                                </li>
+                                                <li class="list-group-item list-group-item-action border-0 d-flex align-items-center justify-content-between">
+                                                    <div class="list-left d-flex">
+                                                        <div class="list-icon mr-1">
+                                                            <div class="avatar bg-rgba-primary m-0">
+                                                                <div class="avatar-content">
+                                                                    <i class="bx bx-credit-card text-danger text-primary font-size-base"></i>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="list-content">
+                                                            <span class="list-title">Total Remittance Amount</span>
+                                                        </div>
+                                                    </div>
+                                                    <span><span class="text-danger">-</span>${{ number_format($clientRemittanceAmount, 2) }}</span>
+                                                </li>
+                                                <li class="list-group-item list-group-item-action border-0 d-flex align-items-center justify-content-between">
+                                                    <div class="list-left d-flex">
+                                                        <div class="list-icon mr-1">
+                                                            <div class="avatar bg-rgba-primary m-0">
+                                                                <div class="avatar-content">
+                                                                    <i class="bx bx-dollar text-success text-primary font-size-base"></i>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="list-content">
+                                                            <h5> EQ Gross Commission</h5>
+                                                        </div>
+                                                    </div>
+                                                    <span class="text-success">${{ number_format($commissionEarned, 2) }}</span>
+                                                </li>
+                                                <li class="list-group-item list-group-item-action border-0 d-flex align-items-center justify-content-between">
+                                                    <div class="list-left d-flex">
+                                                        <div class="list-icon mr-1">
+                                                            <div class="avatar bg-rgba-primary m-0">
+                                                                <div class="avatar-content">
+                                                                    <i class="bx bx-dollar text-success text-primary font-size-base"></i>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="list-content">
+                                                            <h5>Gross Profit</h5>
+                                                        </div>
+                                                    </div>
+                                                    <span class="text-success">${{ number_format($profit, 2) }}</span>
                                                 </li>
                                             </ul>
                                         </div>

@@ -44,7 +44,7 @@ class HomeController extends Controller
             }
         }
 
-        // Assignment Data
+        // Assignment Data --- HOME NEW BOX Need better way. Not good loading that much data.
         $currentYear =  date('Y');
         $assignments = Assignment::with(['items.invoiceAuth.invoice.remittance', 'items.expense.expenseAuth.invoice'])
             ->whereYear('dt_stmp','=', $currentYear)->get();
@@ -58,6 +58,16 @@ class HomeController extends Controller
         $expectedOlvValue = 0;
         $assetsSold = 0;
         $appraisalAccount = 0;
+
+        $customerInvoiceSent = 0;
+        $customerInvoicePaid = 0;
+        $totalCustomerInvoice = 0;
+
+        $feeInvoiceSent = 0;
+        $feeInvoicePaid = 0;
+        $totalFeeInvoice = 0;
+
+        $clientRemittanceAmount = 0;
 
         if(isset($assignments) && !empty($assignments)){
 
@@ -93,6 +103,69 @@ class HomeController extends Controller
 
             }
         }
+
+        //Client Remittance
+        $clientRemittanceOut = ClientRemittance::where('SENT', '=', 1)->whereYear('SENT_DATE','=', $currentYear)->get();
+
+        if(isset($clientRemittanceOut) && !empty($clientRemittanceOut)) {
+            foreach($clientRemittanceOut as $remittanceOut) {
+                $clientRemittanceAmount += $remittanceOut->REMITTANCE_AMT;
+            }
+        }
+
+        // Client Invoice Sent
+        $clientInvoicesOut = ClientInvoices::with(['client'])
+            ->where('sent','=',1)
+            ->where('write_off','=',0)
+            ->whereYear('sent_dt','=', $currentYear)->get();
+
+        if(isset($clientInvoicesOut) && !empty($clientInvoicesOut)) {
+            foreach($clientInvoicesOut as $invoiceOut) {
+                $totalFeeInvoice += 1;
+                $feeInvoiceSent += $invoiceOut->invoice_amount;
+            }
+        }
+
+        $clientInvoicesPaid = ClientInvoices::with(['client'])
+            ->where('sent','=',1)
+            ->where('paid', '=', '1')
+            ->where('write_off','=',0)
+            ->whereYear('paid_dt1','=', $currentYear)->get();
+
+        if(isset($clientInvoicesPaid) && !empty($clientInvoicesPaid)) {
+            foreach($clientInvoicesPaid as $invoicePaid) {
+                $feeInvoicePaid += $invoicePaid->invoice_amount;
+            }
+        }
+
+        // Customer Invoice Out
+        $customerInvoicesOut = Invoice::with(['customer','items.item'])
+            ->where('email_sent','=',1)
+            ->whereYear('sent_date','=', $currentYear)
+            ->get();
+
+        if(isset($customerInvoicesOut) && !empty($customerInvoicesOut)) {
+            foreach($customerInvoicesOut as $customerInvoiceOut) {
+                $totalCustomerInvoice += 1;
+                $customerInvoiceSent += $customerInvoiceOut->invoice_amount;
+            }
+        }
+
+        $customerInvoicesPaid = Invoice::with(['customer','items.item'])
+            ->where('email_sent','=',1)
+            ->where('paid','=',1)
+            ->whereYear('paid_dt','=', $currentYear)
+            ->get();
+
+        if(isset($customerInvoicesPaid) && !empty($customerInvoicesPaid)) {
+            foreach($customerInvoicesPaid as $customerPaid) {
+                $customerInvoicePaid += $customerPaid->invoice_amount;
+            }
+        }
+        $grossCommission = $customerInvoicePaid-$clientRemittanceAmount;
+
+        // GOOD AFTER THIS PART
+
 
         // Get Total Number of Pending Client Invoices
         $clientInvoicesOut = ClientInvoices::with(['client'])->whereNull('paid')->where('sent','=',1)->get();
@@ -141,7 +214,16 @@ class HomeController extends Controller
                          'totalAssets' => $totalAssets,
                          'expectedOlvValue' => $expectedOlvValue,
                          'assetsSold' => $assetsSold,
-                         'appraisalAccount' => $appraisalAccount
+                         'appraisalAccount' => $appraisalAccount,
+                         'customerInvoiceSent' => $customerInvoiceSent,
+                         'customerInvoicePaid' => $customerInvoicePaid,
+                         'totalCustomerInvoice' => $totalCustomerInvoice,
+                         'feeInvoiceSent' => $feeInvoiceSent,
+                         'feeInvoicePaid' => $feeInvoicePaid,
+                         'totalFeeInvoice' => $totalFeeInvoice,
+                         'clientRemittanceAmount' => $clientRemittanceAmount,
+                         'commissionEarned' => $grossCommission,
+                         'profit'           => $grossCommission+$feeInvoicePaid
                 ]
 
         );
@@ -661,7 +743,11 @@ class HomeController extends Controller
                 $clientInvoicesPaid = ClientInvoices::with(['client', 'lines.expense.item'])
                                      ->where('sent','=',1)
                                      ->where('write_off','=',0)
-                                     ->whereIn(DB::raw('MONTH(paid_dt1)'), $filterMonth)
+                                     ->where(function($query) use ($filterMonth) {
+                                        $query->whereIn(DB::raw('MONTH(paid_dt1)'), $filterMonth)
+                                              ->orwhereIn(DB::raw('MONTH(sent_dt)'), $filterMonth);
+                                     })
+                                     //->whereIn(DB::raw('MONTH(paid_dt1)'), $filterMonth)
                                      ->whereYear('sent_dt','=', $filterYear)->get();
 
                 $clientInvoicesOut = ClientInvoices::with(['client', 'lines.expense.item'])
@@ -735,8 +821,13 @@ class HomeController extends Controller
 
                 $customerInvoicesPaid = Invoice::with(['customer','items.item'])
                                        ->where('email_sent','=',1)
-                                       ->whereIn(DB::raw('MONTH(paid_dt)'), $filterMonth)
                                        ->whereYear('sent_date','=', $filterYear)
+                                       ->where(function($query) use ($filterMonth) {
+                                            $query->whereIn(DB::raw('MONTH(paid_dt)'), $filterMonth)
+                                                  ->orwhereIn(DB::raw('MONTH(sent_date)'), $filterMonth);
+                                        })
+                                       //->whereIn(DB::raw('MONTH(paid_dt)'), $filterMonth)
+                                       //->whereIn(DB::raw('MONTH(sent_date)'), $filterMonth)
                                        ->orderBy('generated_date','asc')->get();
 
                 $customerInvoicesOut = Invoice::with(['customer','items.item'])
@@ -890,7 +981,6 @@ class HomeController extends Controller
     }
 
     /** Assignment Marker **/
-
     public function assignmentMarker( Request $request ){
 
         $validator = \Validator::make(
@@ -937,6 +1027,12 @@ class HomeController extends Controller
 
         }
 
+    }
+
+    /* Year Comparison Chart */
+    public function yearComparisonChart(){
+
+        return view('home.yearComparisonChart');
     }
 
 

@@ -23,11 +23,19 @@
         <ul class="nav navbar-nav" id="main-menu-navigation" data-menu="menu-navigation" data-icon-style="lines">
 
             <!-- HOME -->
-            <li class="nav-item" data-menu="dropdown">
+            <li class="dropdown nav-item" data-menu="dropdown">
                 <a class="dropdown-toggle nav-link" href="{{ route('home') }}">
                     <i class="bx bxs-bar-chart-alt-2"></i>
                     <span class="menu-title" data-i18n="desktop">Dashboard</span>
                 </a>
+                <ul class="dropdown-menu">
+                    <li class="{{ request()->is('yearComparisonChart') ? 'active' : '' }}">
+                        <a  class="dropdown-item align-items-center" href="{{ route('yearComparisonChart') }}">
+                            <i class="bx bx-right-arrow-alt"></i>
+                            <span class="menu-item" data-i18n="View">Years Comparison</span>
+                        </a>
+                    </li>
+                </ul>
             </li>
             <!-- HOME -->
             <!-- ACCOUNTING -->

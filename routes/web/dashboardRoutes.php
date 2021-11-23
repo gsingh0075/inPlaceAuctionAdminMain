@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 
 // Admin Dashboard
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::get('/yearComparisonChart', [App\Http\Controllers\HomeController::class, 'yearComparisonChart'])->name('yearComparisonChart');
 Route::get('/getUnsoldItemsAssignments', [App\Http\Controllers\HomeController::class, 'getUnsoldItemsAssignments'])->name('getUnsoldItemsAssignments');
 Route::get('/getAllClosedAssignments', [App\Http\Controllers\HomeController::class, 'getAllClosedAssignments'])->name('getAllClosedAssignments');
 

@@ -2,10 +2,12 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Bid;
 use App\Models\ClientInvoices;
 use App\Models\ClientRemittance;
 use App\Models\Clients;
 use App\Models\Invoice;
+use App\Models\InvoiceHasItems;
 use Exception;
 use Illuminate\Database\Eloquent\ModelNotFoundException;
 use Illuminate\Database\QueryException;
@@ -143,7 +145,17 @@ class AccountingController extends Controller
 
                 $invoice_id = $request->input('invoice_id');
 
-                $customerInvoice = Invoice::find($invoice_id);
+                $customerInvoice = Invoice::with(['items'])->findOrFail($invoice_id);
+
+                $itemsArr = [];
+                if(isset($customerInvoice->items) && !empty($customerInvoice->items)){
+                    foreach($customerInvoice->items as $item){
+                            array_push($itemsArr,$item->item_id);
+                    }
+                }
+                //print_r($itemsArr); exit;
+                if(!empty($itemsArr)) Bid::whereIn('ITEM_ID',$itemsArr)->update(['BID_ACCEPTED'=>0]);
+                InvoiceHasItems::where('invoice_auth_id',$invoice_id)->delete();
                 $customerInvoice->delete();
 
                 return response( ['status' => true,  'message' => 'Invoice is deleted successfully'] , 200);
