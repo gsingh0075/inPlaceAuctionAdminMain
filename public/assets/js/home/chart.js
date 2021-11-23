@@ -891,7 +891,8 @@ function generateFmvItemAnalysis(categories, lowFmvData, MedFmvData, higFmvData,
                 formatter: function (val) {
                     return "$ " + val + " thousands"
                 }
-            }
+            },
+            theme:'dark'
         }
     };
 
@@ -967,7 +968,8 @@ function generateFmvToAssignmentAnalysis(columnMonths,fmvGenerated,assignmentGen
                         return y;
 
                     }
-                }
+                },
+                theme:'dark'
             }
         }
         var mixedChart = new ApexCharts(
