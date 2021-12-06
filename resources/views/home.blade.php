@@ -210,7 +210,7 @@
                                                             </div>
                                                         </div>
                                                         <div class="list-content">
-                                                            <span class="list-title">Current Inventory Value</span>
+                                                            <span class="list-title">YTD Inventory Value</span>
                                                         </div>
                                                     </div>
                                                     <span>${{ number_format($expectedOlvValue, 2) }}</span>
