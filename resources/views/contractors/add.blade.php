@@ -54,6 +54,25 @@
                                                             <input type="text" id="last_name" class="form-control" name="last_name" placeholder="Last Name" value="">
                                                         </div>
                                                         <div class="col-md-4 col-12">
+                                                            <label for="profile_type">Type</label>
+                                                        </div>
+                                                        @if(isset($contractor_type) && !empty($contractor_type))
+                                                            @foreach($contractor_type as $key => $val)
+                                                                <div class="col-md-8 form-group col-12 @if(!$loop->first) offset-md-4 @endif">
+                                                                    <fieldset>
+                                                                        <div class="checkbox">
+                                                                            <input type="checkbox" class="form-control" value="1" name="{{ $key }}" id="{{ $key }}">
+                                                                            <label for="{{ $key }}">{{ $val }}</label>
+                                                                        </div>
+                                                                    </fieldset>
+                                                                </div>
+                                                            @endforeach
+                                                        @else
+                                                            <div class="col-md-8 form-group col-12">
+                                                                <!-- Empty No Profile set -->
+                                                            </div>
+                                                        @endif
+                                                        <div class="col-md-4 col-12">
                                                             <label for="phone">Phone</label>
                                                         </div>
                                                         <div class="col-md-8 form-group required col-12">

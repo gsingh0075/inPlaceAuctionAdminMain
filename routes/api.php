@@ -20,5 +20,6 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 
 Route::get('/v1/fmv', [App\Http\Controllers\Api\v1\FmvController::class, 'show'])->name('getAllFmv');
 Route::get('/v1/contractor/updateLatLng', [App\Http\Controllers\Api\v1\ContractorController::class, 'updateLatLng'])->name('updateLatLngContractor');
+Route::post('/v1/contractor/importContractors', [App\Http\Controllers\Api\v1\ContractorController::class, 'importContractors'])->name('importContractors');
 Route::get('/v1/item/updateLatLng', [App\Http\Controllers\Api\v1\ItemController::class, 'updateLatLng'])->name('updateLatLngItem');
 Route::get('/v1/assignment', [App\Http\Controllers\Api\v1\AssignmentController::class, 'show'])->name('getAllAssignment');

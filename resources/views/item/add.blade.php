@@ -149,12 +149,14 @@
                                                         <div class="col-md-8 form-group required col-12">
                                                             <input type="text" id="fmv" class="form-control" name="fmv" placeholder="FMV">
                                                         </div>
+                                                        @if($assignment->is_inspection == 0)
                                                         <div class="col-md-4 col-12">
                                                             <label for="asking_price">Asking Price</label>
                                                         </div>
                                                         <div class="col-md-8 form-group col-12">
                                                             <input type="text" id="asking_price" class="form-control" name="asking_price" placeholder="Asking Price">
                                                         </div>
+                                                        @endif
                                                     </div>
                                                 </div>
                                             </div>

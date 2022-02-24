@@ -29,7 +29,7 @@
             <div class="content-header-left col-12 mb-2 mt-1">
                 <div class="row breadcrumbs-top">
                     <div class="col-12">
-                        <h5 class="content-header-title float-left pr-1 mb-0">Assignment - {{ $assignment->assignment_id }} </h5>
+                        <h5 class="content-header-title float-left pr-1 mb-0"> @if($assignment->is_inspection == 0) Assignment @else Inspection @endif - {{ $assignment->assignment_id }} </h5>
                         <div class="breadcrumb-wrapper col-12">
                             <ol class="breadcrumb p-0 mb-0">
                                 <li class="breadcrumb-item"><a href="{{ route('getAssignment') }}">List</a>
@@ -44,6 +44,7 @@
         </div>
         <div class="content-body container">
             <div class="col-12 p-0 mb-2">
+                @if($assignment->is_inspection == 0)
                 <div class="progress">
                     @if(isset($assignment->assignment_id) && !empty($assignment->assignment_id))
                         <div class="progress-bar" role="progressbar" style="width: 20%" aria-valuenow="15" aria-valuemin="0"
@@ -93,6 +94,7 @@
                        @endif
                     @endif
                 </div>
+                @endif
             </div>
             <!-- Edit Assignment Form -->
 
@@ -100,20 +102,23 @@
                <div class="col-12 p-0">
                    <ul class="nav nav-pills my-1 mx-1" id="pills-tab" role="tablist">
                        <li class="nav-item" role="presentation">
-                           <a class="nav-link active" id="v-pills-lease-tab" data-toggle="pill" href="#v-pills-lease" role="tab" aria-controls="v-lease-home" aria-selected="true">Lease Details</a>
+                           <a class="nav-link active" id="v-pills-lease-tab" data-toggle="pill" href="#v-pills-lease" role="tab" aria-controls="v-lease-home" aria-selected="true">@if($assignment->is_inspection == 0) Lease Details @else Details @endif</a>
                        </li>
                        <li class="nav-item" role="presentation">
                            <a  class="nav-link" id="v-pills-files-tab" data-toggle="pill" href="#v-pills-files" role="tab" aria-controls="v-pills-files" aria-selected="false">Files</a>
                        </li>
+                       @if($assignment->is_inspection == 0)
                        <li class="nav-item" role="presentation">
                            <a class="nav-link" id="v-pills-chat-tab" data-toggle="pill" href="#v-pills-chat" role="tab" aria-controls="v-pills-chat" aria-selected="false">Chats</a>
                        </li>
+                       @endif
                        <li class="nav-item" role="presentation">
                            <a class="nav-link" id="v-pills-items-tab" data-toggle="pill" href="#v-pills-items" role="tab" aria-controls="v-pills-items" aria-selected="false">Items</a>
                        </li>
                        <li class="nav-item" role="presentation">
                            <a class="nav-link" id="v-pills-authorization-tab" data-toggle="pill" href="#v-pills-authorization" role="tab" aria-controls="v-pills-settings" aria-selected="false">Authorizations</a>
                        </li>
+                       @if($assignment->is_inspection == 0)
                        <li class="nav-item" role="presentation">
                            <a class="nav-link" id="v-pills-clientInvoice-tab" data-toggle="pill" href="#v-pills-clientInvoice" role="tab" aria-controls="v-pills-clientInvoice" aria-selected="false">Client Invoices</a>
                        </li>
@@ -123,6 +128,7 @@
                        <li class="nav-item" role="presentation">
                            <a class="nav-link" id="v-pills-clientRemittance-tab" data-toggle="pill" href="#v-pills-clientRemittance" role="tab" aria-controls="v-pills-clientRemittance" aria-selected="false">Client Remittance</a>
                        </li>
+                       @endif
                    </ul>
                </div>
             <!-- Lets End the Tabs here -->
@@ -136,7 +142,11 @@
                             <!-- Lets Start the Tab Layout -->
                             <div class="tab-content" id="v-pills-tabContent">
                                 <div class="tab-pane fade show active" id="v-pills-lease" role="tabpanel" aria-labelledby="v-pills-lease-tab">
-                                    @include('assignment.editLeaseDetails')
+                                    @if($assignment->is_inspection == 0)
+                                     @include('assignment.editLeaseDetails')
+                                    @else
+                                        @include('inspection.editOrderDetails')
+                                    @endif
 
                                 </div>
                                 <div class="tab-pane fade" id="v-pills-files" role="tabpanel" aria-labelledby="v-pills-files-tab">

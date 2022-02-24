@@ -772,6 +772,7 @@ class AssignmentController extends Controller
                 'res_eol'   => $request->input('res_ins'),
                 'make_prior_contact' => $request->input('make_prior_contact'),
                 'is_appraisal' => $request->input('is_appraisal'),
+                'is_inspection' => $request->input('is_inspection'),
             ),
             array(
                 'client_id' => 'required|int',
@@ -805,7 +806,8 @@ class AssignmentController extends Controller
                 'res_ins'   => 'nullable',
                 'res_eol'   => 'nullable',
                 'make_prior_contact' => 'nullable',
-                'is_appraisal' => 'nullable'
+                'is_appraisal' => 'nullable',
+                'is_inspection' => 'nullable'
 
             )
         );
@@ -843,6 +845,7 @@ class AssignmentController extends Controller
                  $res_eol  = $request->input('res_ins');
                  $make_prior_contact = $request->input('make_prior_contact');
                  $is_appraisal = $request->input('is_appraisal');
+                 $is_inspection = $request->input('is_inspection');
 
                  Clients::findorfail($client_id);
 
@@ -881,6 +884,7 @@ class AssignmentController extends Controller
                  $assignment->placed_by_admin_id = Auth::id();
                  $assignment->source = 'ADMIN';
                  $assignment->is_appraisal = $is_appraisal;
+                 $assignment->is_inspection = $is_inspection;
                  if(!empty($dt_lease_inception_year) && !empty($dt_lease_inception_month)) {
                      $assignment->dt_lease_inception = $dt_lease_inception_year . '-' . $dt_lease_inception_month . '-' . '01 00:00:00';
                  }

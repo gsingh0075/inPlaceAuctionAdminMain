@@ -207,19 +207,19 @@
                                                             <label for="in_possession">Storage Location</label>
                                                         </div>
                                                         <div class="col-md-8 form-group col-12">
-                                                            <input type="text" id="storage_location" class="form-control" name="storage_location" placeholder="Storage Location" value="">
+                                                            <input type="text" id="storage_location" class="form-control" name="storage_location" placeholder="Storage Location" value="{{ $item->storage_location }}">
                                                         </div>
                                                         <div class="col-md-4 col-12">
                                                             <label for="in_possession">Storage Contact Person Name</label>
                                                         </div>
                                                         <div class="col-md-8 form-group col-12">
-                                                            <input type="text" id="storage_contact_name" class="form-control" name="storage_contact_name" placeholder="Name" value="">
+                                                            <input type="text" id="storage_contact_name" class="form-control" name="storage_contact_name" placeholder="Name" value="{{ $item->storage_contact_name }}">
                                                         </div>
                                                         <div class="col-md-4 col-12">
                                                             <label for="in_possession">Storage Contact Person Phone No.</label>
                                                         </div>
                                                         <div class="col-md-8 form-group col-12">
-                                                            <input type="text" id="storage_contact_number" class="form-control" name="storage_contact_number" placeholder="Phone No" value="">
+                                                            <input type="text" id="storage_contact_number" class="form-control" name="storage_contact_number" placeholder="Phone No" value="{{ $item->storage_contact_number }}">
                                                         </div>
                                                         <div class="col-md-4 col-12">
                                                             <label for="original_sold_date">Sale Date</label>

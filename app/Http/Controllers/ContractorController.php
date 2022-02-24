@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Helpers\GeocodeHelper;
+use App\Models\Assignment;
 use App\Models\Category;
 use App\Models\ContractorAuth;
 use App\Models\ContractorCategories;
@@ -13,6 +14,7 @@ use Exception;
 use Illuminate\Database\Eloquent\ModelNotFoundException;
 use Illuminate\Database\QueryException;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Log;
 
 class ContractorController extends Controller
@@ -46,10 +48,16 @@ class ContractorController extends Controller
             'pickup_up_store' => 'Will Pickup and Store',
             'store_only' => 'Will Store only'
         );
+
+        $contractor_type = array(
+            'is_equipment_contractor' => 'Equipment Contractor',
+            'is_appraisal_contractor' => 'Appraisal Contractor',
+            'is_inspection_contractor' => 'Inspection Contractor'
+        );
         $categories = Category::orderBy('category_name','asc')->where('active',1)->get();
 
 
-        return view('contractors.add', ['states' => $states, 'profile' => $profileTypes, 'categories' => $categories]);
+        return view('contractors.add', ['states' => $states, 'profile' => $profileTypes, 'categories' => $categories,'contractor_type' => $contractor_type]);
     }
 
     // Add New Contractor
@@ -85,6 +93,9 @@ class ContractorController extends Controller
                 'area_interest'    => $request->input('area_interest[]'),
                 'main_category'    => $request->input('main_category'),
                 'coverage_territory' => $request->input('coverage_territory'),
+                'is_equipment_contractor' => $request->input('is_equipment_contractor'),
+                'is_appraisal_contractor' => $request->input('is_appraisal_contractor'),
+                'is_inspection_contractor' => $request->input('is_inspection_contractor')
 
             ),
             array(
@@ -114,7 +125,10 @@ class ContractorController extends Controller
                 'rating_comments' => 'nullable',
                 'area_interest'   => 'nullable',
                 'main_category'   => 'nullable',
-                'coverage_territory' => 'nullable'
+                'coverage_territory' => 'nullable',
+                'is_equipment_contractor' => 'nullable',
+                'is_appraisal_contractor' => 'nullable',
+                'is_inspection_contractor' => 'nullable'
 
             )
         );
@@ -153,7 +167,13 @@ class ContractorController extends Controller
                 $area_interest = $request->input('area_interest[]');
                 $main_category = $request->input('main_category');
                 $coverage_territory = $request->input('coverage_territory');
+                $is_equipment_contractor = $request->input('is_equipment_contractor');
+                $is_appraisal_contractor = $request->input('is_appraisal_contractor');
+                $is_inspection_contractor = $request->input('is_inspection_contractor');
 
+                if(!isset($is_appraisal_contractor)) $is_appraisal_contractor = 0;
+                if(!isset($is_equipment_contractor)) $is_equipment_contractor = 0;
+                if(!isset($is_inspection_contractor)) $is_inspection_contractor = 0;
 
                 $contractor = new Contractors();
                 $contractor->first_name = $first_name;
@@ -182,6 +202,9 @@ class ContractorController extends Controller
                 $contractor->defer_payment_agree =  $defer_payment;
                 $contractor->main_category_id = $main_category;
                 $contractor->coverage_territory = $coverage_territory;
+                $contractor->is_equipment_contractor = $is_equipment_contractor;
+                $contractor->is_appraisal_contractor = $is_appraisal_contractor;
+                $contractor->is_inspection_contractor = $is_inspection_contractor;
                 $contractor->cdate = Carbon::now()->format('Y-m-d H:i:s');
                 $contractor->save();
 
@@ -316,11 +339,18 @@ class ContractorController extends Controller
             'pickup_up_store' => 'Will Pickup and Store',
             'store_only' => 'Will Store only'
         );
+
+        $contractor_type = array(
+            'is_equipment_contractor' => 'Equipment Contractor',
+            'is_appraisal_contractor' => 'Appraisal Contractor',
+            'is_inspection_contractor' => 'Inspection Contractor'
+        );
+
         $categories = Category::orderBy('category_name','asc')->where('active',1)->get();
 
         $contractor = Contractors::with(['contractorCategories'])->findorfail($id);
 
-        return view('contractors.edit', ['contractor'=> $contractor, 'states' => $states, 'profile' => $profileTypes, 'categories' => $categories]);
+        return view('contractors.edit', ['contractor'=> $contractor, 'states' => $states, 'profile' => $profileTypes, 'categories' => $categories, 'contractor_type' => $contractor_type]);
 
     }
 
@@ -358,6 +388,9 @@ class ContractorController extends Controller
                 'area_interest'    => $request->input('area_interest'),
                 'main_category'    => $request->input('main_category'),
                 'coverage_territory' => $request->input('coverage_territory'),
+                'is_equipment_contractor' => $request->input('is_equipment_contractor'),
+                'is_appraisal_contractor' => $request->input('is_appraisal_contractor'),
+                'is_inspection_contractor' => $request->input('is_inspection_contractor')
 
             ),
             array(
@@ -388,7 +421,10 @@ class ContractorController extends Controller
                 'rating_comments' => 'nullable',
                 'area_interest'   => 'nullable',
                 'main_category'   => 'nullable',
-                'coverage_territory' => 'nullable'
+                'coverage_territory' => 'nullable',
+                'is_equipment_contractor' => 'nullable',
+                'is_appraisal_contractor' => 'nullable',
+                'is_inspection_contractor' => 'nullable'
 
             )
         );
@@ -427,8 +463,15 @@ class ContractorController extends Controller
                 $area_interest = $request->input('area_interest');
                 $main_category = $request->input('main_category');
                 $coverage_territory = $request->input('coverage_territory');
+                $is_equipment_contractor = $request->input('is_equipment_contractor');
+                $is_appraisal_contractor = $request->input('is_appraisal_contractor');
+                $is_inspection_contractor = $request->input('is_inspection_contractor');
 
                 //Log::info($area_interest);
+
+                if(!isset($is_appraisal_contractor)) $is_appraisal_contractor = 0;
+                if(!isset($is_equipment_contractor)) $is_equipment_contractor = 0;
+                if(!isset($is_inspection_contractor)) $is_inspection_contractor = 0;
 
                 $contractor = Contractors::findorfail($contractor_id);
                 $contractor->first_name = $first_name;
@@ -458,6 +501,9 @@ class ContractorController extends Controller
                 $contractor->defer_payment_agree =  $defer_payment;
                 $contractor->main_category_id = $main_category;
                 $contractor->coverage_territory = $coverage_territory;
+                $contractor->is_equipment_contractor = $is_equipment_contractor;
+                $contractor->is_appraisal_contractor = $is_appraisal_contractor;
+                $contractor->is_inspection_contractor = $is_inspection_contractor;
                 $contractor->save();
 
                 // Let save contractor extra category
@@ -492,7 +538,144 @@ class ContractorController extends Controller
                 }
             }
         }
+    }
 
+    // Find Near By Contractors
+    public function findContractors( Request $request ){
+
+        $validator = \Validator::make(
+            array(
+                'zipcode' => $request->get('zipcode'),
+                'lat' => $request->input('lat'),
+                'lng' => $request->input('lng')
+            ),
+            array(
+                'zipcode' => 'nullable',
+                'lat' => 'required',
+                'lng' => 'required'
+            )
+        );
+
+        if ($validator->fails()) {
+            return response(['status' => false, 'errors' => $validator->messages()], 200);
+        } else {
+
+            try {
+
+                $zipcode = $request->get('zipcode');
+                $dataContractors = array();
+                $stateFilter = array();
+                $latFilterValue = $request->input('lat');
+                $lngFilterValue = $request->input('lng');
+
+                $contractorsQuery = Contractors::query();
+                $contractorsQuery->select(DB::raw("*, ( 3959 * acos( cos( radians('$latFilterValue') ) * cos( radians( lat ) ) * cos( radians( lng ) - radians('$lngFilterValue') ) + sin( radians('$latFilterValue') ) * sin( radians( lat ) ) ) ) AS distance"))->havingRaw('distance < 200');
+
+                $contractors = $contractorsQuery->get();
+
+                if(isset($contractors) && !empty($contractors)){
+
+                    $i=0;
+                    foreach($contractors as $contr){
+
+                            $contractorAddress = $contr->address1.''.$contr->state.''.$contr->city.''.$contr->zip1;
+
+                            if(!empty($contr->lat) && !empty($contr->lng)){
+                                $LatLong = array('latitude' => $contr->lat, 'longitude' => $contr->lng , 'address' => $contractorAddress );
+                            } else {
+                                $LatLong = array('latitude' => '', 'longitude' => '' , 'address' => $contractorAddress);
+                            }
+                            $dataContractors[$i]['contractor_id'] = $contr->contractor_id;
+                            $dataContractors[$i]['name'] = $contr->first_name.' '.$contr->last_name;
+                            // Contractor Types
+                            if($contr->is_equipment_contractor == 1) $dataContractors[$i]['type']  = 'A';
+                            if($contr->is_appraisal_contractor == 1) $dataContractors[$i]['type']  = 'B';
+                            if($contr->is_inspection_contractor == 1) $dataContractors[$i]['type']  = 'C';
+
+                            $dataContractors[$i]['address_code'] = $LatLong;
+                            $i++;
+                        }
+
+                    }
+
+                return response(['status' => true, 'data' => $dataContractors ], 200);
+
+            } catch (Exception $e) {
+
+                if ($e instanceof ModelNotFoundException) {
+                    Log::error('Model Exception : ' . $e->getMessage());
+                    return response(['status' => false, 'errors' => array('error' => 'No Entry matched for Model ' . str_replace('App\v2\\', '', $e->getModel()), 'value' => $e->getIds())], 400);
+
+                } elseif ($e instanceof QueryException) {
+                    Log::error('Query Exception : ' . $e->getMessage());
+                    return response(['status' => false, 'errors' => array('error' => 'Data save exception. Please contact administrator')], 500);
+
+                } else {
+                    Log::error('Unknown Exception : ' . $e->getMessage());
+                    return response(['status' => false, 'errors' => array('error' => 'Something went wrong')], 500);
+
+                }
+            }
+
+        }
+    }
+
+    //View Contractor
+    // Contractor Marker Point
+    public function viewContractorMarker( Request $request ){
+
+        $validator = \Validator::make(
+            array(
+                'contractor_id' => $request->get('contractor_id'),
+                'lat' => $request->get('lat'),
+                'lng' => $request->get('lng')
+            ),
+            array(
+                'contractor_id' => 'required',
+                'lat' => 'required',
+                'lng' => 'required'
+            )
+        );
+
+        if ($validator->fails()) {
+            return response(['status' => false, 'errors' => $validator->messages()], 200);
+        } else {
+
+            try{
+
+                $contractor_id = $request->get('contractor_id');
+                $lat = $request->get('lat');
+                $lng = $request->get('lng');
+
+                $contractor = Contractors::with(['contractorCategories.category'])->findOrFail($contractor_id);
+
+                $data['contractor'] = $contractor;
+                $data['lat'] = $lat;
+                $data['lng'] = $lng;
+
+                //Log::info($assignment);
+
+                return response()->json(['success' => true, 'html' => View('inspection.contractorMarker', compact('data'))->render()]);
+
+
+            } catch (Exception $e) {
+
+                if ($e instanceof ModelNotFoundException) {
+                    Log::error('Model Exception : ' . $e->getMessage());
+                    return response(['status' => false, 'errors' => array('error' => 'No Entry matched for Model ' . str_replace('App\v2\\', '', $e->getModel()), 'value' => $e->getIds())], 400);
+
+                } elseif ($e instanceof QueryException) {
+                    Log::error('Query Exception : ' . $e->getMessage());
+                    return response(['status' => false, 'errors' => array('error' => 'Data save exception. Please contact administrator')], 500);
+
+                } else {
+                    Log::error('Unknown Exception : ' . $e->getMessage());
+                    return response(['status' => false, 'errors' => array('error' => 'Something went wrong')], 500);
+
+                }
+            }
+
+        }
 
     }
 }

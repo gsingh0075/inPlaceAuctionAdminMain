@@ -203,6 +203,34 @@
                 </ul>
             </li>
             <!-- Assignments Menu End -->
+            <!-- Inspection Menu -->
+            <li class="dropdown nav-item {{ request()->is('inspection/*') ? 'active' : '' }}" data-menu="dropdown">
+                <a class="dropdown-toggle nav-link" href="#" data-toggle="dropdown">
+                    <i class="bx bx-folder-open"></i>
+                    <span class="menu-title" data-i18n="User">Inspection</span>
+                </a>
+                <ul class="dropdown-menu">
+                    <li class="{{ request()->is('inspection/get') ? 'active' : '' }}">
+                        <a class="dropdown-item align-items-center" href="{{ route('getInspection') }}">
+                            <i class="bx bx-right-arrow-alt"></i>
+                            <span class="menu-item" data-i18n="List">List</span>
+                        </a>
+                    </li>
+                    <li class="{{ request()->is('/inspection/add') ? 'active' : '' }}">
+                        <a class="dropdown-item align-items-center" href="{{ route('addNewInspection') }}">
+                            <i class="bx bx-right-arrow-alt"></i>
+                            <span class="menu-item" data-i18n="List">Add</span>
+                        </a>
+                    </li>
+                    <li class="{{ request()->is('/inspection/reports') ? 'active' : '' }}">
+                        <a class="dropdown-item align-items-center" href="{{ route('getInspectionReports') }}">
+                            <i class="bx bx-right-arrow-alt"></i>
+                            <span class="menu-item" data-i18n="List">Reports</span>
+                        </a>
+                    </li>
+                </ul>
+            </li>
+            <!-- Inspection End -->
             <!-- Equipments Listing -->
             <!-- Assignments Menu -->
             <li class="dropdown nav-item {{ request()->is('equipments/*') ? 'active' : '' }}" data-menu="dropdown">

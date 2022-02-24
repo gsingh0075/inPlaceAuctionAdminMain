@@ -71,12 +71,13 @@ class ItemController extends Controller
     public function addForm($id) {
 
         $assignmentId = $id;
-        Assignment::findOrFail($assignmentId);
+        $assignment = Assignment::findOrFail($assignmentId);
         $categories = Category::where('active', '=', 1)->orderBy('category_name','asc')->get();
         //Log::info(State::get());
         return view('item.add',[
             'categories' => $categories,
             'assignmentId' => $assignmentId,
+            'assignment' => $assignment,
             'states' => State::get()
         ]);
 

@@ -38,5 +38,7 @@ require base_path('routes/web/client/fmvClientRoutes.php');
 require base_path('routes/web/client/homeClientRoutes.php');
 require base_path('routes/web/client/itemRoutes.php');
 
+require base_path('routes/web/inspectionRoutes.php');
+
 
 
